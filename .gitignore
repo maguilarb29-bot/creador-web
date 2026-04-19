@@ -1,0 +1,25 @@
+# Imágenes maestras (3.8 GB — demasiado grande para GitHub)
+Api_PG/images/
+
+# Archivos temporales y sistema
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
+*.pyc
+
+# Excel generados (se regeneran con los scripts)
+docs/*.xlsx
+
+# PDFs grandes
+Api_PG/Valuation-*
+
+# Carpetas de trabajo locales
+Api_PG/excel/
+API_PG_DRIVE/
+pignatelli-app/
+
+# Backups y archivos legacy
+Api_PG/data/_legacy_logica_vieja/
+*.bak*
+Agentes_Sistema_Pignatelli.docx
