@@ -1109,7 +1109,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": 800,
     "cantidad": 1,
     "notas": ""
@@ -2434,7 +2434,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
@@ -3499,7 +3499,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
@@ -3697,8 +3697,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Reservado",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": 70,
     "cantidad": 1,
     "notas": ""
@@ -3719,8 +3719,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Reservado",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
@@ -4295,7 +4295,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "Pablo Brenes",
+    "reservadoPara": "Pablo Arias",
     "precioUSD": 170.47,
     "cantidad": 1,
     "notas": "",
@@ -4363,7 +4363,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
@@ -10943,7 +10943,7 @@
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
@@ -11546,7 +11546,7 @@
     "catCodigo": "D",
     "tipoEstructural": "ARTICULO",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "cantidadFotos": 1,
     "fotos": [
       "351A-1-conjunto-de-cuencos-y-cajas-lacadas-chinas-con-escenas-doradas.jpg"
@@ -11563,7 +11563,7 @@
     "catCodigo": "F",
     "tipoEstructural": "ARTICULO",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "cantidadFotos": 1,
     "fotos": [
       "352A-1-mesa-consola-altar-china-de-madera-oscura.jpg"
@@ -11580,7 +11580,7 @@
     "catCodigo": "F",
     "tipoEstructural": "ARTICULO",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "cantidadFotos": 1,
     "fotos": [
       "353A-1-mesita-kang-china-de-madera-con-moldura-de-meandro.jpg"
@@ -11597,7 +11597,7 @@
     "catCodigo": "F",
     "tipoEstructural": "ARTICULO",
     "estado": "Reservado",
-    "reservadoPara": "Ana Martin",
+    "reservadoPara": "Ana Isabel Beche",
     "cantidadFotos": 1,
     "fotos": [
       "354A-1-par-de-pedestales-chinos-de-madera-tallada-con-calado-decorativo.jpg"

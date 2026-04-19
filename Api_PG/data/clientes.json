@@ -1,0 +1,119 @@
+[
+  {
+    "id": "rasmi",
+    "nombre": "Rasmi",
+    "apellido": "",
+    "telefono": "+506 87401793",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "nuria",
+    "nombre": "Nuria",
+    "apellido": "",
+    "telefono": "+506 87784328",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "alejandro",
+    "nombre": "Alejandro",
+    "apellido": "",
+    "telefono": "+506 88925635",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "pablo_arias",
+    "nombre": "Pablo",
+    "apellido": "Arias",
+    "telefono": "+506 71086045",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "marielos_alpizar",
+    "nombre": "Marielos",
+    "apellido": "Alpizar",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "ana_isabel_beche",
+    "nombre": "Ana Isabel",
+    "apellido": "Beche",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "luciana_paris",
+    "nombre": "Luciana",
+    "apellido": "Paris",
+    "telefono": "+506 88750574",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "evelina_vargas",
+    "nombre": "Evelina",
+    "apellido": "Vargas",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "cliente_externo",
+    "notas": ""
+  },
+  {
+    "id": "adriano_pignatelli",
+    "nombre": "Adriano",
+    "apellido": "Pignatelli",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "heredero",
+    "notas": ""
+  },
+  {
+    "id": "diego_pignatelli",
+    "nombre": "Diego",
+    "apellido": "Pignatelli",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "heredero",
+    "notas": ""
+  },
+  {
+    "id": "fabrizia_pignatelli",
+    "nombre": "Fabrizia",
+    "apellido": "Pignatelli",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "heredero",
+    "notas": ""
+  },
+  {
+    "id": "margherita_pignatelli",
+    "nombre": "Margherita",
+    "apellido": "Pignatelli",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "heredero",
+    "notas": ""
+  },
+  {
+    "id": "maria_cristina_pignatelli",
+    "nombre": "Maria Cristina",
+    "apellido": "Pignatelli",
+    "telefono": "",
+    "metodoPago": "",
+    "tipo": "heredero",
+    "notas": ""
+  }
+]
