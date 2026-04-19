@@ -85,7 +85,8 @@
     "reservadoPara": "",
     "precioUSD": null,
     "cantidad": 1,
-    "notas": ""
+    "notas": "",
+    "confirmadoHeredero": false
   },
   {
     "codigoItem": "2AC",
@@ -2193,7 +2194,8 @@
     "reservadoPara": "",
     "precioUSD": 70,
     "cantidad": 1,
-    "notas": ""
+    "notas": "",
+    "confirmadoHeredero": false
   },
   {
     "codigoItem": "59A",

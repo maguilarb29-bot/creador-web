@@ -28,8 +28,18 @@ todos = [a for a in catalogo if a.get("tipoEstructural") in ("ARTICULO","SET","L
 # Cada codigo aparece como tarjeta individual
 articulos = todos
 
-# Identificar SETs y sub-items para badges visuales (sin ocultar ninguna tarjeta)
+# Identificar SETs y sub-items para badges visuales y carrusel del padre
 set_codigos = {a["codigoItem"] for a in todos if a.get("tipoEstructural") == "SET"}
+
+# Fotos de sub-items agrupadas por padre SET (para enriquecer el carrusel del padre)
+fotos_subitems = {}
+for a in todos:
+    padre = a.get("codigoPadre","")
+    if padre and padre in set_codigos and a["codigoItem"] != padre:
+        fotos_subitems.setdefault(padre, [])
+        for f in (a.get("fotos") or []):
+            if f not in fotos_subitems[padre]:
+                fotos_subitems[padre].append(f)
 
 # Indice de fotos en disco
 foto_cache = {}
@@ -85,8 +95,15 @@ def card_html(a):
     notas    = a.get("notas","") or ""
     fotos    = a.get("fotos") or []
 
+    # SET padre: agrega fotos de todos sus sub-items al carrusel
+    todas_fotos = list(fotos)
+    if a.get("tipoEstructural") == "SET":
+        for f in fotos_subitems.get(cod, []):
+            if f not in todas_fotos:
+                todas_fotos.append(f)
+
     srcs = []
-    for foto in fotos:
+    for foto in todas_fotos:
         if foto.lower() in foto_cache:
             srcs.append(f"images/fotos-Solaris-inventory/Todas las Fotos/{foto_cache[foto.lower()]}")
 
