@@ -3127,10 +3127,10 @@
     "notas": ""
   },
   {
-    "codigoItem": "90AB",
-    "codigoPadre": "90A",
+    "codigoItem": "90A",
+    "codigoPadre": "",
     "numItem": 90,
-    "tipoEstructural": "ARTICULO",
+    "tipoEstructural": "SET",
     "categoria": "Ceramica",
     "nombreES": "Juego de cuatro jarrones chinos de porcelana policromada decorativos",
     "descripcionES": "",
