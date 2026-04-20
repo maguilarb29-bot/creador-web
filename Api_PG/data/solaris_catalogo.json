@@ -3135,7 +3135,28 @@
     "nombreES": "Juego de cuatro jarrones chinos de porcelana policromada decorativos",
     "descripcionES": "",
     "fotos": [
-      "90A-1-juego-de-cuatro-jarrones-chinos-de-porcelana-policromada-decorativos.jpg",
+      "90A-1-juego-de-cuatro-jarrones-chinos-de-porcelana-policromada-decorativos.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "90AB",
+    "codigoPadre": "90A",
+    "numItem": 90,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de cuatro jarrones chinos",
+    "descripcionES": "",
+    "fotos": [
       "90AB-1-juego-de-cuatro-jarrones-chinos.jpg"
     ],
     "tieneSothebys": false,
