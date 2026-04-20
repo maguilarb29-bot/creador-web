@@ -8760,7 +8760,8 @@
     "nombreES": "Copas de vino",
     "descripcionES": "",
     "fotos": [
-      "225A-1-copas-de-vino.jpg"
+      "225A-1-copas-de-vino.jpg",
+      "225A-2-copas-de-cristal-tallado-rubi-con-pie-transparente.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -9223,28 +9224,6 @@
     "descripcionES": "",
     "fotos": [
       "246A-1-duo-de-cuencos-de-cristal-tallado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "247A",
-    "codigoPadre": "247",
-    "numItem": 247,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas de cristal tallado rubi con pie transparente",
-    "descripcionES": "",
-    "fotos": [
-      "247A-1-copas-de-cristal-tallado-rubi-con-pie-transparente.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
