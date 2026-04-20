@@ -1,0 +1,441 @@
+{
+  "generatedAt": "2026-04-13",
+  "fuente": "Inventario fotografico oficial Condominio Solaris",
+  "valoraciones": "Sothebys International Realty, Londres, 18 enero 2016 (USD)",
+  "resumen": {
+    "totalItems": 27,
+    "totalTasados": 18,
+    "totalEstimadoMinUSD": 81876,
+    "totalEstimadoMaxUSD": 115616,
+    "porHeredero": [
+      {
+        "heredero": "Adriano Pignatelli",
+        "totalItems": 10,
+        "tasados": 6,
+        "estimadoMinUSD": 12880,
+        "estimadoMaxUSD": 17780
+      },
+      {
+        "heredero": "Diego Pignatelli",
+        "totalItems": 9,
+        "tasados": 5,
+        "estimadoMinUSD": 26260,
+        "estimadoMaxUSD": 35640
+      },
+      {
+        "heredero": "Fabrizia Pignatelli",
+        "totalItems": 4,
+        "tasados": 3,
+        "estimadoMinUSD": 14420,
+        "estimadoMaxUSD": 21280
+      },
+      {
+        "heredero": "Margherita Pignatelli",
+        "totalItems": 2,
+        "tasados": 2,
+        "estimadoMinUSD": 19600,
+        "estimadoMaxUSD": 29400
+      },
+      {
+        "heredero": "Maria Cristina Smith",
+        "totalItems": 2,
+        "tasados": 2,
+        "estimadoMinUSD": 8716,
+        "estimadoMaxUSD": 11516
+      }
+    ]
+  },
+  "herederos": [
+    {
+      "heredero": "Adriano Pignatelli",
+      "totalItems": 10,
+      "estimadoMinUSD": 12880,
+      "estimadoMaxUSD": 17780,
+      "items": [
+        {
+          "codigo": "162AC",
+          "nombre": "Cristaleria tallada roja y dorada",
+          "categoria": "Cristaleria",
+          "catCodigo": "G",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "181A",
+          "nombre": "Pintura de pareja paseando",
+          "categoria": "Arte en papel",
+          "catCodigo": "P",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "20",
+            "pagina": "14",
+            "estimacionUSD": "$4,200 - $5,600",
+            "descripcionEN": "A.M. Ciscar, 20th century. A couple strolling.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "182A",
+          "nombre": "Figuras en terrazas chinas del siglo xviii",
+          "categoria": "Arte en papel",
+          "catCodigo": "P",
+          "cantidadFotos": 2,
+          "notas": "ADRIANO TAKES IT",
+          "sothebys": {
+            "ref": "27",
+            "pagina": "18",
+            "estimacionUSD": "$560 - $840",
+            "descripcionEN": "The remaining work on the Stairs, comprising a watercolour of a doorway by Rossi, 2005; a watercolour of an Italian village by H.W. Cole; and an oil painting of the heads of four children.",
+            "notas": "Item con dos imagenes"
+          }
+        },
+        {
+          "codigo": "21A",
+          "nombre": "Pintura de dos leones",
+          "categoria": "Arte en papel",
+          "catCodigo": "P",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "19",
+            "pagina": "13",
+            "estimacionUSD": "$840 - $1,120",
+            "descripcionEN": "Henri Hecht Maik (1922-1993). Two Lions. Oil on board.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "22A",
+          "nombre": "Tres grabados historicos",
+          "categoria": "Arte en papel",
+          "catCodigo": "P",
+          "cantidadFotos": 3,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "312A",
+          "nombre": "Juego de cubiertos de plata y asta para carne",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "129",
+            "pagina": "63",
+            "estimacionUSD": "$280 - $420",
+            "descripcionEN": "An electroplated steak set and ivory salad servers.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "318A",
+          "nombre": "Jarra de vidrio soplado",
+          "categoria": "Cristaleria",
+          "catCodigo": "G",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "319A",
+          "nombre": "Lote de libros",
+          "categoria": "Utensilios",
+          "catCodigo": "U",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "44AAA",
+          "nombre": "Cristaleria de borde dorado",
+          "categoria": "Cristaleria",
+          "catCodigo": "G",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "194",
+            "pagina": "81",
+            "estimacionUSD": null,
+            "descripcionEN": "A 316-piece armorial glass service with the Pignatelli coat of arms — Adriano Pignatelli porta una parte del juego",
+            "notas": "Referencia compartida con 44AAB (Diego) — valor total asignado a Diego"
+          }
+        },
+        {
+          "codigo": "8A",
+          "nombre": "Caballo tang de ceramica",
+          "categoria": "Decorativos",
+          "catCodigo": "D",
+          "cantidadFotos": 1,
+          "notas": "Incorporada por confirmacion manual",
+          "sothebys": {
+            "ref": "224",
+            "pagina": "92",
+            "estimacionUSD": "$7,000 - $9,800",
+            "descripcionEN": "Referencia adicional confirmada manualmente.",
+            "notas": "Incorporada por confirmacion manual"
+          }
+        }
+      ]
+    },
+    {
+      "heredero": "Diego Pignatelli",
+      "totalItems": 9,
+      "estimadoMinUSD": 26260,
+      "estimadoMaxUSD": 35640,
+      "items": [
+        {
+          "codigo": "256A",
+          "nombre": "Anillos y broches de fantasia con gemas variadas",
+          "categoria": "Joyas",
+          "catCodigo": "J",
+          "cantidadFotos": 39,
+          "notas": "Reconstruido desde la agrupacion fotografica actual.",
+          "sothebys": null
+        },
+        {
+          "codigo": "258A",
+          "nombre": "Plateri clasica con bandejas y cuencos decorados",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "259A",
+          "nombre": "Cubiertos de plata en bandeja de bambu",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": null
+        },
+        {
+          "codigo": "260A",
+          "nombre": "Busto escultorico de cabeza masculina texturizada",
+          "categoria": "Decorativos",
+          "catCodigo": "D",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "Busto Pignatelli",
+            "pagina": "-",
+            "estimacionUSD": "$7,150",
+            "descripcionEN": "Busto de bronce.",
+            "notas": "Convertido de £5000 GBP al tipo de cambio enero 2016 (1.43)"
+          }
+        },
+        {
+          "codigo": "265A",
+          "nombre": "Servilleteros de plata y figuras de animales en estuche",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 2,
+          "notas": "Agrupado manualmente como un solo item con dos fotos.",
+          "sothebys": {
+            "ref": "132",
+            "pagina": "64",
+            "estimacionUSD": "$840 - $1,120",
+            "descripcionEN": "Twelve Italian menu holders formed as coins and other markers.",
+            "notas": "Un item con dos imagenes"
+          }
+        },
+        {
+          "codigo": "309A",
+          "nombre": "Cuencos plateados estilo imperio",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "136",
+            "pagina": "65",
+            "estimacionUSD": "$350 - $490",
+            "descripcionEN": "A pair of electroplated rose bowls in the 18th century style.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "311A",
+          "nombre": "Cubiertos dorados en estuche de lujo",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "130",
+            "pagina": "63",
+            "estimacionUSD": "$1,120 - $1,680",
+            "descripcionEN": "Referencia adicional confirmada manualmente.",
+            "notas": "Incorporada por confirmacion manual"
+          }
+        },
+        {
+          "codigo": "334A",
+          "nombre": "Lote de libros",
+          "categoria": "Utensilios",
+          "catCodigo": "U",
+          "cantidadFotos": 8,
+          "notas": "Reconstruido desde la agrupacion fotografica actual.",
+          "sothebys": null
+        },
+        {
+          "codigo": "44AAB",
+          "nombre": "Cristaleria de borde dorado",
+          "categoria": "Cristaleria",
+          "catCodigo": "G",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "194",
+            "pagina": "81",
+            "estimacionUSD": "$16,800 - $25,200",
+            "descripcionEN": "A 316-piece armorial glass service with the Pignatelli coat of arms — juego dividido con Adriano Pignatelli.",
+            "notas": "Valor total del juego Ref.194 — Adriano porta parte del mismo conjunto"
+          }
+        }
+      ]
+    },
+    {
+      "heredero": "Fabrizia Pignatelli",
+      "totalItems": 4,
+      "estimadoMinUSD": 14420,
+      "estimadoMaxUSD": 21280,
+      "items": [
+        {
+          "codigo": "174A",
+          "nombre": "Par de salseras francesas de plata",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "154",
+            "pagina": "69",
+            "estimacionUSD": "$2,100 - $2,800",
+            "descripcionEN": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "30A",
+          "nombre": "Reloj cartel luis xv bronce dorado saint german",
+          "categoria": "Decorativos",
+          "catCodigo": "D",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "97",
+            "pagina": "50",
+            "estimacionUSD": "$11,200 - $16,800",
+            "descripcionEN": "A Louis XV gilt-bronze cartel clock attributed to Jean-Joseph de Saint-Germain, circa 1748, with enamel dial; movement not inspected; case with crowned C poinçon.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "313A",
+          "nombre": "Cubiertos dorados vintage en estuche de presentacion",
+          "categoria": "Plateria",
+          "catCodigo": "S",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "131",
+            "pagina": "64",
+            "estimacionUSD": "$1,120 - $1,680",
+            "descripcionEN": "A French silver-gilt dessert service of 36 pieces, circa 1900.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "314A",
+          "nombre": "Estuche de almacenamiento vintage de cuero y madera",
+          "categoria": "Utensilios",
+          "catCodigo": "U",
+          "cantidadFotos": 2,
+          "notas": null,
+          "sothebys": null
+        }
+      ]
+    },
+    {
+      "heredero": "Margherita Pignatelli",
+      "totalItems": 2,
+      "estimadoMinUSD": 19600,
+      "estimadoMaxUSD": 29400,
+      "items": [
+        {
+          "codigo": "23A",
+          "nombre": "Comoda luis xv con marqueteria y bronces dorados",
+          "categoria": "Muebles",
+          "catCodigo": "F",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "66",
+            "pagina": "39",
+            "estimacionUSD": "$5,600 - $8,400",
+            "descripcionEN": "A Louis XV style beech, mahogany, rosewood, kingwood and gilt-bronze-mounted commode, 19th century, in the manner of J. J. Dubois, with a Spanish portor top.",
+            "notas": null
+          }
+        },
+        {
+          "codigo": "77A",
+          "nombre": "Consola dorada con marmol fior di pesco",
+          "categoria": "Muebles",
+          "catCodigo": "F",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "61",
+            "pagina": "38",
+            "estimacionUSD": "$14,000 - $21,000",
+            "descripcionEN": "A giltwood console table, possibly German, mid 18th century, with a fior di pesco marble top.",
+            "notas": null
+          }
+        }
+      ]
+    },
+    {
+      "heredero": "Maria Cristina Smith",
+      "totalItems": 2,
+      "estimadoMinUSD": 8716,
+      "estimadoMaxUSD": 11516,
+      "items": [
+        {
+          "codigo": "124A",
+          "nombre": "Mesa de centro china lacada",
+          "categoria": "Muebles",
+          "catCodigo": "F",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "(Sin codigo)",
+            "pagina": "-",
+            "estimacionUSD": "$1,716",
+            "descripcionEN": "Chinese lacquered centre table.",
+            "notas": "Convertido de £1200 GBP al tipo de cambio enero 2016 (1.43)"
+          }
+        },
+        {
+          "codigo": "56A",
+          "nombre": "Comoda bombe estilo luis xv con marqueteria y bronces",
+          "categoria": "Muebles",
+          "catCodigo": "F",
+          "cantidadFotos": 1,
+          "notas": null,
+          "sothebys": {
+            "ref": "73",
+            "pagina": "42",
+            "estimacionUSD": "$7,000 - $9,800",
+            "descripcionEN": "A pair of Louis XV style bombé walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
+            "notas": null
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "transacciones": [
+    {
+      "id": "TX-20260418-214158-3EBA",
+      "timestamp": "2026-04-18T21:41:58.465475",
+      "tipo": "reserva",
+      "heredero": "Test",
+      "items": [
+        {
+          "codigoItem": "2AB",
+          "nombreES": "Par de jarrones famille rose con tapa",
+          "categoria": "Decorativos",
+          "estimMin": 140,
+          "estimMax": 280,
+          "estimacionSothebys": "$140 - $280",
+          "refSothebys": "222",
+          "fotos": [
+            "2AB-1-par-de-jarrones-famille-rose-con-tapa.jpg"
+          ]
+        }
+      ],
+      "totalEstMinUSD": 140,
+      "totalEstMaxUSD": 280,
+      "notas": "Reserva directa Sotheby's",
+      "estado": "cancelado",
+      "canceladoEn": "2026-04-18T21:54:24.220373"
+    },
+    {
+      "id": "TX-20260418-214334-AFFA",
+      "timestamp": "2026-04-18T21:43:34.437580",
+      "tipo": "reserva",
+      "heredero": "Diego Pignatelli",
+      "items": [
+        {
+          "codigoItem": "2AB",
+          "nombreES": "Par de jarrones famille rose con tapa",
+          "categoria": "Decorativos",
+          "estimMin": 140,
+          "estimMax": 280,
+          "estimacionSothebys": "$140 - $280",
+          "refSothebys": "222",
+          "fotos": [
+            "2AB-1-par-de-jarrones-famille-rose-con-tapa.jpg"
+          ]
+        }
+      ],
+      "totalEstMinUSD": 140,
+      "totalEstMaxUSD": 280,
+      "notas": "Reserva directa Sotheby's",
+      "estado": "cancelado",
+      "canceladoEn": "2026-04-18T21:54:24.220388"
+    },
+    {
+      "id": "TX-20260418-214532-32F6",
+      "timestamp": "2026-04-18T21:45:32.580915",
+      "tipo": "reserva",
+      "heredero": "Fabrizia Pignatelli",
+      "items": [
+        {
+          "codigoItem": "58A",
+          "nombreES": "Tres pagodas decorativas orientales",
+          "categoria": "Decorativos",
+          "estimMin": 560,
+          "estimMax": 840,
+          "estimacionSothebys": "$560 - $840",
+          "refSothebys": "227",
+          "fotos": [
+            "58A-1-tres-pagodas-decorativas-orientales.jpg"
+          ]
+        }
+      ],
+      "totalEstMinUSD": 560,
+      "totalEstMaxUSD": 840,
+      "notas": "Reserva directa Sotheby's",
+      "estado": "cancelado",
+      "canceladoEn": "2026-04-18T21:45:33.380405"
+    },
+    {
+      "id": "TX-20260418-214759-D59B",
+      "timestamp": "2026-04-18T21:47:59.808486",
+      "tipo": "reserva",
+      "heredero": "Margherita Pignatelli",
+      "items": [
+        {
+          "codigoItem": "23A",
+          "nombreES": "Comoda luis xv con marqueteria y bronces dorados",
+          "categoria": "Muebles",
+          "estimMin": 5600,
+          "estimMax": 8400,
+          "estimacionSothebys": "$5,600 - $8,400",
+          "refSothebys": "66",
+          "fotos": [
+            "23A-1-comoda-luis-xv-con-marqueteria-y-bronces-dorados.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 5600,
+      "totalEstMaxUSD": 8400,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "cancelado",
+      "canceladoEn": "2026-04-18T21:50:23.260193"
+    },
+    {
+      "id": "TX-20260418-215058-AE73",
+      "timestamp": "2026-04-18T21:50:58.374247",
+      "tipo": "reserva",
+      "heredero": "Margherita Pignatelli",
+      "items": [
+        {
+          "codigoItem": "23A",
+          "nombreES": "Comoda luis xv con marqueteria y bronces dorados",
+          "categoria": "Muebles",
+          "estimMin": 5600,
+          "estimMax": 8400,
+          "estimacionSothebys": "$5,600 - $8,400",
+          "refSothebys": "66",
+          "fotos": [
+            "23A-1-comoda-luis-xv-con-marqueteria-y-bronces-dorados.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 5600,
+      "totalEstMaxUSD": 8400,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260419-150639-DAB4",
+      "timestamp": "2026-04-19T15:06:39.777479",
+      "tipo": "reserva",
+      "heredero": "Ana Isabel Beche",
+      "items": [
+        {
+          "codigoItem": "112A",
+          "nombreES": "Mesita de noche moderna con cajones y estante abierto",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "112A-1-mesita-de-noche-moderna-con-cajones-y-estante-abierto.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "113A",
+          "nombreES": "Lamparas de mesa contemporaneas con base laton y pantalla blanca",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "113A-1-lamparas-de-mesa-contemporaneas-con-base-laton-y-pantalla-blanca.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260419-181143-F7FE",
+      "timestamp": "2026-04-19T18:11:43.114727",
+      "tipo": "reserva",
+      "heredero": "Isabel Marin",
+      "items": [
+        {
+          "codigoItem": "340A",
+          "nombreES": "Sarten antiadherente con mango ergonomico",
+          "categoria": "Utensilios",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "340A-1-sarten-antiadherente-con-mango-ergonomico.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "341A",
+          "nombreES": "Sarten antiadherente de aluminio con mango ergonomico",
+          "categoria": "Utensilios",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "341A-1-sarten-antiadherente-de-aluminio-con-mango-ergonomico.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "331A",
+          "nombreES": "Lamparas de escritorio led modernas con cuello flexible",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "331A-1-lamparas-de-escritorio-led-modernas-con-cuello-flexible.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "confirmar precio",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260419-181458-6FBE",
+      "timestamp": "2026-04-19T18:14:58.892789",
+      "tipo": "reserva",
+      "heredero": "Jerancy Alpizar",
+      "items": [
+        {
+          "codigoItem": "300A",
+          "nombreES": "Impresora multifuncional epson ecotank l3250",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "300A-1-impresora-multifuncional-epson-ecotank-l3250.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "106B",
+          "nombreES": "Ventilador de torre digital oscilante",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "106B-1-ventilador-de-torre-digital-oscilante.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    }
+  ]
+}
