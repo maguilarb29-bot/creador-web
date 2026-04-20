@@ -12,10 +12,11 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 
 BASE = Path(__file__).parent
 DATA = BASE / "data"
-CATALOGO_FILE     = DATA / "solaris_catalogo.json"
-HEREDEROS_FILE    = DATA / "reservas_excel_entregable_2026-04-13.json"
+CATALOGO_FILE      = DATA / "solaris_catalogo.json"
+HEREDEROS_FILE     = DATA / "reservas_excel_entregable_2026-04-13.json"
 TRANSACCIONES_FILE = DATA / "transacciones.json"
-EXCEL_VENTAS      = DATA / "Registro_Ventas_Reservas.xlsx"
+ESTADOS_FILE       = DATA / "estados.json"
+EXCEL_VENTAS       = DATA / "Registro_Ventas_Reservas.xlsx"
 
 app = Flask(__name__, static_folder=str(BASE))
 
@@ -27,6 +28,34 @@ def load_json(path):
 def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def load_estados():
+    if not ESTADOS_FILE.exists():
+        return {}
+    try:
+        return load_json(ESTADOS_FILE)
+    except Exception:
+        return {}
+
+def save_estado(codigo, estado, reservadoPara="", confirmadoHeredero=False):
+    estados = load_estados()
+    estados[codigo] = {
+        "estado": estado,
+        "reservadoPara": reservadoPara,
+        "confirmadoHeredero": confirmadoHeredero,
+    }
+    save_json(ESTADOS_FILE, estados)
+
+def catalogo_con_estados():
+    catalogo = load_json(CATALOGO_FILE)
+    estados = load_estados()
+    for item in catalogo:
+        e = estados.get(item["codigoItem"])
+        if e:
+            item["estado"] = e["estado"]
+            item["reservadoPara"] = e.get("reservadoPara", "")
+            item["confirmadoHeredero"] = e.get("confirmadoHeredero", False)
+    return catalogo
 
 def load_transacciones():
     if not TRANSACCIONES_FILE.exists():
@@ -169,7 +198,7 @@ def parse_estimate(s):
 # ── Rutas API ────────────────────────────────────────────────
 @app.route("/api/catalogo")
 def api_catalogo():
-    return jsonify(load_json(CATALOGO_FILE))
+    return jsonify(catalogo_con_estados())
 
 @app.route("/api/herederos")
 def api_herederos():
@@ -215,16 +244,10 @@ def api_crear_transaccion():
     data["transacciones"].append(tx)
     save_json(TRANSACCIONES_FILE, data)
 
-    # Actualizar estado en catálogo
+    # Actualizar estado
     nuevo_estado = "Reservado" if tipo == "reserva" else "Vendido"
-    catalogo = load_json(CATALOGO_FILE)
-    codigos = {i["codigoItem"] for i in items}
-    for art in catalogo:
-        if art["codigoItem"] in codigos:
-            art["estado"] = nuevo_estado
-            art["reservadoPara"] = heredero
-
-    save_json(CATALOGO_FILE, catalogo)
+    for i in items:
+        save_estado(i["codigoItem"], nuevo_estado, heredero)
     rebuild_excel(data["transacciones"])
 
     return jsonify({"success": True, "transaccion": tx})
@@ -237,15 +260,12 @@ def api_reservar_item():
     if not codigo or not heredero:
         return jsonify({"error": "Faltan datos"}), 400
 
-    catalogo = load_json(CATALOGO_FILE)
+    catalogo = catalogo_con_estados()
     item = next((i for i in catalogo if i["codigoItem"] == codigo), None)
     if not item:
         return jsonify({"error": "Artículo no encontrado"}), 404
 
-    item["estado"]              = "Reservado"
-    item["reservadoPara"]       = heredero
-    item["confirmadoHeredero"]  = False   # pendiente hasta que el heredero confirme
-    save_json(CATALOGO_FILE, catalogo)
+    save_estado(codigo, "Reservado", heredero, False)
 
     # Registrar transacción
     est = parse_estimate(item.get("estimacionSothebys", ""))
@@ -280,27 +300,21 @@ def api_reservar_item():
 def api_confirmar_item():
     body = request.get_json(force=True)
     codigo = body.get("codigoItem", "").strip()
-    catalogo = load_json(CATALOGO_FILE)
-    item = next((i for i in catalogo if i["codigoItem"] == codigo), None)
-    if not item:
-        return jsonify({"error": "No encontrado"}), 404
-    item["confirmadoHeredero"] = True
-    save_json(CATALOGO_FILE, catalogo)
+    estados = load_estados()
+    e = estados.get(codigo, {})
+    save_estado(codigo, e.get("estado", "Reservado"), e.get("reservadoPara", ""), True)
     return jsonify({"success": True})
 
 @app.route("/api/liberar-item", methods=["POST"])
 def api_liberar_item():
     body = request.get_json(force=True)
     codigo = body.get("codigoItem", "").strip()
-    catalogo = load_json(CATALOGO_FILE)
+    catalogo = catalogo_con_estados()
     item = next((i for i in catalogo if i["codigoItem"] == codigo), None)
     if not item:
         return jsonify({"error": "No encontrado"}), 404
 
-    item["estado"]             = "Disponible"
-    item["reservadoPara"]      = ""
-    item["confirmadoHeredero"] = False
-    save_json(CATALOGO_FILE, catalogo)
+    save_estado(codigo, "Disponible", "", False)
 
     # Cancelar transacciones activas de este artículo
     data = load_transacciones()
@@ -324,16 +338,11 @@ def api_cancelar(tx_id):
     tx["estado"] = "cancelado"
     tx["canceladoEn"] = datetime.now().isoformat()
 
-    # Revertir estado en catálogo
-    catalogo = load_json(CATALOGO_FILE)
-    codigos = {i["codigoItem"] for i in tx.get("items", [])}
-    for art in catalogo:
-        if art["codigoItem"] in codigos:
-            art["estado"] = "Disponible"
-            art["reservadoPara"] = ""
+    # Revertir estado
+    for i in tx.get("items", []):
+        save_estado(i["codigoItem"], "Disponible", "")
 
     save_json(TRANSACCIONES_FILE, data)
-    save_json(CATALOGO_FILE, catalogo)
     rebuild_excel(data["transacciones"])
     return jsonify({"success": True})
 

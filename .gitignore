@@ -19,6 +19,9 @@ Api_PG/excel/
 API_PG_DRIVE/
 pignatelli-app/
 
+# Estados dinámicos (reservas/ventas — solo en servidor)
+Api_PG/data/estados.json
+
 # Backups y archivos legacy
 Api_PG/data/_legacy_logica_vieja/
 *.bak*
