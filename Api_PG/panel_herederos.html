@@ -2116,15 +2116,18 @@ function facImprimir() {
 
 function facGenerarHtmlYMostrar(tx) {
   const lk={}; ALL.forEach(i=>lk[i.codigoItem]=i);
+  const nombresHerederos = (HEIRS_DATA.herederos||[]).map(h=>h.heredero);
+  const esHeredero = nombresHerederos.includes(tx.heredero);
   const fecha = new Date(tx.timestamp).toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
-  const numFac = tx.id.replace('TX-','FAC-');
+  const numFac = tx.numeroFactura || tx.id.replace('TX-','FAC-');
+  const conSothebys = esHeredero || (tx.items||[]).some(it=>it.estimacionSothebys);
   const rows = (tx.items||[]).map(it=>{
     const fi=lk[it.codigoItem]||{};
     return `<tr>
       <td><strong>${it.codigoItem}</strong></td>
       <td>${it.nombreES||fi.nombreES||'—'}<br><small style="color:#888">${it.categoria||fi.categoria||''}</small></td>
       <td style="text-align:center">1</td>
-      <td style="text-align:right">${it.estimacionSothebys||'—'}</td>
+      ${conSothebys?`<td style="text-align:right">${it.estimacionSothebys||'—'}</td>`:''}
       <td style="text-align:right">${(it.precioAcordado||it.precioFactura)?fmt(it.precioAcordado||it.precioFactura):'—'}</td>
     </tr>`;
   }).join('');
@@ -2141,27 +2144,26 @@ function facGenerarHtmlYMostrar(tx) {
     <div class="fac-parties">
       <div class="fac-party"><h4>Propietario / Vendedor</h4>
         <p><strong>Sucesión Pignatelli</strong><br>Condominio Solaris<br>Costa Rica</p></div>
-      <div class="fac-party"><h4>Heredero / Comprador</h4>
+      <div class="fac-party"><h4>${esHeredero?'Heredero':'Cliente'}</h4>
         <p><strong>${tx.heredero}</strong><br>${tx.tipo==='reserva'?'Reserva de bienes sucesorios':'Compra de bienes sucesorios'}</p></div>
     </div>
     <table class="fac-items-table">
       <thead><tr>
         <th>Código</th><th>Artículo</th><th style="text-align:center">Cant.</th>
-        <th style="text-align:right">Valoración Sotheby's</th>
+        ${conSothebys?'<th style="text-align:right">Valoración Sotheby\'s</th>':''}
         <th style="text-align:right">Precio acordado</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table>
     <div class="fac-totals-box">
       <div class="fac-tot-row"><span>Artículos</span><span>${tx.items?.length||0}</span></div>
-      <div class="fac-tot-row"><span>Val. mín. Sotheby's</span><span>${fmt(tx.totalEstMinUSD)}</span></div>
-      <div class="fac-tot-row"><span>Val. máx. Sotheby's</span><span>${fmt(tx.totalEstMaxUSD)}</span></div>
+      ${conSothebys?`<div class="fac-tot-row"><span>Val. mín. Sotheby's</span><span>${fmt(tx.totalEstMinUSD)}</span></div><div class="fac-tot-row"><span>Val. máx. Sotheby's</span><span>${fmt(tx.totalEstMaxUSD)}</span></div>`:''}
       ${tx.totalAcordadoUSD?`<div class="fac-tot-row"><span>Total acordado</span><span>${fmt(tx.totalAcordadoUSD)}</span></div>`:''}
       <div class="fac-tot-row"><span>Total ${tx.tipo}</span><span>${tx.totalAcordadoUSD?fmt(tx.totalAcordadoUSD):(fmt(tx.totalEstMinUSD)+' – '+fmt(tx.totalEstMaxUSD))}</span></div>
     </div>
     ${tx.notas?`<p style="font-size:.82rem;color:#888;margin-bottom:1.5rem;font-style:italic">Observaciones: "${tx.notas}"</p>`:''}
     <div class="fac-print-footer">
-      Valoraciones de referencia: Sotheby's International Realty · Londres, 18 enero 2016 · Los valores son estimativos<br>
+      ${conSothebys?'Valoraciones de referencia: Sotheby\'s International Realty · Londres, 18 enero 2016 · Los valores son estimativos<br>':''}
       Documento generado el ${new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'})} · Casa Pignatelli — uso interno
     </div>
   </div>`;
