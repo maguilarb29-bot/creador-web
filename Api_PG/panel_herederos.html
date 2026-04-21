@@ -2199,7 +2199,7 @@ function renderFac() {
 function generarFactura(txId) {
   const tx = TX_DATA.transacciones.find(t=>t.id===txId);
   if(!tx) return;
-  facGenerarHtmlYMostrar(tx); return;
+  facGenerarHtmlYMostrar(tx);
   const lk={}; ALL.forEach(i=>lk[i.codigoItem]=i);
   const fecha = new Date(tx.timestamp).toLocaleDateString('es-ES',{day:'2-digit',month:'long',year:'numeric'});
   const numFac = tx.id.replace('TX-','FAC-');
@@ -2226,7 +2226,7 @@ function generarFactura(txId) {
         </div>
       </div>
       <div class="fac-num">
-        <div class="fn">${numFac}</div>
+        <div class="fn">${tx.numeroFactura||numFac}</div>
         <div class="fd">${fecha}</div>
         <div class="fd" style="margin-top:.4rem;color:#c9a227;font-weight:bold">FACTURA</div>
       </div>
@@ -2269,7 +2269,11 @@ function generarFactura(txId) {
   cc('ov-tiquete').classList.add('open');
 }
 
-function imprimirFactura(txId) {
+async function imprimirFactura(txId) {
+  const r = await fetch(`/api/transaccion/${txId}/numero-factura`, {method:'POST'});
+  const data = await r.json();
+  const tx = TX_DATA.transacciones.find(t=>t.id===txId);
+  if(tx) tx.numeroFactura = data.numeroFactura;
   generarFactura(txId);
   setTimeout(()=>window.print(), 400);
 }

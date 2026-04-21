@@ -16,6 +16,7 @@ CATALOGO_FILE      = DATA / "solaris_catalogo.json"
 HEREDEROS_FILE     = DATA / "reservas_excel_entregable_2026-04-13.json"
 TRANSACCIONES_FILE = DATA / "transacciones.json"
 ESTADOS_FILE       = DATA / "estados.json"
+CONTADORES_FILE    = DATA / "contadores.json"
 EXCEL_VENTAS       = DATA / "Registro_Ventas_Reservas.xlsx"
 
 app = Flask(__name__, static_folder=str(BASE))
@@ -28,6 +29,12 @@ def load_json(path):
 def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+def siguiente_factura():
+    c = load_json(CONTADORES_FILE) if CONTADORES_FILE.exists() else {"ultimaFactura": 9}
+    c["ultimaFactura"] = c.get("ultimaFactura", 9) + 1
+    save_json(CONTADORES_FILE, c)
+    return f"FAC-{c['ultimaFactura']:04d}"
 
 def load_estados():
     if not ESTADOS_FILE.exists():
@@ -345,6 +352,17 @@ def api_cancelar(tx_id):
     save_json(TRANSACCIONES_FILE, data)
     rebuild_excel(data["transacciones"])
     return jsonify({"success": True})
+
+@app.route("/api/transaccion/<tx_id>/numero-factura", methods=["POST"])
+def api_numero_factura(tx_id):
+    data = load_transacciones()
+    tx = next((t for t in data["transacciones"] if t["id"] == tx_id), None)
+    if not tx:
+        return jsonify({"error": "No encontrado"}), 404
+    if not tx.get("numeroFactura"):
+        tx["numeroFactura"] = siguiente_factura()
+        save_json(TRANSACCIONES_FILE, data)
+    return jsonify({"numeroFactura": tx["numeroFactura"]})
 
 @app.route("/api/excel/descargar")
 def api_descargar_excel():

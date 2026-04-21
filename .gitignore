@@ -21,6 +21,7 @@ pignatelli-app/
 
 # Estados dinámicos (reservas/ventas — solo en servidor)
 Api_PG/data/estados.json
+Api_PG/data/contadores.json
 
 # Backups y archivos legacy
 Api_PG/data/_legacy_logica_vieja/
