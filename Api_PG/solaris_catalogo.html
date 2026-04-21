@@ -168,7 +168,7 @@ footer p{font-size:.75rem;opacity:.5;letter-spacing:1px}
 </footer>
 
 <script>
-const WSP_NUMBER = '50600000000'; // cambiar al número real
+const WSP_NUMBER = '50688935635';
 const CAT_COLORS = {
   'Arte en papel':'#5D4037','Ceramica':'#1565C0','Cristaleria':'#00695C',
   'Decorativos':'#4A148C','Electrodomesticos':'#424242','Insumos Medicos':'#558B2F',
@@ -202,12 +202,20 @@ function buildCarousel(fotos, cid) {
   </div>`;
 }
 
+function parseSothMin(str) {
+  if (!str) return null;
+  const m = str.match(/\$([\d,]+)/);
+  return m ? m[1] : null;
+}
+
 function buildCard(item) {
   const estado = item.estado || 'Disponible';
   const disponible = estado === 'Disponible';
   const cid = 'c' + (++carIdx);
   const precio = item.precioUSD ? `<div class="price-tag"><span class="price-lbl">Precio</span><span class="price-val">$${Number(item.precioUSD).toLocaleString('es')} USD</span></div>` : `<div class="no-price">Precio a consultar</div>`;
-  const sothBadge = item.tieneSothebys ? `<div class="soth-tag">Sotheby's</div>` : '';
+  const sothMin = parseSothMin(item.estimacionSothebys);
+  const sothBadge = sothMin ? `<div class="soth-tag">Sotheby's</div>` : '';
+  const sothLine = sothMin ? `<div style="font-size:.75rem;color:#7B5A00;margin-top:4px">⚜ Ref. Sotheby's desde <b>$${sothMin} USD</b></div>` : '';
   const estadoTag = disponible
     ? `<div class="estado-tag disp">Disponible</div>`
     : `<div class="estado-tag no-disp">No disponible</div>`;
@@ -227,6 +235,7 @@ function buildCard(item) {
     <div class="card-name">${nombre}</div>
     <div class="card-cat">${item.categoria||''}</div>
     ${precio}
+    ${sothLine}
     ${btnConsultar}
   </div>
 </div>`;
