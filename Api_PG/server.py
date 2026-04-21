@@ -378,6 +378,10 @@ def api_descargar_excel():
 def index():
     return send_from_directory(str(BASE), "panel_herederos.html")
 
+@app.route("/publico")
+def publico():
+    return send_from_directory(str(BASE), "solaris_catalogo.html")
+
 @app.route("/images/<path:filename>")
 def serve_images(filename):
     from flask import send_file

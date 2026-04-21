@@ -1,0 +1,17 @@
+{
+  "sourceWorkbook": "Inventario_Maestro_Solaris_Pignatelli_2026-04-14.xlsx",
+  "sourceClientsWorkbook": "Ventas_Reservas_Clientes_2026-04-17.xlsx",
+  "excludedCodes": [
+    "216A",
+    "299A"
+  ],
+  "inventoryCount": 525,
+  "stateCounts": {
+    "Disponible": 446,
+    "Reservado": 70,
+    "Vendido": 9
+  },
+  "reservationCount": 70,
+  "salesCount": 9,
+  "missingPhotos": []
+}

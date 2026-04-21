@@ -594,6 +594,7 @@ nav::-webkit-scrollbar{display:none}
     <div class="panel"><h3>Distribución por categoría</h3><div id="cat-chart"></div></div>
     <div class="panel"><h3>Reservas por heredero</h3><div id="heirs-mini"></div></div>
     <div class="panel"><h3>Top valoraciones Sotheby's</h3><div id="top-vals"></div></div>
+    <div class="panel" style="grid-column:1/-1"><h3>💰 Ventas Ejecutadas</h3><div id="ventas-resumen"></div></div>
   </div>
 </div>
 
@@ -1097,6 +1098,9 @@ function init() {
 
   // Transactions
   renderTx();
+
+  // Ventas ejecutadas dashboard
+  renderVentasResumen();
 }
 
 // ════════════════════════════════════════════════
@@ -1427,6 +1431,71 @@ async function cancelarTx(id) {
 
 async function descargarExcel() {
   window.location = '/api/excel/descargar';
+}
+
+function renderVentasResumen() {
+  const txs = (TX_DATA.transacciones||[]).filter(t => t.estado === 'confirmado');
+  const ventas   = txs.filter(t => t.tipo === 'venta');
+  const reservas = txs.filter(t => t.tipo === 'reserva');
+
+  const totalRecolectado = ventas.reduce((s, t) => s + (t.totalAcordadoUSD || 0), 0);
+  const totalReservado   = reservas.reduce((s, t) => s + (t.totalAcordadoUSD || t.totalEstMinUSD || 0), 0);
+
+  const HEIRS = (HEIRS_DATA.herederos||[]).map(h => h.heredero);
+  const esHeredero = n => HEIRS.includes(n);
+
+  const filaVenta = tx => {
+    const items = tx.items||[];
+    const nombres = items.map(i => i.nombreES || i.codigoItem).join(', ');
+    const codigos = items.map(i => i.codigoItem).join(', ');
+    const monto = tx.totalAcordadoUSD ? fmt(tx.totalAcordadoUSD) : '—';
+    const tipo = esHeredero(tx.heredero) ? 'Heredero' : 'Cliente';
+    const badge = esHeredero(tx.heredero)
+      ? `<span style="background:#1A1A2E;color:#E8D5B7;font-size:.65rem;padding:1px 6px;border-radius:3px">Heredero</span>`
+      : `<span style="background:#1565C0;color:#fff;font-size:.65rem;padding:1px 6px;border-radius:3px">Cliente</span>`;
+    const fecha = tx.timestamp ? new Date(tx.timestamp).toLocaleDateString('es-CR') : '—';
+    return `<tr>
+      <td style="font-size:.78rem;color:var(--mu)">${fecha}</td>
+      <td>${badge} <b>${tx.heredero||'—'}</b></td>
+      <td style="font-family:monospace;font-size:.75rem">${codigos}</td>
+      <td style="font-size:.8rem">${nombres}</td>
+      <td style="text-align:right;font-weight:700;color:var(--green)">${monto}</td>
+      <td style="font-size:.75rem;color:var(--mu)">${tx.numeroFactura||'—'}</td>
+    </tr>`;
+  };
+
+  let html = `<div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:16px">
+    <div style="background:var(--green);color:#fff;border-radius:8px;padding:10px 18px;min-width:160px">
+      <div style="font-size:1.5rem;font-weight:700">${fmt(totalRecolectado)}</div>
+      <div style="font-size:.7rem;opacity:.85;text-transform:uppercase;letter-spacing:1px">Ventas ejecutadas · ${ventas.length} transac.</div>
+    </div>
+    <div style="background:#1565C0;color:#fff;border-radius:8px;padding:10px 18px;min-width:160px">
+      <div style="font-size:1.5rem;font-weight:700">${reservas.length}</div>
+      <div style="font-size:.7rem;opacity:.85;text-transform:uppercase;letter-spacing:1px">Reservas confirmadas</div>
+    </div>
+    <div style="background:#37474F;color:#fff;border-radius:8px;padding:10px 18px;min-width:160px">
+      <div style="font-size:1.5rem;font-weight:700">${txs.length}</div>
+      <div style="font-size:.7rem;opacity:.85;text-transform:uppercase;letter-spacing:1px">Total transacciones activas</div>
+    </div>
+  </div>`;
+
+  if (!ventas.length) {
+    html += `<div style="color:var(--mu);font-size:.85rem;padding:8px 0">Sin ventas ejecutadas aún.</div>`;
+  } else {
+    html += `<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.82rem">
+      <thead><tr style="border-bottom:2px solid var(--brd);color:var(--mu);font-size:.72rem;text-transform:uppercase">
+        <th style="padding:5px 8px;text-align:left">Fecha</th>
+        <th style="padding:5px 8px;text-align:left">Comprador</th>
+        <th style="padding:5px 8px;text-align:left">Código(s)</th>
+        <th style="padding:5px 8px;text-align:left">Artículo(s)</th>
+        <th style="padding:5px 8px;text-align:right">Monto</th>
+        <th style="padding:5px 8px;text-align:left">Factura</th>
+      </tr></thead>
+      <tbody>${ventas.map(filaVenta).join('')}</tbody>
+    </table></div>`;
+  }
+
+  cc('ventas-resumen').innerHTML = html;
 }
 
 // ════════════════════════════════════════════════
@@ -2296,6 +2365,7 @@ async function recargar() {
   renderHerederos();
   renderSothTable();
   renderFacReservasBtns();
+  renderVentasResumen();
 }
 
 // ════════════════════════════════════════════════

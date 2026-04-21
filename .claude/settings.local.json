@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit)",
+      "Bash(node node_modules/typescript/bin/tsc --noEmit --skipLibCheck)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(find 'c:/Users/Alejandro/Documents/Proyecto Pignatelli/pignatelli-app' -name *.xlsx -o -name *.xls -o -name *.json)",
+      "Bash(find 'c:/Users/Alejandro/Documents/Proyecto Pignatelli' -name *.xlsx)",
+      "Bash(find 'c:/Users/Alejandro/Documents/Proyecto Pignatelli/pignatelli-app' -name *.xlsx -not -path */node_modules/*)",
+      "Bash(find 'c:/Users/Alejandro/Documents/Proyecto Pignatelli/pignatelli-app' -name *.json -not -path */node_modules/*)",
+      "Bash(node \"c:/Users/Alejandro/Documents/Proyecto Pignatelli/pignatelli-app/node_modules/typescript/bin/tsc\" --version)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(ls \"C:\\\\Users\\\\Alejandro\\\\Documents\\\\Proyecto Pignatelli\\\\Api_PG\\\\images\"\" && echo \"---\" && ls \"C:UsersAlejandroDocumentsProyecto PignatelliApi_PGimagesfotos-Solaris-inventory-numero-item\"\")",
+      "Bash(ls \"C:\\\\Users\\\\Alejandro\\\\Documents\\\\Proyecto Pignatelli\\\\Api_PG\\\\images\\\\fotos-Solaris-inventory-detalles\"\" | wc -l && echo \"---\" && ls \"C:UsersAlejandroDocumentsProyecto PignatelliApi_PGimagesfotos-Joyas-fantasia\"\")",
+      "Bash(python3 -c \"import json,sys; data=json.load\\(sys.stdin\\); print\\(f''''Total items: {len\\(data\\)}''''\\); cats={}; [cats.update\\({d[''''categoria'''']: cats.get\\(d[''''categoria''''],0\\)+1}\\) for d in data]; [print\\(f''''  {k}: {v}''''\\) for k,v in sorted\\(cats.items\\(\\)\\)]\")",
+      "Bash(node:*)"
+    ]
+  }
+}
