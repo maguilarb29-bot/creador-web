@@ -2120,16 +2120,24 @@ function renderFacReservasBtns() {
 
 function facCargarReservasPor(btn) {
   const heredero = btn.dataset.heredero;
-  // Leer directamente del catálogo en memoria — sin JSON encoding
   const codigos = ALL
     .filter(i=>(i.estado||'').toLowerCase()==='reservado' && i.reservadoPara===heredero)
     .map(i=>i.codigoItem);
-  codigos.forEach(c=>{ if(!FAC_ITEMS.some(f=>f.codigoItem===c)) facAddItem(c) });
-  // Pre-seleccionar heredero si está en la lista
+  FAC_ITEMS = [];
+  codigos.forEach(c=>facAddItem(c));
+  // Pre-seleccionar heredero
   const sel = cc('fac-heredero');
   const opt = [...sel.options].find(o=>o.text===heredero);
   if(opt) sel.value = opt.value; else sel.value = '';
+  // Reserva existente → se ejecuta como Venta
+  facTipo = 'venta';
+  document.querySelectorAll('[data-fac-tipo]').forEach(b=>{
+    b.classList.toggle('on', b.dataset.facTipo==='venta');
+  });
+  renderFacLineItems();
   renderFacPreview();
+  // Scroll hacia la factura
+  cc('fac-heredero').scrollIntoView({behavior:'smooth', block:'center'});
 }
 
 function facVaciar() {
