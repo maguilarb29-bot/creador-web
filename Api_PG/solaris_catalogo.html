@@ -442,16 +442,29 @@ async function cargarCatalogo(){
     const tabsBar=qs('tabs-bar'), panelsCont=qs('panels-cont');
     panelsCont.innerHTML='';
 
+    // Tab "Todas"
+    const btnTodas=document.createElement('button');
+    btnTodas.className='tab-btn active';
+    btnTodas.id='tab-__todas';
+    btnTodas.onclick=()=>mostrarTab('__todas');
+    btnTodas.innerHTML=`Todas<span class="tab-n">${items.length}</span>`;
+    tabsBar.appendChild(btnTodas);
+    const panelTodas=document.createElement('div');
+    panelTodas.className='panel active';
+    panelTodas.id='panel-__todas';
+    panelTodas.innerHTML=`<div class="grid">${items.map(buildCard).join('')}</div>`;
+    panelsCont.appendChild(panelTodas);
+
     catNames.forEach((cat,idx)=>{
       const btn=document.createElement('button');
-      btn.className='tab-btn'+(idx===0?' active':'');
+      btn.className='tab-btn';
       btn.id='tab-'+cat;
       btn.onclick=()=>mostrarTab(cat);
       btn.innerHTML=`${cat}<span class="tab-n">${cats[cat].length}</span>`;
       tabsBar.appendChild(btn);
 
       const panel=document.createElement('div');
-      panel.className='panel'+(idx===0?' active':'');
+      panel.className='panel';
       panel.id='panel-'+cat;
       panel.innerHTML=`<div class="grid">${cats[cat].map(buildCard).join('')}</div>`;
       panelsCont.appendChild(panel);
