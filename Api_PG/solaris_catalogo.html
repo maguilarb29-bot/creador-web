@@ -3,227 +3,248 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catalogo Solaris — Pignatelli</title>
+<title>Casa Pignatelli — Colección Solaris</title>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',sans-serif;background:#f5f0eb;color:#333}
+body{font-family:'Segoe UI',sans-serif;background:#F8F5F0;color:#2C2C2C}
 
-/* HEADER */
-header{background:#1A1A2E;color:#E8D5B7;padding:18px 28px;display:flex;align-items:center;gap:20px;flex-wrap:wrap}
-header h1{font-size:1.6rem;font-weight:300;letter-spacing:2px;flex:1}
-.kpi{display:flex;gap:12px;flex-wrap:wrap}
-.kpi-box{background:rgba(255,255,255,0.08);border-radius:8px;padding:6px 14px;text-align:center}
-.kpi-box .num{font-size:1.4rem;font-weight:700;line-height:1}
-.kpi-box .lbl{font-size:0.68rem;opacity:.7;text-transform:uppercase;letter-spacing:1px}
-.kpi-box.disp .num{color:#4CAF50}
-.kpi-box.res  .num{color:#EF5350}
-.kpi-box.vend .num{color:#CE93D8}
+/* ── HERO ── */
+.hero{background:#1A1A2E;color:#E8D5B7;padding:36px 32px 28px;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23CFB53B' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
+.hero-crest{font-size:2.4rem;margin-bottom:8px;position:relative}
+.hero h1{font-size:2rem;font-weight:300;letter-spacing:4px;text-transform:uppercase;position:relative}
+.hero h1 span{color:#CFB53B}
+.hero-sub{font-size:.85rem;opacity:.6;letter-spacing:2px;text-transform:uppercase;margin-top:6px;position:relative}
+.kpi-bar{display:flex;justify-content:center;gap:24px;margin-top:20px;flex-wrap:wrap;position:relative}
+.kpi-item{text-align:center}
+.kpi-item .n{font-size:1.6rem;font-weight:700;color:#CFB53B;line-height:1}
+.kpi-item .l{font-size:.65rem;opacity:.6;text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+.kpi-sep{width:1px;background:rgba(232,213,183,.15);align-self:stretch}
 
-/* FILTROS */
-.toolbar{background:#fff;border-bottom:1px solid #ddd;padding:10px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.toolbar input{flex:1;min-width:200px;max-width:380px;padding:7px 14px;border:1px solid #ccc;border-radius:20px;font-size:0.9rem;outline:none}
-.toolbar input:focus{border-color:#1A1A2E}
+/* ── BARRA FILTROS ── */
+.bar{background:#fff;border-bottom:1px solid #E0D9D0;padding:12px 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.bar-search{flex:1;min-width:200px;max-width:360px;position:relative}
+.bar-search input{width:100%;padding:8px 16px 8px 38px;border:1.5px solid #DDD;border-radius:24px;font-size:.88rem;outline:none;color:#333;background:#FAFAFA;transition:border .2s}
+.bar-search input:focus{border-color:#1A1A2E;background:#fff}
+.bar-search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.4;pointer-events:none}
 .filtros{display:flex;gap:6px;flex-wrap:wrap}
-.fil-btn{border:none;padding:5px 14px;border-radius:16px;cursor:pointer;font-size:0.82rem;font-weight:600;transition:all .2s}
-.fil-btn.all{background:#1A1A2E;color:#fff}
-.fil-btn.disp{background:#E8F5E9;color:#2E7D32;border:1px solid #A5D6A7}
-.fil-btn.res {background:#FFEBEE;color:#C62828;border:1px solid #EF9A9A}
-.fil-btn.vend{background:#F3E5F5;color:#6A1B9A;border:1px solid #CE93D8}
-.fil-btn.active{opacity:1;box-shadow:0 0 0 2px currentColor}
+.fil{border:1.5px solid #DDD;background:#fff;padding:5px 16px;border-radius:20px;cursor:pointer;font-size:.8rem;font-weight:600;color:#666;transition:all .2s}
+.fil:hover{border-color:#1A1A2E;color:#1A1A2E}
+.fil.active{background:#1A1A2E;color:#E8D5B7;border-color:#1A1A2E}
+.fil.av.active{background:#2E7D32;border-color:#2E7D32;color:#fff}
+.wsp-btn{margin-left:auto;background:#25D366;color:#fff;border:none;padding:8px 18px;border-radius:20px;font-size:.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:background .2s}
+.wsp-btn:hover{background:#1ebe57}
 
-/* TABS */
-.tabs{background:#2C3E50;padding:0 16px;display:flex;flex-wrap:wrap;gap:2px;overflow-x:auto}
-.tab-btn{background:none;border:none;color:#B0BEC5;padding:11px 14px;cursor:pointer;font-size:0.85rem;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
-.tab-btn:hover{color:#ECEFF1;background:rgba(255,255,255,0.05)}
-.tab-btn.active{color:#fff;border-bottom-color:var(--cat-color,#CFB53B)}
-.tab-count{background:rgba(255,255,255,0.12);padding:1px 7px;border-radius:10px;font-size:0.72rem;margin-left:4px}
+/* ── TABS CATEGORÍAS ── */
+.tabs{background:#2C3E50;display:flex;flex-wrap:wrap;gap:0;overflow-x:auto;padding:0 16px}
+.tab{background:none;border:none;color:#90A4AE;padding:11px 16px;cursor:pointer;font-size:.82rem;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
+.tab:hover{color:#ECEFF1;background:rgba(255,255,255,.05)}
+.tab.active{color:#fff;border-bottom-color:#CFB53B}
+.tab-n{background:rgba(255,255,255,.1);padding:1px 7px;border-radius:10px;font-size:.7rem;margin-left:4px}
 
-/* GRID */
-.tab-panel{display:none;padding:18px}
-.tab-panel.active{display:block}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}
+/* ── GRID ── */
+.panel{display:none;padding:20px 24px}
+.panel.active{display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
 
-/* CARD */
-.card{background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s}
-.card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.13)}
-.card.reservado-card{border-left:4px solid #EF5350}
-.card.vendido-card{border-left:4px solid #AB47BC;opacity:.68;filter:grayscale(35%) brightness(.9);pointer-events:auto}
-.card.vendido-card:hover{opacity:.78;transform:none;box-shadow:0 2px 8px rgba(0,0,0,.07)}
-.card-img{position:relative;height:190px;background:#EEE;overflow:hidden}
-.card-img img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .3s}
-.card-img img:hover{transform:scale(1.04)}
-.no-foto{height:100%;display:flex;align-items:center;justify-content:center;color:#aaa;font-size:.85rem}
-.card-badges{position:absolute;top:7px;left:7px;display:flex;gap:4px;flex-wrap:wrap}
-.badge-s{background:#CFB53B;color:#fff;padding:2px 7px;border-radius:4px;font-size:.68rem;font-weight:700}
-.badge-sub{background:#546E7A;color:#fff;padding:2px 7px;border-radius:4px;font-size:.68rem;font-weight:600}
-.card-code{position:absolute;bottom:7px;right:7px;background:rgba(0,0,0,.55);color:#fff;padding:2px 8px;border-radius:4px;font-size:.72rem;font-family:monospace;font-weight:700}
-.estado-badge{position:absolute;top:7px;right:7px;padding:2px 8px;border-radius:4px;font-size:.68rem;font-weight:700}
-.estado-badge.disponible{background:#E8F5E9;color:#2E7D32}
-.estado-badge.reservado {background:#FFEBEE;color:#C62828}
-.estado-badge.vendido   {background:#F3E5F5;color:#6A1B9A}
-.card-body{padding:11px 13px}
-.card-title{font-size:.9rem;font-weight:600;color:#1A1A2E;margin-bottom:3px;line-height:1.3}
-.card-cat{font-size:.72rem;color:#888;margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}
-.precio{font-size:.82rem;color:#1F4E79;margin-bottom:4px;display:flex;align-items:center;gap:5px;font-weight:600}
-.precio-lbl{background:#1F4E79;color:#fff;padding:1px 6px;border-radius:3px;font-size:.66rem;font-weight:700;white-space:nowrap}
-.notas{font-size:.72rem;color:#999;font-style:italic;margin-top:4px}
+/* ── CARD ── */
+.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s;cursor:pointer}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.12)}
+.card.no-disp{opacity:.55;filter:grayscale(40%)}
+.card.no-disp:hover{transform:none;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.card-img{position:relative;height:200px;background:#F0EBE3;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s;cursor:zoom-in}
+.card-img img:hover{transform:scale(1.05)}
+.no-foto{height:100%;display:flex;align-items:center;justify-content:center;color:#BBB;font-size:.85rem;flex-direction:column;gap:6px}
+.no-foto svg{opacity:.3}
 
-/* MODAL */
-#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9999;align-items:center;justify-content:center}
-#modal.open{display:flex}
-#modal img{max-width:90vw;max-height:90vh;object-fit:contain;border-radius:6px;box-shadow:0 8px 40px rgba(0,0,0,.6)}
-#modal-close{position:fixed;top:16px;right:22px;color:#fff;font-size:2.2rem;cursor:pointer;z-index:10000;line-height:1}
-
-/* CARRUSEL */
-.carousel{position:relative;height:100%;overflow:hidden}
-.slides{height:100%;display:flex;transition:none}
-.slide{min-width:100%;height:100%;flex-shrink:0;display:none}
+/* carrusel */
+.carousel{position:relative;height:100%}
+.slides{height:100%}
+.slide{display:none;height:100%}
 .slide.active{display:block}
 .slide img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .3s}
-.slide img:hover{transform:scale(1.04)}
-.carr-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.45);color:#fff;border:none;width:28px;height:44px;font-size:1.3rem;cursor:pointer;z-index:10;transition:background .2s;line-height:1}
-.carr-btn:hover{background:rgba(0,0,0,.7)}
+.slide img:hover{transform:scale(1.05)}
+.carr-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.4);color:#fff;border:none;width:26px;height:42px;font-size:1.2rem;cursor:pointer;z-index:5;transition:background .2s;line-height:1}
+.carr-btn:hover{background:rgba(0,0,0,.65)}
 .carr-btn.prev{left:0;border-radius:0 4px 4px 0}
 .carr-btn.next{right:0;border-radius:4px 0 0 4px}
-.dots{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);display:flex;gap:5px;z-index:10}
-.dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:background .2s}
-.dot.active{background:#fff}
-.foto-counter{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.5);color:#fff;font-size:.68rem;padding:1px 8px;border-radius:10px;z-index:10}
+.carr-dots{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);display:flex;gap:4px;z-index:5}
+.carr-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:background .2s}
+.carr-dot.active{background:#fff}
+.foto-n{position:absolute;bottom:7px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.45);color:#fff;font-size:.65rem;padding:1px 8px;border-radius:10px;z-index:5}
 
-/* sin resultados */
-.empty{padding:40px;text-align:center;color:#aaa;font-size:.95rem}
+/* estado badge sobre imagen */
+.estado-tag{position:absolute;top:10px;right:10px;padding:3px 10px;border-radius:20px;font-size:.7rem;font-weight:700;z-index:4}
+.estado-tag.disp{background:#E8F5E9;color:#2E7D32}
+.estado-tag.no-disp{background:#ECEFF1;color:#607D8B}
 
-/* loading */
-#loading{padding:60px;text-align:center;color:#888;font-size:1rem}
+/* sothebys badge */
+.soth-tag{position:absolute;top:10px;left:10px;background:#CFB53B;color:#fff;padding:2px 8px;border-radius:4px;font-size:.65rem;font-weight:700;z-index:4}
+
+.card-body{padding:13px 14px 14px}
+.card-name{font-size:.88rem;font-weight:600;color:#1A1A2E;line-height:1.35;margin-bottom:4px;min-height:2.4em}
+.card-cat{font-size:.7rem;color:#AAA;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.price-tag{display:inline-flex;align-items:center;gap:6px}
+.price-lbl{background:#1A1A2E;color:#CFB53B;padding:2px 7px;border-radius:3px;font-size:.65rem;font-weight:700}
+.price-val{font-size:.88rem;font-weight:700;color:#1F4E79}
+.no-price{font-size:.78rem;color:#CCC;font-style:italic}
+.consultar-btn{display:block;width:100%;margin-top:10px;padding:7px;background:#F0EBE3;border:none;border-radius:6px;font-size:.78rem;font-weight:600;color:#1A1A2E;cursor:pointer;transition:background .2s;text-align:center}
+.consultar-btn:hover{background:#E0D6C8}
+.consultar-btn.wsp{background:#25D366;color:#fff}
+.consultar-btn.wsp:hover{background:#1ebe57}
+
+/* ── MODAL ── */
+#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center}
+#modal.open{display:flex}
+#modal img{max-width:92vw;max-height:92vh;object-fit:contain;border-radius:6px}
+#modal-close{position:fixed;top:14px;right:20px;color:#fff;font-size:2.4rem;cursor:pointer;z-index:10000;line-height:1;opacity:.8}
+#modal-close:hover{opacity:1}
+
+/* ── FOOTER ── */
+footer{background:#1A1A2E;color:#E8D5B7;text-align:center;padding:28px 20px;margin-top:40px}
+footer .f-crest{font-size:1.6rem;margin-bottom:6px;color:#CFB53B}
+footer h3{font-weight:300;letter-spacing:3px;font-size:1rem;margin-bottom:4px}
+footer p{font-size:.75rem;opacity:.5;letter-spacing:1px}
+
+.empty{padding:60px;text-align:center;color:#BBB;font-size:.9rem}
+#loading{padding:80px;text-align:center;color:#AAA}
+.load-spin{display:inline-block;width:32px;height:32px;border:3px solid #DDD;border-top-color:#1A1A2E;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:12px}
+@keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
 
-<header>
-  <h1>Catalogo Solaris &mdash; Pignatelli</h1>
-  <div class="kpi">
-    <div class="kpi-box"><div class="num" id="kpi-total">—</div><div class="lbl">Total</div></div>
-    <div class="kpi-box disp"><div class="num" id="kpi-disp">—</div><div class="lbl">Disponibles</div></div>
-    <div class="kpi-box res"><div class="num" id="kpi-res">—</div><div class="lbl">Reservados</div></div>
-    <div class="kpi-box vend"><div class="num" id="kpi-vend">—</div><div class="lbl">Vendidos</div></div>
-  </div>
-</header>
-
-<div class="toolbar">
-  <input type="text" id="busqueda" placeholder="Buscar por nombre, codigo..." oninput="filtrar()">
-  <div class="filtros">
-    <button class="fil-btn all active" onclick="setFiltro('all',this)">Todos</button>
-    <button class="fil-btn disp" onclick="setFiltro('Disponible',this)">Disponibles</button>
-    <button class="fil-btn res"  onclick="setFiltro('Reservado',this)">Reservados</button>
-    <button class="fil-btn vend" onclick="setFiltro('Vendido',this)">Vendidos</button>
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-crest">⚜</div>
+  <h1>Casa <span>Pignatelli</span></h1>
+  <div class="hero-sub">Colección Solaris · Costa Rica · 2026</div>
+  <div class="kpi-bar">
+    <div class="kpi-item"><div class="n" id="kpi-total">—</div><div class="l">Artículos</div></div>
+    <div class="kpi-sep"></div>
+    <div class="kpi-item"><div class="n" id="kpi-disp" style="color:#4CAF50">—</div><div class="l">Disponibles</div></div>
+    <div class="kpi-sep"></div>
+    <div class="kpi-item"><div class="n" id="kpi-vend" style="color:#CE93D8">—</div><div class="l">Vendidos</div></div>
   </div>
 </div>
 
-<div class="tabs" id="tabs-bar"></div>
-<div id="panels-container"><div id="loading">Cargando catalogo...</div></div>
+<!-- BARRA FILTROS -->
+<div class="bar">
+  <div class="bar-search">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" id="busqueda" placeholder="Buscar por nombre o código..." oninput="filtrar()">
+  </div>
+  <div class="filtros">
+    <button class="fil active" onclick="setFiltro('all',this)">Todos</button>
+    <button class="fil av" onclick="setFiltro('Disponible',this)">Disponibles</button>
+    <button class="fil" onclick="setFiltro('no-disp',this)">No disponibles</button>
+  </div>
+  <button class="wsp-btn" onclick="abrirWsp()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    Consultar
+  </button>
+</div>
 
+<!-- TABS -->
+<div class="tabs" id="tabs-bar"></div>
+
+<!-- PANELS -->
+<div id="panels-cont">
+  <div id="loading"><div class="load-spin"></div><br>Cargando colección...</div>
+</div>
+
+<!-- MODAL ZOOM -->
 <div id="modal" onclick="cerrarModal()">
-  <span id="modal-close">&times;</span>
+  <span id="modal-close" onclick="cerrarModal()">&times;</span>
   <img id="modal-img" src="" alt="">
 </div>
 
+<!-- FOOTER -->
+<footer>
+  <div class="f-crest">⚜</div>
+  <h3>Casa Pignatelli</h3>
+  <p>Condominio Solaris · Costa Rica · Inventario Familiar 2026</p>
+</footer>
+
 <script>
+const WSP_NUMBER = '50600000000'; // cambiar al número real
 const CAT_COLORS = {
-  'Arte en papel':    '#5D4037',
-  'Ceramica':         '#1565C0',
-  'Cristaleria':      '#00695C',
-  'Decorativos':      '#4A148C',
-  'Electrodomesticos':'#424242',
-  'Insumos Medicos':  '#558B2F',
-  'Joyas':            '#880E4F',
-  'Muebles':          '#2E7D32',
-  'Plateria':         '#37474F',
-  'Utensilios':       '#E65100'
+  'Arte en papel':'#5D4037','Ceramica':'#1565C0','Cristaleria':'#00695C',
+  'Decorativos':'#4A148C','Electrodomesticos':'#424242','Insumos Medicos':'#558B2F',
+  'Joyas':'#880E4F','Muebles':'#2E7D32','Plateria':'#37474F','Utensilios':'#E65100'
 };
 
 let filtroEstado = 'all';
 let carIdx = 0;
 
-function imgPath(foto) {
+function imgSrc(foto) {
   return 'images/fotos-Solaris-inventory/Todas las Fotos/' + foto;
 }
 
 function buildCarousel(fotos, cid) {
-  if (!fotos || fotos.length === 0) return '<div class="no-foto">Sin foto</div>';
+  if (!fotos || !fotos.length) return `<div class="no-foto"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg><span>Sin foto</span></div>`;
   if (fotos.length === 1) {
-    const src = imgPath(fotos[0]);
-    return `<img src="${src}" alt="" loading="lazy" onclick="ampliar('${src}')">`;
+    const s = imgSrc(fotos[0]);
+    return `<img src="${s}" alt="" loading="lazy" onclick="ampliar('${s}')">`;
   }
-  const slides = fotos.map((f, i) => {
-    const src = imgPath(f);
-    return `<div class="slide${i===0?' active':''}"><img src="${src}" alt="" loading="lazy" onclick="ampliar('${src}')"></div>`;
+  const slides = fotos.map((f,i) => {
+    const s = imgSrc(f);
+    return `<div class="slide${i===0?' active':''}"><img src="${s}" alt="" loading="lazy" onclick="ampliar('${s}')"></div>`;
   }).join('');
-  const dots = fotos.map((_, i) =>
-    `<span class="dot${i===0?' active':''}" onclick="irSlide('${cid}',${i})"></span>`
-  ).join('');
+  const dots = fotos.map((_,i) => `<div class="carr-dot${i===0?' active':''}" onclick="irSlide('${cid}',${i})"></div>`).join('');
   return `<div class="carousel" id="${cid}">
-  <div class="slides">${slides}</div>
-  <button class="carr-btn prev" onclick="moverSlide('${cid}',-1)">&#8249;</button>
-  <button class="carr-btn next" onclick="moverSlide('${cid}',1)">&#8250;</button>
-  <div class="dots">${dots}</div>
-  <div class="foto-counter">1/${fotos.length}</div>
-</div>`;
+    <div class="slides">${slides}</div>
+    <button class="carr-btn prev" onclick="moverSlide('${cid}',-1)">&#8249;</button>
+    <button class="carr-btn next" onclick="moverSlide('${cid}',1)">&#8250;</button>
+    <div class="carr-dots">${dots}</div>
+    <div class="foto-n">1/${fotos.length}</div>
+  </div>`;
 }
 
 function buildCard(item) {
   const estado = item.estado || 'Disponible';
-  const estadoClass = estado.toLowerCase();
-  const cardClass = estadoClass + '-card';
+  const disponible = estado === 'Disponible';
   const cid = 'c' + (++carIdx);
+  const precio = item.precioUSD ? `<div class="price-tag"><span class="price-lbl">Precio</span><span class="price-val">$${Number(item.precioUSD).toLocaleString('es')} USD</span></div>` : `<div class="no-price">Precio a consultar</div>`;
+  const sothBadge = item.tieneSothebys ? `<div class="soth-tag">Sotheby's</div>` : '';
+  const estadoTag = disponible
+    ? `<div class="estado-tag disp">Disponible</div>`
+    : `<div class="estado-tag no-disp">No disponible</div>`;
+  const nombre = item.nombreES || item.nombre || '—';
+  const txtSearch = (nombre + ' ' + (item.codigoItem||'')).toLowerCase();
+  const btnConsultar = disponible
+    ? `<button class="consultar-btn wsp" onclick="consultarItem('${item.codigoItem}','${nombre.replace(/'/g,"\\'")}')">WhatsApp · Consultar precio</button>`
+    : `<button class="consultar-btn" disabled style="opacity:.4;cursor:default">No disponible</button>`;
 
-  const hasSothebysBadge = item.estimacionSothebys ? '<span class="badge-s">Sotheby\'s</span>' : '';
-  const hasSubBadge = item.codigoPadre ? '<span class="badge-sub">Parte de set</span>' : '';
-
-  const precioHtml = item.precioUSD
-    ? `<div class="precio"><span class="precio-lbl">Precio</span> $${Number(item.precioUSD).toLocaleString('es-CR')} USD</div>`
-    : '';
-
-  const txtSearch = [
-    item.nombre || '',
-    item.codigoItem || '',
-    item.categoria || ''
-  ].join(' ').toLowerCase();
-
-  return `<div class="card ${cardClass}" data-estado="${estado}" data-cat="${item.categoria||''}" data-cod="${item.codigoItem||''}" data-txt="${txtSearch}">
+  return `<div class="card${disponible?'':' no-disp'}" data-estado="${estado}" data-cat="${item.categoria||''}" data-txt="${txtSearch}">
   <div class="card-img">
     ${buildCarousel(item.fotos, cid)}
-    <div class="card-badges">${hasSothebysBadge}${hasSubBadge}</div>
-    <div class="card-code">${item.codigoItem||''}</div>
-    <div class="estado-badge ${estadoClass}">${estado}</div>
+    ${sothBadge}
+    ${estadoTag}
   </div>
   <div class="card-body">
-    <div class="card-title">${item.nombre||''}</div>
+    <div class="card-name">${nombre}</div>
     <div class="card-cat">${item.categoria||''}</div>
-    ${precioHtml}
-    ${item.notas ? `<div class="notas">${item.notas}</div>` : ''}
+    ${precio}
+    ${btnConsultar}
   </div>
 </div>`;
 }
 
 async function cargarCatalogo() {
   try {
-    const resp = await fetch('/api/catalogo');
-    const data = await resp.json();
-
-    // Solo artículos vendibles (no SETs de referencia)
+    const r = await fetch('/api/catalogo');
+    const data = await r.json();
     const items = data.filter(i => i.tipoEstructural === 'ARTICULO');
 
-    // KPIs
     const total = items.length;
     const disp  = items.filter(i => (i.estado||'Disponible') === 'Disponible').length;
-    const res   = items.filter(i => (i.estado||'Disponible') === 'Reservado').length;
     const vend  = items.filter(i => (i.estado||'Disponible') === 'Vendido').length;
     document.getElementById('kpi-total').textContent = total;
     document.getElementById('kpi-disp').textContent  = disp;
-    document.getElementById('kpi-res').textContent   = res;
     document.getElementById('kpi-vend').textContent  = vend;
 
-    // Agrupar por categoría
     const cats = {};
     for (const item of items) {
       const cat = item.categoria || 'Sin categoría';
@@ -233,39 +254,34 @@ async function cargarCatalogo() {
 
     const catNames = Object.keys(cats).sort();
     const tabsBar = document.getElementById('tabs-bar');
-    const panelsCont = document.getElementById('panels-container');
+    const panelsCont = document.getElementById('panels-cont');
     panelsCont.innerHTML = '';
 
     catNames.forEach((cat, idx) => {
       const color = CAT_COLORS[cat] || '#CFB53B';
-      const count = cats[cat].length;
-
-      // Tab button
       const btn = document.createElement('button');
-      btn.className = 'tab-btn' + (idx === 0 ? ' active' : '');
-      btn.style.setProperty('--cat-color', color);
+      btn.className = 'tab' + (idx === 0 ? ' active' : '');
+      btn.style.setProperty('--cc', color);
       btn.id = 'tab-' + cat;
       btn.onclick = () => mostrarTab(cat);
-      btn.innerHTML = `${cat} <span class="tab-count">${count}</span>`;
+      btn.innerHTML = `${cat}<span class="tab-n">${cats[cat].length}</span>`;
       tabsBar.appendChild(btn);
 
-      // Panel
       const panel = document.createElement('div');
-      panel.className = 'tab-panel' + (idx === 0 ? ' active' : '');
+      panel.className = 'panel' + (idx === 0 ? ' active' : '');
       panel.id = 'panel-' + cat;
       panel.innerHTML = `<div class="grid">${cats[cat].map(buildCard).join('')}</div>`;
       panelsCont.appendChild(panel);
     });
 
   } catch(e) {
-    document.getElementById('panels-container').innerHTML = '<div class="empty">Error al cargar el catalogo. Intente recargar la pagina.</div>';
-    console.error(e);
+    document.getElementById('panels-cont').innerHTML = '<div class="empty">Error al cargar. Por favor recargue la página.</div>';
   }
 }
 
 function mostrarTab(cat) {
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
   const tb = document.getElementById('tab-' + cat);
   const pn = document.getElementById('panel-' + cat);
   if (tb) tb.classList.add('active');
@@ -273,9 +289,9 @@ function mostrarTab(cat) {
   filtrar();
 }
 
-function setFiltro(estado, btn) {
-  filtroEstado = estado;
-  document.querySelectorAll('.fil-btn').forEach(b => b.classList.remove('active'));
+function setFiltro(f, btn) {
+  filtroEstado = f;
+  document.querySelectorAll('.fil').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   filtrar();
 }
@@ -284,20 +300,22 @@ function filtrar() {
   const q = document.getElementById('busqueda').value.toLowerCase().trim();
   document.querySelectorAll('.card').forEach(card => {
     const txt    = card.dataset.txt || '';
-    const estado = card.dataset.estado || '';
+    const estado = card.dataset.estado || 'Disponible';
     const matchQ = !q || txt.includes(q);
-    const matchE = filtroEstado === 'all' || estado === filtroEstado;
+    let matchE = true;
+    if (filtroEstado === 'Disponible') matchE = estado === 'Disponible';
+    else if (filtroEstado === 'no-disp') matchE = estado !== 'Disponible';
     card.style.display = (matchQ && matchE) ? '' : 'none';
   });
 }
 
 function moverSlide(cid, dir) {
   event.stopPropagation();
-  const car    = document.getElementById(cid);
+  const car = document.getElementById(cid);
   if (!car) return;
   const slides = car.querySelectorAll('.slide');
-  const dots   = car.querySelectorAll('.dot');
-  const counter= car.querySelector('.foto-counter');
+  const dots   = car.querySelectorAll('.carr-dot');
+  const counter= car.querySelector('.foto-n');
   let idx = [...slides].findIndex(s => s.classList.contains('active'));
   slides[idx].classList.remove('active');
   if (dots[idx]) dots[idx].classList.remove('active');
@@ -309,11 +327,11 @@ function moverSlide(cid, dir) {
 
 function irSlide(cid, idx) {
   event.stopPropagation();
-  const car    = document.getElementById(cid);
+  const car = document.getElementById(cid);
   if (!car) return;
   const slides = car.querySelectorAll('.slide');
-  const dots   = car.querySelectorAll('.dot');
-  const counter= car.querySelector('.foto-counter');
+  const dots   = car.querySelectorAll('.carr-dot');
+  const counter= car.querySelector('.foto-n');
   slides.forEach(s => s.classList.remove('active'));
   dots.forEach(d => d.classList.remove('active'));
   if (slides[idx]) slides[idx].classList.add('active');
@@ -322,17 +340,26 @@ function irSlide(cid, idx) {
 }
 
 function ampliar(src) {
+  event.stopPropagation();
   document.getElementById('modal-img').src = src;
   document.getElementById('modal').classList.add('open');
-  event.stopPropagation();
 }
 
 function cerrarModal() {
   document.getElementById('modal').classList.remove('open');
 }
 
-document.addEventListener('keydown', e => { if(e.key==='Escape') cerrarModal(); });
+function consultarItem(codigo, nombre) {
+  const msg = encodeURIComponent(`Hola, me interesa el artículo *${nombre}* (código: ${codigo}) del Catálogo Solaris — Casa Pignatelli. ¿Podría darme más información?`);
+  window.open(`https://wa.me/${WSP_NUMBER}?text=${msg}`, '_blank');
+}
 
+function abrirWsp() {
+  const msg = encodeURIComponent('Hola, me interesa conocer más sobre la Colección Solaris — Casa Pignatelli.');
+  window.open(`https://wa.me/${WSP_NUMBER}?text=${msg}`, '_blank');
+}
+
+document.addEventListener('keydown', e => { if(e.key==='Escape') cerrarModal(); });
 cargarCatalogo();
 </script>
 </body>
