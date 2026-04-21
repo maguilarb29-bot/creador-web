@@ -358,6 +358,13 @@ nav::-webkit-scrollbar{display:none}
   #ov-tiquete{display:block!important;position:fixed;inset:0;background:#fff;color:#000;overflow:visible;z-index:1}
   #ov-tiquete .ov-inner{box-shadow:none!important;max-width:100%!important;margin:0!important;border-radius:0!important}
   .tkt-nprint{display:none!important}
+  .factura{padding:.8rem!important;font-size:.82rem}
+  .fac-print-hdr{padding-bottom:.5rem!important;margin-bottom:.8rem!important}
+  .fac-parties{margin-bottom:.8rem!important;gap:.8rem!important}
+  .fac-items-table td{padding:.3rem .5rem!important;font-size:.78rem!important}
+  .fac-items-table th{padding:.3rem .5rem!important}
+  .fac-totals-box{padding:.5rem .7rem!important;margin-bottom:.8rem!important}
+  .fac-print-footer{padding-top:.4rem!important;font-size:.65rem!important}
 }
 .ticket-body{padding:1.5rem}
 .tkt-hdr{text-align:center;border-bottom:2px solid #c9a227;padding-bottom:1rem;margin-bottom:1.25rem}
@@ -2221,7 +2228,7 @@ function generarFactura(txId) {
       <div class="fac-num">
         <div class="fn">${numFac}</div>
         <div class="fd">${fecha}</div>
-        <div class="fd" style="margin-top:.4rem;color:#c9a227;font-weight:bold">${tx.tipo.toUpperCase()}</div>
+        <div class="fd" style="margin-top:.4rem;color:#c9a227;font-weight:bold">FACTURA</div>
       </div>
     </div>
     <div class="fac-parties">
