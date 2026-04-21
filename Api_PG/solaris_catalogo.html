@@ -5,58 +5,62 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Casa Pignatelli — Colección Solaris</title>
 <style>
+:root{
+  --bg:#0F1117;--panel:#1A1D27;--card:#1E2130;
+  --gold:#CFB53B;--gold2:#E8D5B7;
+  --text:#E8E8E8;--mu:#8892A4;
+  --green:#4ADE80;--red:#F87171;--blue:#60A5FA;
+  --brd:rgba(255,255,255,.08);
+}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Segoe UI',sans-serif;background:#F8F5F0;color:#2C2C2C}
+body{font-family:'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 
-/* ── HERO ── */
-.hero{background:#1A1A2E;color:#E8D5B7;padding:36px 32px 28px;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23CFB53B' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
-.hero-crest{font-size:2.4rem;margin-bottom:8px;position:relative}
-.hero h1{font-size:2rem;font-weight:300;letter-spacing:4px;text-transform:uppercase;position:relative}
-.hero h1 span{color:#CFB53B}
-.hero-sub{font-size:.85rem;opacity:.6;letter-spacing:2px;text-transform:uppercase;margin-top:6px;position:relative}
-.kpi-bar{display:flex;justify-content:center;gap:24px;margin-top:20px;flex-wrap:wrap;position:relative}
-.kpi-item{text-align:center}
-.kpi-item .n{font-size:1.6rem;font-weight:700;color:#CFB53B;line-height:1}
-.kpi-item .l{font-size:.65rem;opacity:.6;text-transform:uppercase;letter-spacing:1px;margin-top:2px}
-.kpi-sep{width:1px;background:rgba(232,213,183,.15);align-self:stretch}
+/* HEADER */
+.hdr{background:var(--panel);border-bottom:1px solid var(--brd);padding:14px 24px;display:flex;align-items:center;gap:16px;position:sticky;top:0;z-index:200}
+.hdr-logo{display:flex;align-items:center;gap:10px}
+.hdr-crest{font-size:1.6rem;color:var(--gold)}
+.hdr-title{font-size:1rem;font-weight:300;letter-spacing:2px;color:var(--gold2)}
+.hdr-sub{font-size:.65rem;color:var(--mu);letter-spacing:1px;text-transform:uppercase}
+.hdr-kpis{display:flex;gap:16px;margin-left:auto;margin-right:8px}
+.hdr-kpi{text-align:center}
+.hdr-kpi .n{font-size:1.1rem;font-weight:700;color:var(--gold);line-height:1}
+.hdr-kpi .l{font-size:.6rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px}
+.cart-btn{background:var(--gold);color:#1A1A2E;border:none;padding:8px 16px;border-radius:8px;font-weight:700;font-size:.85rem;cursor:pointer;display:flex;align-items:center;gap:6px;transition:background .2s;white-space:nowrap}
+.cart-btn:hover{background:#D4A500}
+.cart-count{background:#1A1A2E;color:var(--gold);border-radius:50%;width:20px;height:20px;display:inline-flex;align-items:center;justify-content:center;font-size:.75rem;font-weight:900}
 
-/* ── BARRA FILTROS ── */
-.bar{background:#fff;border-bottom:1px solid #E0D9D0;padding:12px 24px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.bar-search{flex:1;min-width:200px;max-width:360px;position:relative}
-.bar-search input{width:100%;padding:8px 16px 8px 38px;border:1.5px solid #DDD;border-radius:24px;font-size:.88rem;outline:none;color:#333;background:#FAFAFA;transition:border .2s}
-.bar-search input:focus{border-color:#1A1A2E;background:#fff}
-.bar-search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.4;pointer-events:none}
-.filtros{display:flex;gap:6px;flex-wrap:wrap}
-.fil{border:1.5px solid #DDD;background:#fff;padding:5px 16px;border-radius:20px;cursor:pointer;font-size:.8rem;font-weight:600;color:#666;transition:all .2s}
-.fil:hover{border-color:#1A1A2E;color:#1A1A2E}
-.fil.active{background:#1A1A2E;color:#E8D5B7;border-color:#1A1A2E}
-.fil.av.active{background:#2E7D32;border-color:#2E7D32;color:#fff}
-.wsp-btn{margin-left:auto;background:#25D366;color:#fff;border:none;padding:8px 18px;border-radius:20px;font-size:.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:background .2s}
-.wsp-btn:hover{background:#1ebe57}
+/* TOOLBAR */
+.toolbar{background:var(--panel);border-bottom:1px solid var(--brd);padding:10px 20px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.search-wrap{position:relative;flex:1;min-width:180px;max-width:340px}
+.search-wrap svg{position:absolute;left:10px;top:50%;transform:translateY(-50%);opacity:.35;pointer-events:none}
+.search-wrap input{width:100%;padding:7px 14px 7px 34px;background:rgba(255,255,255,.06);border:1px solid var(--brd);border-radius:20px;color:var(--text);font-size:.85rem;outline:none;transition:border .2s}
+.search-wrap input::placeholder{color:var(--mu)}
+.search-wrap input:focus{border-color:var(--gold)}
+.fil-btn{background:rgba(255,255,255,.06);border:1px solid var(--brd);color:var(--mu);padding:5px 14px;border-radius:16px;cursor:pointer;font-size:.78rem;font-weight:600;transition:all .2s}
+.fil-btn:hover{color:var(--text);border-color:rgba(255,255,255,.2)}
+.fil-btn.active{background:var(--gold);color:#1A1A2E;border-color:var(--gold)}
 
-/* ── TABS CATEGORÍAS ── */
-.tabs{background:#2C3E50;display:flex;flex-wrap:wrap;gap:0;overflow-x:auto;padding:0 16px}
-.tab{background:none;border:none;color:#90A4AE;padding:11px 16px;cursor:pointer;font-size:.82rem;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
-.tab:hover{color:#ECEFF1;background:rgba(255,255,255,.05)}
-.tab.active{color:#fff;border-bottom-color:#CFB53B}
-.tab-n{background:rgba(255,255,255,.1);padding:1px 7px;border-radius:10px;font-size:.7rem;margin-left:4px}
+/* TABS */
+.tabs{background:#151821;border-bottom:1px solid var(--brd);display:flex;flex-wrap:wrap;padding:0 16px;overflow-x:auto}
+.tab-btn{background:none;border:none;color:var(--mu);padding:10px 14px;cursor:pointer;font-size:.8rem;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
+.tab-btn:hover{color:var(--text)}
+.tab-btn.active{color:var(--gold);border-bottom-color:var(--gold)}
+.tab-n{background:rgba(255,255,255,.08);padding:1px 6px;border-radius:8px;font-size:.68rem;margin-left:3px}
 
-/* ── GRID ── */
-.panel{display:none;padding:20px 24px}
+/* GRID */
+.panel{display:none;padding:20px}
 .panel.active{display:block}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
 
-/* ── CARD ── */
-.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s;cursor:pointer}
-.card:hover{transform:translateY(-4px);box-shadow:0 12px 32px rgba(0,0,0,.12)}
-.card.no-disp{opacity:.55;filter:grayscale(40%)}
-.card.no-disp:hover{transform:none;box-shadow:0 2px 10px rgba(0,0,0,.07)}
-.card-img{position:relative;height:200px;background:#F0EBE3;overflow:hidden}
-.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .3s;cursor:zoom-in}
+/* CARD */
+.card{background:var(--card);border:1px solid var(--brd);border-radius:10px;overflow:hidden;transition:transform .2s,box-shadow .2s,border-color .2s;cursor:default}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.4);border-color:rgba(207,181,59,.2)}
+.card.no-disp{opacity:.45;filter:grayscale(50%)}
+.card.no-disp:hover{transform:none;box-shadow:none}
+.card-img{position:relative;height:190px;background:#0D0F17;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .3s}
 .card-img img:hover{transform:scale(1.05)}
-.no-foto{height:100%;display:flex;align-items:center;justify-content:center;color:#BBB;font-size:.85rem;flex-direction:column;gap:6px}
-.no-foto svg{opacity:.3}
+.no-foto{height:100%;display:flex;align-items:center;justify-content:center;color:var(--mu);font-size:.8rem;flex-direction:column;gap:6px;opacity:.5}
 
 /* carrusel */
 .carousel{position:relative;height:100%}
@@ -65,85 +69,158 @@ body{font-family:'Segoe UI',sans-serif;background:#F8F5F0;color:#2C2C2C}
 .slide.active{display:block}
 .slide img{width:100%;height:100%;object-fit:cover;cursor:zoom-in;transition:transform .3s}
 .slide img:hover{transform:scale(1.05)}
-.carr-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.4);color:#fff;border:none;width:26px;height:42px;font-size:1.2rem;cursor:pointer;z-index:5;transition:background .2s;line-height:1}
-.carr-btn:hover{background:rgba(0,0,0,.65)}
-.carr-btn.prev{left:0;border-radius:0 4px 4px 0}
-.carr-btn.next{right:0;border-radius:4px 0 0 4px}
-.carr-dots{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);display:flex;gap:4px;z-index:5}
-.carr-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer;transition:background .2s}
-.carr-dot.active{background:#fff}
-.foto-n{position:absolute;bottom:7px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.45);color:#fff;font-size:.65rem;padding:1px 8px;border-radius:10px;z-index:5}
+.car-btn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.55);color:#fff;border:none;width:24px;height:40px;font-size:1.1rem;cursor:pointer;z-index:5;line-height:1}
+.car-btn.prev{left:0;border-radius:0 3px 3px 0}
+.car-btn.next{right:0;border-radius:3px 0 0 3px}
+.car-dots{position:absolute;bottom:22px;left:50%;transform:translateX(-50%);display:flex;gap:4px;z-index:5}
+.car-dot{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.4);cursor:pointer;transition:background .2s}
+.car-dot.active{background:#fff}
+.car-counter{position:absolute;bottom:6px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.5);color:#fff;font-size:.62rem;padding:1px 7px;border-radius:8px;z-index:5}
 
-/* estado badge sobre imagen */
-.estado-tag{position:absolute;top:10px;right:10px;padding:3px 10px;border-radius:20px;font-size:.7rem;font-weight:700;z-index:4}
-.estado-tag.disp{background:#E8F5E9;color:#2E7D32}
-.estado-tag.no-disp{background:#ECEFF1;color:#607D8B}
+/* badges */
+.badge-wrap{position:absolute;top:8px;left:8px;display:flex;gap:4px;flex-wrap:wrap;z-index:4}
+.badge-soth{background:var(--gold);color:#1A1A2E;padding:2px 7px;border-radius:3px;font-size:.62rem;font-weight:700}
+.estado-badge{position:absolute;top:8px;right:8px;padding:2px 8px;border-radius:12px;font-size:.66rem;font-weight:700;z-index:4}
+.estado-badge.disp{background:rgba(74,222,128,.15);color:#4ADE80;border:1px solid rgba(74,222,128,.3)}
+.estado-badge.no-d{background:rgba(255,255,255,.07);color:var(--mu);border:1px solid var(--brd)}
 
-/* sothebys badge */
-.soth-tag{position:absolute;top:10px;left:10px;background:#CFB53B;color:#fff;padding:2px 8px;border-radius:4px;font-size:.65rem;font-weight:700;z-index:4}
+/* card body */
+.card-body{padding:12px 13px 13px}
+.card-name{font-size:.85rem;font-weight:600;color:var(--text);line-height:1.3;margin-bottom:3px;min-height:2.2em}
+.card-cat{font-size:.68rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.price-row{display:flex;align-items:center;gap:6px;margin-bottom:4px}
+.price-lbl{background:rgba(207,181,59,.15);color:var(--gold);padding:1px 6px;border-radius:3px;font-size:.62rem;font-weight:700;border:1px solid rgba(207,181,59,.3)}
+.price-val{font-size:.88rem;font-weight:700;color:var(--gold2)}
+.no-price{font-size:.75rem;color:var(--mu);font-style:italic;margin-bottom:4px}
+.soth-row{font-size:.72rem;color:#A67C00;margin-bottom:6px}
+.soth-row b{color:#CFB53B}
+.add-btn{width:100%;padding:7px;background:rgba(207,181,59,.12);border:1px solid rgba(207,181,59,.3);color:var(--gold);border-radius:6px;font-size:.78rem;font-weight:700;cursor:pointer;transition:all .2s;margin-top:4px}
+.add-btn:hover{background:var(--gold);color:#1A1A2E}
+.add-btn:disabled{opacity:.3;cursor:default;background:rgba(255,255,255,.05);border-color:var(--brd);color:var(--mu)}
+.add-btn.en-carrito{background:rgba(74,222,128,.12);border-color:rgba(74,222,128,.3);color:#4ADE80}
+.add-btn.en-carrito:hover{background:var(--red);border-color:var(--red);color:#fff}
 
-.card-body{padding:13px 14px 14px}
-.card-name{font-size:.88rem;font-weight:600;color:#1A1A2E;line-height:1.35;margin-bottom:4px;min-height:2.4em}
-.card-cat{font-size:.7rem;color:#AAA;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
-.price-tag{display:inline-flex;align-items:center;gap:6px}
-.price-lbl{background:#1A1A2E;color:#CFB53B;padding:2px 7px;border-radius:3px;font-size:.65rem;font-weight:700}
-.price-val{font-size:.88rem;font-weight:700;color:#1F4E79}
-.no-price{font-size:.78rem;color:#CCC;font-style:italic}
-.consultar-btn{display:block;width:100%;margin-top:10px;padding:7px;background:#F0EBE3;border:none;border-radius:6px;font-size:.78rem;font-weight:600;color:#1A1A2E;cursor:pointer;transition:background .2s;text-align:center}
-.consultar-btn:hover{background:#E0D6C8}
-.consultar-btn.wsp{background:#25D366;color:#fff}
-.consultar-btn.wsp:hover{background:#1ebe57}
+/* CARRITO DRAWER */
+.cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:500;display:none}
+.cart-overlay.open{display:block}
+.cart-drawer{position:fixed;right:0;top:0;bottom:0;width:360px;max-width:95vw;background:var(--panel);border-left:1px solid var(--brd);z-index:501;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .3s}
+.cart-drawer.open{transform:translateX(0)}
+.cart-hdr{padding:16px 18px;border-bottom:1px solid var(--brd);display:flex;align-items:center;justify-content:space-between}
+.cart-hdr h3{color:var(--gold);font-size:.95rem;font-weight:600}
+.cart-close{background:none;border:none;color:var(--mu);font-size:1.5rem;cursor:pointer;line-height:1}
+.cart-close:hover{color:var(--text)}
+.cart-items{flex:1;overflow-y:auto;padding:12px}
+.cart-empty{padding:40px;text-align:center;color:var(--mu);font-size:.85rem}
+.cart-item{display:flex;gap:10px;padding:10px;background:var(--card);border-radius:8px;margin-bottom:8px;border:1px solid var(--brd)}
+.cart-item img{width:52px;height:52px;object-fit:cover;border-radius:5px;flex-shrink:0}
+.cart-item-info{flex:1;min-width:0}
+.cart-item-name{font-size:.8rem;font-weight:600;color:var(--text);line-height:1.2;margin-bottom:2px}
+.cart-item-price{font-size:.78rem;color:var(--gold);font-weight:700}
+.cart-item-remove{background:none;border:none;color:var(--mu);cursor:pointer;font-size:1.1rem;padding:0 4px;align-self:flex-start;transition:color .2s}
+.cart-item-remove:hover{color:var(--red)}
+.cart-footer{padding:14px 18px;border-top:1px solid var(--brd)}
+.cart-total{display:flex;justify-content:space-between;margin-bottom:12px;font-size:.9rem}
+.cart-total span:last-child{font-weight:700;color:var(--gold);font-size:1rem}
+.checkout-btn{width:100%;padding:11px;background:var(--gold);color:#1A1A2E;border:none;border-radius:8px;font-weight:700;font-size:.9rem;cursor:pointer;transition:background .2s}
+.checkout-btn:hover{background:#D4A500}
+.checkout-btn:disabled{opacity:.4;cursor:default}
 
-/* ── MODAL ── */
-#modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9999;align-items:center;justify-content:center}
-#modal.open{display:flex}
-#modal img{max-width:92vw;max-height:92vh;object-fit:contain;border-radius:6px}
-#modal-close{position:fixed;top:14px;right:20px;color:#fff;font-size:2.4rem;cursor:pointer;z-index:10000;line-height:1;opacity:.8}
-#modal-close:hover{opacity:1}
+/* MODAL CHECKOUT */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:600;display:none;align-items:center;justify-content:center;padding:16px}
+.modal-bg.open{display:flex}
+.modal{background:var(--panel);border:1px solid var(--brd);border-radius:12px;width:100%;max-width:480px;max-height:90vh;overflow-y:auto}
+.modal-hdr{padding:18px 20px 14px;border-bottom:1px solid var(--brd);display:flex;justify-content:space-between;align-items:center}
+.modal-hdr h3{color:var(--gold);font-size:1rem}
+.modal-close{background:none;border:none;color:var(--mu);font-size:1.4rem;cursor:pointer}
+.modal-body{padding:18px 20px}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:.75rem;color:var(--mu);margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+.field input{width:100%;padding:9px 12px;background:rgba(255,255,255,.06);border:1px solid var(--brd);border-radius:6px;color:var(--text);font-size:.88rem;outline:none;transition:border .2s}
+.field input:focus{border-color:var(--gold)}
+.field input::placeholder{color:var(--mu)}
+.order-items-preview{background:var(--card);border-radius:8px;padding:12px;margin-bottom:14px;border:1px solid var(--brd)}
+.order-items-preview h4{font-size:.75rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.order-row{display:flex;justify-content:space-between;font-size:.8rem;padding:3px 0;border-bottom:1px solid var(--brd)}
+.order-row:last-child{border:none;font-weight:700;color:var(--gold);padding-top:6px}
+.confirm-btn{width:100%;padding:12px;background:var(--gold);color:#1A1A2E;border:none;border-radius:8px;font-weight:700;font-size:.92rem;cursor:pointer;transition:background .2s}
+.confirm-btn:hover{background:#D4A500}
 
-/* ── FOOTER ── */
-footer{background:#1A1A2E;color:#E8D5B7;text-align:center;padding:28px 20px;margin-top:40px}
-footer .f-crest{font-size:1.6rem;margin-bottom:6px;color:#CFB53B}
-footer h3{font-weight:300;letter-spacing:3px;font-size:1rem;margin-bottom:4px}
-footer p{font-size:.75rem;opacity:.5;letter-spacing:1px}
+/* MODAL ORDEN CONFIRMADA */
+.orden-modal{max-width:520px}
+.orden-header{text-align:center;padding:20px;border-bottom:1px solid var(--brd)}
+.orden-crest{font-size:2rem;color:var(--gold);margin-bottom:6px}
+.orden-num{font-size:1.4rem;font-weight:700;color:var(--gold);margin-bottom:4px}
+.orden-status{font-size:.75rem;color:var(--mu);letter-spacing:1px;text-transform:uppercase}
+.orden-alert{background:rgba(248,113,113,.1);border:1px solid rgba(248,113,113,.3);border-radius:6px;padding:10px 14px;margin:14px 0;font-size:.78rem;color:#FCA5A5;line-height:1.5}
+.orden-body{padding:16px 20px}
+.orden-section{margin-bottom:14px}
+.orden-section h4{font-size:.7rem;color:var(--mu);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.orden-client{font-size:.85rem;color:var(--text)}
+.orden-items{background:var(--card);border-radius:8px;border:1px solid var(--brd);overflow:hidden}
+.orden-item-row{display:flex;justify-content:space-between;padding:8px 12px;border-bottom:1px solid var(--brd);font-size:.8rem}
+.orden-item-row:last-child{border:none;font-weight:700;color:var(--gold);background:rgba(207,181,59,.05)}
+.orden-actions{display:flex;gap:8px;padding:14px 20px;border-top:1px solid var(--brd)}
+.btn-print{flex:1;padding:10px;background:rgba(255,255,255,.07);border:1px solid var(--brd);color:var(--text);border-radius:7px;font-size:.82rem;font-weight:600;cursor:pointer;transition:background .2s}
+.btn-print:hover{background:rgba(255,255,255,.12)}
+.btn-wsp{flex:1;padding:10px;background:#25D366;border:none;color:#fff;border-radius:7px;font-size:.82rem;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;transition:background .2s}
+.btn-wsp:hover{background:#1ebe57}
+.btn-cerrar{flex:1;padding:10px;background:var(--gold);border:none;color:#1A1A2E;border-radius:7px;font-size:.82rem;font-weight:700;cursor:pointer}
 
-.empty{padding:60px;text-align:center;color:#BBB;font-size:.9rem}
-#loading{padding:80px;text-align:center;color:#AAA}
-.load-spin{display:inline-block;width:32px;height:32px;border:3px solid #DDD;border-top-color:#1A1A2E;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:12px}
-@keyframes spin{to{transform:rotate(360deg)}}
+/* MODAL ZOOM */
+#zoom-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.93);z-index:9999;align-items:center;justify-content:center}
+#zoom-modal.open{display:flex}
+#zoom-modal img{max-width:92vw;max-height:92vh;object-fit:contain;border-radius:6px}
+#zoom-close{position:fixed;top:14px;right:20px;color:#fff;font-size:2.2rem;cursor:pointer;z-index:10000;opacity:.8}
+#zoom-close:hover{opacity:1}
+
+/* FOOTER */
+footer{background:var(--panel);border-top:1px solid var(--brd);text-align:center;padding:24px;margin-top:24px}
+footer .fc{font-size:1.4rem;color:var(--gold);margin-bottom:4px}
+footer h4{font-weight:300;letter-spacing:3px;font-size:.9rem;color:var(--gold2)}
+footer p{font-size:.7rem;color:var(--mu);margin-top:3px;letter-spacing:.5px}
+
+.empty-msg{padding:60px;text-align:center;color:var(--mu);font-size:.9rem}
+#loading{padding:80px;text-align:center;color:var(--mu)}
+.spin{display:inline-block;width:28px;height:28px;border:2px solid var(--brd);border-top-color:var(--gold);border-radius:50%;animation:sp .7s linear infinite;margin-bottom:10px}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+@media print{
+  .hdr,.toolbar,.tabs,.cart-overlay,.cart-drawer,.modal-bg,footer,#zoom-modal{display:none!important}
+  body{background:#fff;color:#000}
+  .orden-modal{border:none;max-width:100%;box-shadow:none}
+  .orden-actions{display:none!important}
+}
 </style>
 </head>
 <body>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-crest">⚜</div>
-  <h1>Casa <span>Pignatelli</span></h1>
-  <div class="hero-sub">Colección Solaris · Costa Rica · 2026</div>
-  <div class="kpi-bar">
-    <div class="kpi-item"><div class="n" id="kpi-total">—</div><div class="l">Artículos</div></div>
-    <div class="kpi-sep"></div>
-    <div class="kpi-item"><div class="n" id="kpi-disp" style="color:#4CAF50">—</div><div class="l">Disponibles</div></div>
-    <div class="kpi-sep"></div>
-    <div class="kpi-item"><div class="n" id="kpi-vend" style="color:#CE93D8">—</div><div class="l">Vendidos</div></div>
+<!-- HEADER -->
+<div class="hdr">
+  <div class="hdr-logo">
+    <div class="hdr-crest">⚜</div>
+    <div>
+      <div class="hdr-title">CASA PIGNATELLI</div>
+      <div class="hdr-sub">Colección Solaris · Costa Rica</div>
+    </div>
   </div>
+  <div class="hdr-kpis">
+    <div class="hdr-kpi"><div class="n" id="kpi-total">—</div><div class="l">Total</div></div>
+    <div class="hdr-kpi"><div class="n" id="kpi-disp" style="color:var(--green)">—</div><div class="l">Disponibles</div></div>
+  </div>
+  <button class="cart-btn" onclick="toggleCart()">
+    🛒 Carrito <span class="cart-count" id="cart-count">0</span>
+  </button>
 </div>
 
-<!-- BARRA FILTROS -->
-<div class="bar">
-  <div class="bar-search">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#333" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+<!-- TOOLBAR -->
+<div class="toolbar">
+  <div class="search-wrap">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input type="text" id="busqueda" placeholder="Buscar por nombre o código..." oninput="filtrar()">
   </div>
-  <div class="filtros">
-    <button class="fil active" onclick="setFiltro('all',this)">Todos</button>
-    <button class="fil av" onclick="setFiltro('Disponible',this)">Disponibles</button>
-    <button class="fil" onclick="setFiltro('no-disp',this)">No disponibles</button>
-  </div>
-  <button class="wsp-btn" onclick="abrirWsp()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-    Consultar
-  </button>
+  <button class="fil-btn active" onclick="setFiltro('all',this)">Todos</button>
+  <button class="fil-btn" onclick="setFiltro('Disponible',this)">Disponibles</button>
+  <button class="fil-btn" onclick="setFiltro('no-disp',this)">No disponibles</button>
 </div>
 
 <!-- TABS -->
@@ -151,24 +228,102 @@ footer p{font-size:.75rem;opacity:.5;letter-spacing:1px}
 
 <!-- PANELS -->
 <div id="panels-cont">
-  <div id="loading"><div class="load-spin"></div><br>Cargando colección...</div>
+  <div id="loading"><div class="spin"></div><br>Cargando colección...</div>
 </div>
 
-<!-- MODAL ZOOM -->
-<div id="modal" onclick="cerrarModal()">
-  <span id="modal-close" onclick="cerrarModal()">&times;</span>
-  <img id="modal-img" src="" alt="">
+<!-- CARRITO DRAWER -->
+<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+<div class="cart-drawer" id="cart-drawer">
+  <div class="cart-hdr">
+    <h3>🛒 Mi selección</h3>
+    <button class="cart-close" onclick="toggleCart()">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items-list">
+    <div class="cart-empty">Tu carrito está vacío.<br>Agrega artículos del catálogo.</div>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total estimado</span><span id="cart-total-val">$0 USD</span></div>
+    <button class="checkout-btn" id="checkout-btn" onclick="abrirCheckout()" disabled>Solicitar reserva</button>
+  </div>
+</div>
+
+<!-- MODAL CHECKOUT -->
+<div class="modal-bg" id="checkout-modal">
+  <div class="modal">
+    <div class="modal-hdr">
+      <h3>⚜ Solicitud de Reserva</h3>
+      <button class="modal-close" onclick="cerrarCheckout()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="order-items-preview" id="checkout-preview"></div>
+      <div class="field">
+        <label>Nombre completo *</label>
+        <input type="text" id="cli-nombre" placeholder="Su nombre completo">
+      </div>
+      <div class="field">
+        <label>Teléfono / WhatsApp *</label>
+        <input type="tel" id="cli-tel" placeholder="+506 0000-0000">
+      </div>
+      <div class="field">
+        <label>Correo electrónico (opcional)</label>
+        <input type="email" id="cli-email" placeholder="correo@ejemplo.com">
+      </div>
+      <button class="confirm-btn" onclick="confirmarOrden()">✦ Confirmar solicitud</button>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL ORDEN CONFIRMADA -->
+<div class="modal-bg" id="orden-modal">
+  <div class="modal orden-modal" id="orden-print-area">
+    <div class="orden-header">
+      <div class="orden-crest">⚜</div>
+      <div style="font-size:.75rem;color:var(--mu);letter-spacing:1px;text-transform:uppercase;margin-bottom:4px">Casa Pignatelli · Colección Solaris</div>
+      <div class="orden-num" id="ord-numero">ORD-0000</div>
+      <div class="orden-status">Solicitud de reserva — Pendiente de confirmación</div>
+    </div>
+    <div class="orden-body">
+      <div class="orden-alert">
+        ⚠ Esta solicitud aún no es una reserva confirmada. Un representante de Casa Pignatelli se pondrá en contacto con usted para confirmar la disponibilidad y coordinar el pago.
+      </div>
+      <div class="orden-section">
+        <h4>Cliente</h4>
+        <div class="orden-client" id="ord-cliente"></div>
+      </div>
+      <div class="orden-section">
+        <h4>Artículos solicitados</h4>
+        <div class="orden-items" id="ord-items"></div>
+      </div>
+      <div class="orden-section" style="font-size:.72rem;color:var(--mu)">
+        Fecha: <span id="ord-fecha"></span>
+      </div>
+    </div>
+    <div class="orden-actions">
+      <button class="btn-print" onclick="imprimirOrden()">🖨 Guardar PDF</button>
+      <button class="btn-wsp" id="btn-wsp-orden">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Confirmar por WhatsApp
+      </button>
+      <button class="btn-cerrar" onclick="cerrarOrden()">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ZOOM -->
+<div id="zoom-modal" onclick="cerrarZoom()">
+  <span id="zoom-close">&times;</span>
+  <img id="zoom-img" src="" alt="">
 </div>
 
 <!-- FOOTER -->
 <footer>
-  <div class="f-crest">⚜</div>
-  <h3>Casa Pignatelli</h3>
+  <div class="fc">⚜</div>
+  <h4>CASA PIGNATELLI</h4>
   <p>Condominio Solaris · Costa Rica · Inventario Familiar 2026</p>
 </footer>
 
 <script>
-const WSP_NUMBER = '50688935635';
+const WSP = '50688935635';
 const CAT_COLORS = {
   'Arte en papel':'#5D4037','Ceramica':'#1565C0','Cristaleria':'#00695C',
   'Decorativos':'#4A148C','Electrodomesticos':'#424242','Insumos Medicos':'#558B2F',
@@ -177,82 +332,85 @@ const CAT_COLORS = {
 
 let filtroEstado = 'all';
 let carIdx = 0;
+let CART = [];  // [{codigoItem, nombre, precioUSD, foto}]
 
-function imgSrc(foto) {
-  return 'images/fotos-Solaris-inventory/Todas las Fotos/' + foto;
-}
+// ── utils ──
+function imgSrc(f){ return 'images/fotos-Solaris-inventory/Todas las Fotos/' + f; }
+function fmt(n){ return n ? '$' + Number(n).toLocaleString('es') + ' USD' : '—'; }
+function parseSothMin(s){ const m = (s||'').match(/\$([\d,]+)/); return m ? m[1] : null; }
+function qs(id){ return document.getElementById(id); }
 
+// ── carrusel ──
 function buildCarousel(fotos, cid) {
-  if (!fotos || !fotos.length) return `<div class="no-foto"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="m21 15-5-5L5 21"/></svg><span>Sin foto</span></div>`;
+  if (!fotos || !fotos.length) return `<div class="no-foto">📷<br>Sin foto</div>`;
   if (fotos.length === 1) {
     const s = imgSrc(fotos[0]);
-    return `<img src="${s}" alt="" loading="lazy" onclick="ampliar('${s}')">`;
+    return `<img src="${s}" alt="" loading="lazy" onclick="zoom('${s}')">`;
   }
   const slides = fotos.map((f,i) => {
     const s = imgSrc(f);
-    return `<div class="slide${i===0?' active':''}"><img src="${s}" alt="" loading="lazy" onclick="ampliar('${s}')"></div>`;
+    return `<div class="slide${i===0?' active':''}"><img src="${s}" alt="" loading="lazy" onclick="zoom('${s}')"></div>`;
   }).join('');
-  const dots = fotos.map((_,i) => `<div class="carr-dot${i===0?' active':''}" onclick="irSlide('${cid}',${i})"></div>`).join('');
+  const dots = fotos.map((_,i) => `<div class="car-dot${i===0?' active':''}" onclick="irSlide('${cid}',${i})"></div>`).join('');
   return `<div class="carousel" id="${cid}">
     <div class="slides">${slides}</div>
-    <button class="carr-btn prev" onclick="moverSlide('${cid}',-1)">&#8249;</button>
-    <button class="carr-btn next" onclick="moverSlide('${cid}',1)">&#8250;</button>
-    <div class="carr-dots">${dots}</div>
-    <div class="foto-n">1/${fotos.length}</div>
+    <button class="car-btn prev" onclick="moverSlide('${cid}',-1)">&#8249;</button>
+    <button class="car-btn next" onclick="moverSlide('${cid}',1)">&#8250;</button>
+    <div class="car-dots">${dots}</div>
+    <div class="car-counter">1/${fotos.length}</div>
   </div>`;
 }
 
-function parseSothMin(str) {
-  if (!str) return null;
-  const m = str.match(/\$([\d,]+)/);
-  return m ? m[1] : null;
-}
-
+// ── card ──
 function buildCard(item) {
   const estado = item.estado || 'Disponible';
-  const disponible = estado === 'Disponible';
+  const disp = estado === 'Disponible';
   const cid = 'c' + (++carIdx);
-  const precio = item.precioUSD ? `<div class="price-tag"><span class="price-lbl">Precio</span><span class="price-val">$${Number(item.precioUSD).toLocaleString('es')} USD</span></div>` : `<div class="no-price">Precio a consultar</div>`;
-  const sothMin = parseSothMin(item.estimacionSothebys);
-  const sothBadge = sothMin ? `<div class="soth-tag">Sotheby's</div>` : '';
-  const sothLine = sothMin ? `<div style="font-size:.75rem;color:#7B5A00;margin-top:4px">⚜ Ref. Sotheby's desde <b>$${sothMin} USD</b></div>` : '';
-  const estadoTag = disponible
-    ? `<div class="estado-tag disp">Disponible</div>`
-    : `<div class="estado-tag no-disp">No disponible</div>`;
   const nombre = item.nombreES || item.nombre || '—';
+  const sothMin = parseSothMin(item.estimacionSothebys);
   const txtSearch = (nombre + ' ' + (item.codigoItem||'')).toLowerCase();
-  const btnConsultar = disponible
-    ? `<button class="consultar-btn wsp" onclick="consultarItem('${item.codigoItem}','${nombre.replace(/'/g,"\\'")}')">WhatsApp · Consultar precio</button>`
-    : `<button class="consultar-btn" disabled style="opacity:.4;cursor:default">No disponible</button>`;
+  const inCart = CART.some(c => c.codigoItem === item.codigoItem);
 
-  return `<div class="card${disponible?'':' no-disp'}" data-estado="${estado}" data-cat="${item.categoria||''}" data-txt="${txtSearch}">
+  const sothBadge = sothMin ? `<div class="badge-soth">Sotheby's</div>` : '';
+  const estadoBadge = disp
+    ? `<div class="estado-badge disp">Disponible</div>`
+    : `<div class="estado-badge no-d">No disponible</div>`;
+  const precioHtml = item.precioUSD
+    ? `<div class="price-row"><span class="price-lbl">Precio</span><span class="price-val">${fmt(item.precioUSD)}</span></div>`
+    : `<div class="no-price">Precio a consultar</div>`;
+  const sothHtml = sothMin ? `<div class="soth-row">⚜ Ref. Sotheby's desde <b>$${sothMin} USD</b></div>` : '';
+  const btnLabel = inCart ? '✓ En carrito — clic para quitar' : '＋ Agregar al carrito';
+  const btnClass = inCart ? 'add-btn en-carrito' : 'add-btn';
+  const btnDisabled = disp ? '' : 'disabled';
+
+  return `<div class="card${disp?'':' no-disp'}" data-estado="${estado}" data-cat="${item.categoria||''}" data-txt="${txtSearch}" id="card-${item.codigoItem}">
   <div class="card-img">
     ${buildCarousel(item.fotos, cid)}
-    ${sothBadge}
-    ${estadoTag}
+    <div class="badge-wrap">${sothBadge}</div>
+    ${estadoBadge}
   </div>
   <div class="card-body">
     <div class="card-name">${nombre}</div>
     <div class="card-cat">${item.categoria||''}</div>
-    ${precio}
-    ${sothLine}
-    ${btnConsultar}
+    ${precioHtml}
+    ${sothHtml}
+    <button class="${btnClass}" ${btnDisabled} onclick="toggleCart_item('${item.codigoItem}','${nombre.replace(/'/g,"\\'")}',${item.precioUSD||0},'${(item.fotos||[])[0]||''}')">
+      ${btnLabel}
+    </button>
   </div>
 </div>`;
 }
 
+// ── cargar catálogo ──
 async function cargarCatalogo() {
   try {
     const r = await fetch('/api/catalogo');
     const data = await r.json();
     const items = data.filter(i => i.tipoEstructural === 'ARTICULO');
 
-    const total = items.length;
-    const disp  = items.filter(i => (i.estado||'Disponible') === 'Disponible').length;
-    const vend  = items.filter(i => (i.estado||'Disponible') === 'Vendido').length;
-    document.getElementById('kpi-total').textContent = total;
-    document.getElementById('kpi-disp').textContent  = disp;
-    document.getElementById('kpi-vend').textContent  = vend;
+    const disp = items.filter(i => (i.estado||'Disponible') === 'Disponible').length;
+    qs('kpi-total').textContent = items.length;
+    qs('kpi-disp').textContent  = disp;
 
     const cats = {};
     for (const item of items) {
@@ -262,113 +420,215 @@ async function cargarCatalogo() {
     }
 
     const catNames = Object.keys(cats).sort();
-    const tabsBar = document.getElementById('tabs-bar');
-    const panelsCont = document.getElementById('panels-cont');
+    const tabsBar = qs('tabs-bar');
+    const panelsCont = qs('panels-cont');
     panelsCont.innerHTML = '';
 
     catNames.forEach((cat, idx) => {
-      const color = CAT_COLORS[cat] || '#CFB53B';
       const btn = document.createElement('button');
-      btn.className = 'tab' + (idx === 0 ? ' active' : '');
-      btn.style.setProperty('--cc', color);
-      btn.id = 'tab-' + cat;
+      btn.className = 'tab-btn' + (idx===0?' active':'');
+      btn.id = 'tab-'+cat;
       btn.onclick = () => mostrarTab(cat);
       btn.innerHTML = `${cat}<span class="tab-n">${cats[cat].length}</span>`;
       tabsBar.appendChild(btn);
 
       const panel = document.createElement('div');
-      panel.className = 'panel' + (idx === 0 ? ' active' : '');
-      panel.id = 'panel-' + cat;
+      panel.className = 'panel' + (idx===0?' active':'');
+      panel.id = 'panel-'+cat;
       panel.innerHTML = `<div class="grid">${cats[cat].map(buildCard).join('')}</div>`;
       panelsCont.appendChild(panel);
     });
-
   } catch(e) {
-    document.getElementById('panels-cont').innerHTML = '<div class="empty">Error al cargar. Por favor recargue la página.</div>';
+    qs('panels-cont').innerHTML = '<div class="empty-msg">Error al cargar. Recargue la página.</div>';
   }
 }
 
 function mostrarTab(cat) {
-  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-  const tb = document.getElementById('tab-' + cat);
-  const pn = document.getElementById('panel-' + cat);
-  if (tb) tb.classList.add('active');
-  if (pn) pn.classList.add('active');
+  const tb = qs('tab-'+cat), pn = qs('panel-'+cat);
+  if(tb) tb.classList.add('active');
+  if(pn) pn.classList.add('active');
   filtrar();
 }
 
 function setFiltro(f, btn) {
   filtroEstado = f;
-  document.querySelectorAll('.fil').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.fil-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   filtrar();
 }
 
 function filtrar() {
-  const q = document.getElementById('busqueda').value.toLowerCase().trim();
+  const q = qs('busqueda').value.toLowerCase().trim();
   document.querySelectorAll('.card').forEach(card => {
-    const txt    = card.dataset.txt || '';
-    const estado = card.dataset.estado || 'Disponible';
+    const txt = card.dataset.txt || '';
+    const est = card.dataset.estado || 'Disponible';
     const matchQ = !q || txt.includes(q);
-    let matchE = true;
-    if (filtroEstado === 'Disponible') matchE = estado === 'Disponible';
-    else if (filtroEstado === 'no-disp') matchE = estado !== 'Disponible';
+    let matchE = filtroEstado==='all' || (filtroEstado==='Disponible' && est==='Disponible') || (filtroEstado==='no-disp' && est!=='Disponible');
     card.style.display = (matchQ && matchE) ? '' : 'none';
   });
 }
 
+// ── carrusel controls ──
 function moverSlide(cid, dir) {
   event.stopPropagation();
-  const car = document.getElementById(cid);
-  if (!car) return;
+  const car = qs(cid); if(!car) return;
   const slides = car.querySelectorAll('.slide');
-  const dots   = car.querySelectorAll('.carr-dot');
-  const counter= car.querySelector('.foto-n');
-  let idx = [...slides].findIndex(s => s.classList.contains('active'));
+  const dots   = car.querySelectorAll('.car-dot');
+  const counter= car.querySelector('.car-counter');
+  let idx = [...slides].findIndex(s=>s.classList.contains('active'));
   slides[idx].classList.remove('active');
-  if (dots[idx]) dots[idx].classList.remove('active');
-  idx = (idx + dir + slides.length) % slides.length;
+  if(dots[idx]) dots[idx].classList.remove('active');
+  idx = (idx+dir+slides.length)%slides.length;
   slides[idx].classList.add('active');
-  if (dots[idx]) dots[idx].classList.add('active');
-  if (counter) counter.textContent = (idx+1) + '/' + slides.length;
+  if(dots[idx]) dots[idx].classList.add('active');
+  if(counter) counter.textContent=(idx+1)+'/'+slides.length;
 }
 
 function irSlide(cid, idx) {
   event.stopPropagation();
-  const car = document.getElementById(cid);
-  if (!car) return;
+  const car = qs(cid); if(!car) return;
   const slides = car.querySelectorAll('.slide');
-  const dots   = car.querySelectorAll('.carr-dot');
-  const counter= car.querySelector('.foto-n');
-  slides.forEach(s => s.classList.remove('active'));
-  dots.forEach(d => d.classList.remove('active'));
-  if (slides[idx]) slides[idx].classList.add('active');
-  if (dots[idx]) dots[idx].classList.add('active');
-  if (counter) counter.textContent = (idx+1) + '/' + slides.length;
+  const dots   = car.querySelectorAll('.car-dot');
+  const counter= car.querySelector('.car-counter');
+  slides.forEach(s=>s.classList.remove('active'));
+  dots.forEach(d=>d.classList.remove('active'));
+  if(slides[idx]) slides[idx].classList.add('active');
+  if(dots[idx]) dots[idx].classList.add('active');
+  if(counter) counter.textContent=(idx+1)+'/'+slides.length;
 }
 
-function ampliar(src) {
+function zoom(src) {
   event.stopPropagation();
-  document.getElementById('modal-img').src = src;
-  document.getElementById('modal').classList.add('open');
+  qs('zoom-img').src=src;
+  qs('zoom-modal').classList.add('open');
+}
+function cerrarZoom(){ qs('zoom-modal').classList.remove('open'); }
+
+// ── CARRITO ──
+function toggleCart_item(codigo, nombre, precio, foto) {
+  const idx = CART.findIndex(c=>c.codigoItem===codigo);
+  if(idx>=0) CART.splice(idx,1);
+  else CART.push({codigoItem:codigo, nombre, precioUSD:precio, foto});
+  actualizarCartUI();
+  // actualizar botón de la card
+  const card = qs('card-'+codigo);
+  if(card){
+    const btn = card.querySelector('.add-btn');
+    if(btn){
+      const inCart = CART.some(c=>c.codigoItem===codigo);
+      btn.textContent = inCart ? '✓ En carrito — clic para quitar' : '＋ Agregar al carrito';
+      btn.className = inCart ? 'add-btn en-carrito' : 'add-btn';
+    }
+  }
 }
 
-function cerrarModal() {
-  document.getElementById('modal').classList.remove('open');
+function actualizarCartUI() {
+  const count = CART.length;
+  qs('cart-count').textContent = count;
+  const total = CART.reduce((s,i)=>s+(i.precioUSD||0),0);
+  qs('cart-total-val').textContent = total ? fmt(total) : '$0 USD';
+  qs('checkout-btn').disabled = count===0;
+
+  const listEl = qs('cart-items-list');
+  if(!count){ listEl.innerHTML='<div class="cart-empty">Tu carrito está vacío.<br>Agrega artículos del catálogo.</div>'; return; }
+
+  listEl.innerHTML = CART.map(item => {
+    const imgHtml = item.foto ? `<img src="${imgSrc(item.foto)}" alt="">` : `<div style="width:52px;height:52px;background:#0D0F17;border-radius:5px;flex-shrink:0"></div>`;
+    return `<div class="cart-item">
+      ${imgHtml}
+      <div class="cart-item-info">
+        <div class="cart-item-name">${item.nombre}</div>
+        <div class="cart-item-price">${item.precioUSD ? fmt(item.precioUSD) : 'A consultar'}</div>
+      </div>
+      <button class="cart-item-remove" onclick="toggleCart_item('${item.codigoItem}','','0','')">×</button>
+    </div>`;
+  }).join('');
 }
 
-function consultarItem(codigo, nombre) {
-  const msg = encodeURIComponent(`Hola, me interesa el artículo *${nombre}* (código: ${codigo}) del Catálogo Solaris — Casa Pignatelli. ¿Podría darme más información?`);
-  window.open(`https://wa.me/${WSP_NUMBER}?text=${msg}`, '_blank');
+function toggleCart() {
+  const drawer = qs('cart-drawer');
+  const overlay = qs('cart-overlay');
+  const open = drawer.classList.contains('open');
+  drawer.classList.toggle('open',!open);
+  overlay.classList.toggle('open',!open);
 }
 
-function abrirWsp() {
-  const msg = encodeURIComponent('Hola, me interesa conocer más sobre la Colección Solaris — Casa Pignatelli.');
-  window.open(`https://wa.me/${WSP_NUMBER}?text=${msg}`, '_blank');
+// ── CHECKOUT ──
+function abrirCheckout() {
+  // preview items
+  const total = CART.reduce((s,i)=>s+(i.precioUSD||0),0);
+  let html = '<h4>Artículos seleccionados</h4>';
+  html += CART.map(i=>`<div class="order-row"><span>${i.nombre}</span><span>${i.precioUSD?fmt(i.precioUSD):'A consultar'}</span></div>`).join('');
+  html += `<div class="order-row"><span>Total estimado</span><span>${total?fmt(total):'A consultar'}</span></div>`;
+  qs('checkout-preview').innerHTML = html;
+  qs('checkout-modal').classList.add('open');
+  toggleCart();
 }
 
-document.addEventListener('keydown', e => { if(e.key==='Escape') cerrarModal(); });
+function cerrarCheckout() { qs('checkout-modal').classList.remove('open'); }
+
+async function confirmarOrden() {
+  const nombre = qs('cli-nombre').value.trim();
+  const tel    = qs('cli-tel').value.trim();
+  const email  = qs('cli-email').value.trim();
+  if(!nombre || !tel){ alert('Por favor ingrese su nombre y teléfono.'); return; }
+
+  try {
+    const r = await fetch('/api/orden', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({
+        cliente: nombre, telefono: tel, email,
+        items: CART.map(i=>({codigoItem:i.codigoItem,nombre:i.nombre,precioUSD:i.precioUSD})),
+        totalUSD: CART.reduce((s,i)=>s+(i.precioUSD||0),0)
+      })
+    });
+    const d = await r.json();
+    if(!d.success) throw new Error();
+
+    cerrarCheckout();
+    mostrarOrden(d.numeroOrden, nombre, tel, email);
+  } catch(e) {
+    alert('Error al registrar. Por favor intente de nuevo.');
+  }
+}
+
+function mostrarOrden(numOrden, nombre, tel, email) {
+  const total = CART.reduce((s,i)=>s+(i.precioUSD||0),0);
+  qs('ord-numero').textContent = numOrden;
+  qs('ord-cliente').innerHTML = `<b>${nombre}</b><br>${tel}${email?' · '+email:''}`;
+  qs('ord-fecha').textContent = new Date().toLocaleString('es-CR');
+
+  let itemsHtml = CART.map(i=>`<div class="orden-item-row"><span>${i.nombre} (${i.codigoItem})</span><span>${i.precioUSD?fmt(i.precioUSD):'A consultar'}</span></div>`).join('');
+  itemsHtml += `<div class="orden-item-row"><span>Total estimado</span><span>${total?fmt(total):'A consultar'}</span></div>`;
+  qs('ord-items').innerHTML = itemsHtml;
+
+  // WhatsApp a herederos
+  const itemsList = CART.map(i=>`• ${i.nombre} (${i.codigoItem}) — ${i.precioUSD?fmt(i.precioUSD):'precio a consultar'}`).join('\n');
+  const msg = encodeURIComponent(
+    `🏛 *NUEVA SOLICITUD DE RESERVA — Casa Pignatelli*\n\n` +
+    `*Orden:* ${numOrden}\n` +
+    `*Cliente:* ${nombre}\n` +
+    `*Teléfono:* ${tel}\n` +
+    (email?`*Email:* ${email}\n`:'')+
+    `\n*Artículos solicitados:*\n${itemsList}\n\n` +
+    `*Total estimado:* ${total?fmt(total):'A consultar'}\n\n` +
+    `_Por favor confirme disponibilidad y coordine el pago._`
+  );
+  qs('btn-wsp-orden').onclick = () => window.open(`https://wa.me/${WSP}?text=${msg}`,'_blank');
+
+  qs('orden-modal').classList.add('open');
+  // limpiar carrito
+  CART = [];
+  actualizarCartUI();
+}
+
+function imprimirOrden() { window.print(); }
+function cerrarOrden() { qs('orden-modal').classList.remove('open'); }
+
+document.addEventListener('keydown', e=>{ if(e.key==='Escape'){ cerrarZoom(); cerrarCheckout(); cerrarOrden(); } });
 cargarCatalogo();
 </script>
 </body>

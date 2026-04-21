@@ -364,6 +364,28 @@ def api_numero_factura(tx_id):
         save_json(TRANSACCIONES_FILE, data)
     return jsonify({"numeroFactura": tx["numeroFactura"]})
 
+@app.route("/api/orden", methods=["POST"])
+def api_crear_orden():
+    data = request.json or {}
+    c = load_json(CONTADORES_FILE) if CONTADORES_FILE.exists() else {"ultimaFactura": 9, "ultimaOrden": 0}
+    c["ultimaOrden"] = c.get("ultimaOrden", 0) + 1
+    num = f"ORD-{c['ultimaOrden']:04d}"
+    save_json(CONTADORES_FILE, c)
+    ordenes_file = DATA / "ordenes.json"
+    ordenes = load_json(ordenes_file) if ordenes_file.exists() else {"ordenes": []}
+    ordenes["ordenes"].append({
+        "id": num,
+        "timestamp": datetime.now().isoformat(),
+        "cliente": data.get("cliente", ""),
+        "telefono": data.get("telefono", ""),
+        "email": data.get("email", ""),
+        "items": data.get("items", []),
+        "totalUSD": data.get("totalUSD", 0),
+        "estado": "pendiente"
+    })
+    save_json(ordenes_file, ordenes)
+    return jsonify({"success": True, "numeroOrden": num})
+
 @app.route("/api/excel/descargar")
 def api_descargar_excel():
     from flask import send_file
