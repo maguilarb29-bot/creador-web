@@ -358,13 +358,13 @@ nav::-webkit-scrollbar{display:none}
   #ov-tiquete{display:block!important;position:fixed;inset:0;background:#fff;color:#000;overflow:visible;z-index:1}
   #ov-tiquete .ov-inner{box-shadow:none!important;max-width:100%!important;margin:0!important;border-radius:0!important}
   .tkt-nprint{display:none!important}
-  .factura{padding:.8rem!important;font-size:.82rem}
-  .fac-print-hdr{padding-bottom:.5rem!important;margin-bottom:.8rem!important}
-  .fac-parties{margin-bottom:.8rem!important;gap:.8rem!important}
-  .fac-items-table td{padding:.3rem .5rem!important;font-size:.78rem!important}
-  .fac-items-table th{padding:.3rem .5rem!important}
-  .fac-totals-box{padding:.5rem .7rem!important;margin-bottom:.8rem!important}
-  .fac-print-footer{padding-top:.4rem!important;font-size:.65rem!important}
+  .factura{padding:1rem!important;font-size:.84rem}
+  .fac-print-hdr{padding-bottom:.6rem!important;margin-bottom:1rem!important}
+  .fac-parties{margin-bottom:1rem!important}
+  .fac-items-table td{padding:.35rem .6rem!important;font-size:.8rem!important}
+  .fac-items-table th{padding:.35rem .6rem!important}
+  .fac-totals-box{page-break-inside:avoid;margin-bottom:.8rem!important}
+  .fac-print-footer{page-break-inside:avoid;padding-top:.4rem!important;font-size:.68rem!important}
 }
 .ticket-body{padding:1.5rem}
 .tkt-hdr{text-align:center;border-bottom:2px solid #c9a227;padding-bottom:1rem;margin-bottom:1.25rem}
@@ -2103,7 +2103,7 @@ function facImprimir() {
   const tMax=FAC_ITEMS.reduce((s,i)=>s+i.estimMax,0);
   const tAc=FAC_ITEMS.reduce((s,i)=>s+(i.precioFactura||0),0);
   const tmpTx = {
-    id:'PROFORMA-'+Date.now(),
+    id:'BORRADOR-'+new Date().toLocaleDateString('es-ES',{day:'2-digit',month:'2-digit',year:'numeric'}).replace(/\//g,'-'),
     timestamp:new Date().toISOString(),
     tipo:facTipo, heredero:heredero||FAC_ITEMS.map(i=>i.reservadoPara).find(r=>r)||'No especificado',
     items:FAC_ITEMS.map(i=>({...i,precioAcordado:i.precioFactura||null})),
