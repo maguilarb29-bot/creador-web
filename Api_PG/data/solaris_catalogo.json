@@ -1683,7 +1683,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
   },
@@ -2013,7 +2013,7 @@
     "descripcionSothebys": "A large Italian silver tray, Milan, 1944-68.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2304,7 +2304,8 @@
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
     "cantidad": 1,
-    "notas": ""
+    "notas": "",
+    "precioUSD": 750
   },
   {
     "codigoItem": "64A",
@@ -2457,7 +2458,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 83.19,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": "",
     "precioColones": 39039.83,
@@ -2503,7 +2504,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2591,7 +2592,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2613,7 +2614,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2701,7 +2702,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2946,7 +2947,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
   },
@@ -3034,7 +3035,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
   },
@@ -3144,7 +3145,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50,
     "cantidad": 2,
     "notas": ""
   },
@@ -3587,7 +3588,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Jerancy Alpizar",
-    "precioUSD": null,
+    "precioUSD": 70,
     "cantidad": 1,
     "notas": ""
   },
@@ -3676,7 +3677,7 @@
     "descripcionSothebys": "Mesa de centro panel laca china.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4207,7 +4208,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
   },
@@ -4317,7 +4318,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Pablo Arias",
-    "precioUSD": 170.47,
+    "precioUSD": 170,
     "cantidad": 1,
     "notas": "",
     "precioColones": 80000,
@@ -4430,7 +4431,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 2,
     "notas": ""
   },
@@ -4520,7 +4521,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
   },
@@ -4631,7 +4632,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
   },
@@ -4698,7 +4699,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 2,
     "notas": " | Material: plastico (no ceramica)",
     "catCodigo": "U"
@@ -4721,7 +4722,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
   },
@@ -4743,7 +4744,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
   },
@@ -4929,7 +4930,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4951,7 +4952,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5579,7 +5580,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6199,7 +6200,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7260,7 +7261,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70,
     "cantidad": 1,
     "notas": ""
   },
@@ -7502,7 +7503,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -7612,7 +7613,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -9672,50 +9673,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "266A",
-    "codigoPadre": "266",
-    "numItem": 266,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Silla miniatura decorativa de madera oscura",
-    "descripcionES": "",
-    "fotos": [
-      "266A-1-silla-miniatura-decorativa-de-madera-oscura.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "267A",
-    "codigoPadre": "267",
-    "numItem": 267,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Exprimmidor de na",
-    "descripcionES": "",
-    "fotos": [
-      "267A-1- exprimmidor de na.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "268A",
     "codigoPadre": "268",
     "numItem": 268,
@@ -11427,7 +11384,8 @@
     "tieneSothebys": false,
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "notas": ""
+    "notas": "",
+    "precioUSD": 200
   },
   {
     "codigoItem": "348A",
@@ -11492,7 +11450,7 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "notas": "",
-    "precioUSD": 65
+    "precioUSD": 130
   },
   {
     "codigoItem": "351A",
