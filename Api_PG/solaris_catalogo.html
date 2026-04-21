@@ -280,9 +280,6 @@ footer p{font-size:.65rem;color:var(--mu);letter-spacing:1px}
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <input type="text" id="busqueda" placeholder="Buscar pieza..." oninput="filtrar()">
   </div>
-  <button class="fil-btn active" onclick="setFiltro('all',this)">Todas las piezas</button>
-  <button class="fil-btn" onclick="setFiltro('Disponible',this)">Disponibles</button>
-  <button class="fil-btn" onclick="setFiltro('no-disp',this)">No disponibles</button>
   <div class="toolbar-right" id="count-label"></div>
 </div>
 
@@ -584,10 +581,10 @@ function mostrarOrden(numOrden,nombre,tel,email){
   qs('ord-numero').textContent=numOrden;
   qs('ord-cliente').innerHTML=`<b>${nombre}</b><br>${tel}${email?' · '+email:''}`;
   qs('ord-fecha').textContent='Fecha: '+new Date().toLocaleString('es-CR');
-  let rows=CART.map(i=>`<tr><td>${i.nombre} <span style="font-size:.65rem;color:var(--mu)">(${i.codigoItem})</span></td><td>${i.precioUSD?fmt(i.precioUSD):'A consultar'}</td></tr>`).join('');
+  let rows=CART.map(i=>`<tr><td><span style="font-family:monospace;font-size:.75rem;font-weight:700;color:var(--gold);background:rgba(207,181,59,.1);padding:1px 6px;border-radius:3px;margin-right:6px">${i.codigoItem}</span>${i.nombre}</td><td>${i.precioUSD?fmt(i.precioUSD):'A consultar'}</td></tr>`).join('');
   rows+=`<tr><td>Total estimado</td><td>${total?fmt(total):'A consultar'}</td></tr>`;
   qs('ord-items').innerHTML=rows;
-  const itemsList=CART.map(i=>`• ${i.nombre} (${i.codigoItem}) — ${i.precioUSD?fmt(i.precioUSD):'precio a consultar'}`).join('\n');
+  const itemsList=CART.map(i=>`• [${i.codigoItem}] ${i.nombre} — ${i.precioUSD?fmt(i.precioUSD):'precio a consultar'}`).join('\n');
   const msg=encodeURIComponent(`🏛 *SOLICITUD DE RESERVA — Casa Pignatelli*\n\n*Orden:* ${numOrden}\n*Cliente:* ${nombre}\n*Teléfono:* ${tel}\n${email?`*Email:* ${email}\n`:''}\n*Piezas solicitadas:*\n${itemsList}\n\n*Total estimado:* ${total?fmt(total):'A consultar'}\n\n_Por favor confirme disponibilidad._`);
   qs('btn-wsp-orden').onclick=()=>window.open(`https://wa.me/${WSP}?text=${msg}`,'_blank');
   qs('orden-modal').classList.add('open');
