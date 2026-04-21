@@ -2096,12 +2096,12 @@ function facImprimir() {
   const tMax=FAC_ITEMS.reduce((s,i)=>s+i.estimMax,0);
   const tAc=FAC_ITEMS.reduce((s,i)=>s+(i.precioFactura||0),0);
   const tmpTx = {
-    id:'BORRADOR-'+Date.now(),
+    id:'PROFORMA-'+Date.now(),
     timestamp:new Date().toISOString(),
-    tipo:facTipo, heredero:heredero||'No especificado',
+    tipo:facTipo, heredero:heredero||FAC_ITEMS.map(i=>i.reservadoPara).find(r=>r)||'No especificado',
     items:FAC_ITEMS.map(i=>({...i,precioAcordado:i.precioFactura||null})),
     totalEstMinUSD:tMin, totalEstMaxUSD:tMax,
-    totalAcordadoUSD:tAc||null, notas, estado:'borrador',
+    totalAcordadoUSD:tAc||null, notas, estado:'proforma',
   };
   facGenerarHtmlYMostrar(tmpTx);
   setTimeout(()=>window.print(),400);
@@ -2128,7 +2128,7 @@ function facGenerarHtmlYMostrar(tx) {
       <div class="fac-num">
         <div class="fn">${numFac}</div>
         <div class="fd">${fecha}</div>
-        <div class="fd" style="margin-top:.4rem;color:#c9a227;font-weight:bold">${tx.tipo.toUpperCase()}${tx.estado==='borrador'?' · BORRADOR':''}</div>
+        <div class="fd" style="margin-top:.4rem;color:#c9a227;font-weight:bold">${tx.tipo.toUpperCase()}${tx.estado==='proforma'?' · PROFORMA':''}</div>
       </div>
     </div>
     <div class="fac-parties">
