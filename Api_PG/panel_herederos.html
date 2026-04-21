@@ -1505,6 +1505,7 @@ function addToCart(codigo) {
   if(cart.some(c=>c.codigoItem===codigo)) return;
   const item = ALL.find(i=>i.codigoItem===codigo);
   if(!item) return;
+  if((item.estado||'disponible').toLowerCase()!=='disponible') return;
   const est = pEst(item.estimacionSothebys);
   cart.push({...item, estimMin:est.min, estimMax:est.max, precioAcordado:null});
   updateCartUI();
@@ -1838,9 +1839,17 @@ function openDetail(codigo) {
   } else { cc('m-soth').innerHTML='' }
 
   const inCart = cart.some(c=>c.codigoItem===codigo);
+  const isAvailModal = (item.estado||'disponible').toLowerCase()==='disponible';
   const b=cc('m-add-btn');
-  b.textContent=inCart?'✓ Ya está en el carrito':'🛒 Agregar al carrito';
-  b.disabled=inCart;
+  if(!isAvailModal){
+    b.textContent=`⛔ ${item.estado||'No disponible'}`;
+    b.disabled=true;
+    b.style.opacity='0.4';
+  } else {
+    b.textContent=inCart?'✓ Ya está en el carrito':'🛒 Agregar al carrito';
+    b.disabled=inCart;
+    b.style.opacity='';
+  }
 
   cc('ov-detail').classList.add('open');
   document.body.style.overflow='hidden';
