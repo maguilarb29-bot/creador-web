@@ -11385,7 +11385,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria",
     "notas": "",
-    "precioUSD": 200
+    "precioUSD": null
   },
   {
     "codigoItem": "348A",
