@@ -27,7 +27,7 @@
     "numItem": 2,
     "tipoEstructural": "SET",
     "categoria": "Decorativos",
-    "nombreES": "Conjunto mixto de porcelana china floral con sopera jarras y jarrones",
+    "nombreES": "Conjunto mixto de porcelana china floral con sopera jarras y",
     "descripcionES": "",
     "fotos": [
       "2A-1-conjunto-mixto-de-porcelana-china-floral-con-sopera-jarras-y-jarrones.jpg"
@@ -49,7 +49,7 @@
     "numItem": 2,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Juego de tres jarrones chinos de porcelana floral con aves",
+    "nombreES": "Juego de tres jarrones chinos de porcelana floral con aves (3)",
     "descripcionES": "",
     "fotos": [
       "2AA-1-juego-de-tres-jarrones-chinos-de-porcelana-floral-con-aves.jpg"
@@ -61,7 +61,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 45.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -83,7 +83,7 @@
     "descripcionSothebys": "A pair of famille-rose baluster vases and covers, late 19th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": "",
     "confirmadoHeredero": false
@@ -239,7 +239,7 @@
     "descripcionSothebys": "Nineteen figures of Shou Lao on horseback, late 20th century.",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": null,
+    "precioUSD": 400.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -293,7 +293,7 @@
     "numItem": 9,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Jarrones decorativos chinoserie con celosia y motivos florales",
+    "nombreES": "Jarrones decorativos chinoserie con celosia y motivos floral",
     "descripcionES": "",
     "fotos": [
       "9A-1-jarrones-decorativos-chinoserie-con-celosia-y-motivos-florales.jpg"
@@ -447,7 +447,7 @@
     "numItem": 16,
     "tipoEstructural": "SET",
     "categoria": "Ceramica",
-    "nombreES": "Coleccion de 8 piezas chinas jarrones tarros y cuencos rosados",
+    "nombreES": "Coleccion de 8 piezas chinas jarrones tarros y cuencos rosad",
     "descripcionES": "",
     "fotos": [
       "16A-1-coleccion-de-8-piezas-chinas-jarrones-tarros-y-cuencos-rosados.jpg",
@@ -571,7 +571,7 @@
     "descripcionSothebys": "A pair of famille-rose vases, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -926,7 +926,7 @@
     "descripcionSothebys": "A pair of Italian giltwood mirrors, mid 18th century, probably Neapolitan, associated plates, formerly frames.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 16000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1076,7 +1076,7 @@
     "numItem": 36,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Sillas de comedor de terciopelo verde oliva con patas conicas",
+    "nombreES": "Sillas de comedor de terciopelo verde oliva con patas conica",
     "descripcionES": "",
     "fotos": [
       "36A-1-sillas-de-comedor-de-terciopelo-verde-oliva-con-patas-conicas.jpg"
@@ -1164,7 +1164,7 @@
     "numItem": 40,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Taburetes de bar tapizados en terciopelo azul con base dorada",
+    "nombreES": "Taburetes de bar tapizados en terciopelo azul con base dorad",
     "descripcionES": "",
     "fotos": [
       "40A-1-taburetes-de-bar-tapizados-en-terciopelo-azul-con-base-dorada.jpg"
@@ -1402,12 +1402,34 @@
     "notas": ""
   },
   {
+    "codigoItem": "44AB",
+    "codigoPadre": "44A",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria variada",
+    "descripcionES": "",
+    "fotos": [
+      "44AB-1-cristaleria-variada.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "44AC",
     "codigoPadre": "44A",
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Decantadores de cristal tallado con tapones metalicos ornamentados",
+    "nombreES": "Decantadores de cristal tallado con tapones metalicos orname",
     "descripcionES": "",
     "fotos": [
       "44AC-1-decantadores-de-cristal-tallado-con-tapones-metalicos-ornamentados.jpg"
@@ -1495,7 +1517,7 @@
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria decorativa variada con detalles dorados y tallados",
+    "nombreES": "Cristaleria decorativa copa shot de colores",
     "descripcionES": "",
     "fotos": [
       "44AG-1-cristaleria-decorativa-variada-con-detalles-dorados-y-tallados.jpg"
@@ -1507,7 +1529,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1517,7 +1539,7 @@
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor",
+    "nombreES": "Cristaleria multi color claritas base espiral (8 uds)",
     "descripcionES": "",
     "fotos": [
       "44AH-1-cristaleria-con-borde-dorado-flautas-y-copas-multicolor.jpg"
@@ -1529,7 +1551,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 55.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1539,7 +1561,7 @@
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria de copas tintadas verde esmeralda y azul",
+    "nombreES": "Cristaleria de copas tintadas verde esmeralda y azul: 6.",
     "descripcionES": "",
     "fotos": [
       "44AI-1-cristaleria-de-copas-tintadas-verde-esmeralda-y-azul.jpg"
@@ -1551,6 +1573,50 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AJ",
+    "codigoPadre": "",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria multi color claritas, bajitas, base espiral (4).",
+    "descripcionES": "",
+    "fotos": [
+      "44AJ-1-cristaleria-multi-color-claritas-bajitas-base-espiral-4.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Arlyn Clachar",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AK",
+    "codigoPadre": "",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria azul claro, base espiral (6).",
+    "descripcionES": "",
+    "fotos": [
+      "44AK-1-cristaleria-azul-claro-base-espiral-6.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Arlyn Clachar",
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
@@ -1561,7 +1627,7 @@
     "numItem": 45,
     "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Columna derecha de estantes con cristaleria transparente y de color",
+    "nombreES": "Columna derecha de estantes con cristaleria transparente y d",
     "descripcionES": "",
     "fotos": [
       "45A-1-columna-derecha-de-estantes-con-cristaleria-transparente-y-de-color.jpg"
@@ -1627,7 +1693,7 @@
     "numItem": 46,
     "tipoEstructural": "ARTICULO",
     "categoria": "Utensilios",
-    "nombreES": "Bandeja base de bambu para mesa",
+    "nombreES": "Bandeja base de bambu para mesa (3)",
     "descripcionES": "",
     "fotos": [
       "46A-1-Bandeja-base-de-bambu-para-mesa.jpg"
@@ -1671,7 +1737,7 @@
     "numItem": 48,
     "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria para bar decantadores y cubiteras clasicas",
+    "nombreES": "Juego de cristaleria para bar decantadores y cubiteras clasi",
     "descripcionES": "",
     "fotos": [
       "48A-1-juego-de-cristaleria-para-bar-decantadores-y-cubiteras-clasicas.jpg"
@@ -1847,7 +1913,7 @@
     "numItem": 51,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria decorativa y anillos de servilleta dorados",
+    "nombreES": "Juego de cristaleria decorativa y anillos de servilleta dora",
     "descripcionES": "",
     "fotos": [
       "51A-1-juego-de-cristaleria-decorativa-y-anillos-de-servilleta-dorados.jpg"
@@ -1860,6 +1926,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 80,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "51AA",
+    "codigoPadre": "",
+    "numItem": 51,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cajita con mini vasitos chinos de animales",
+    "descripcionES": "",
+    "fotos": [
+      "51AA-1-cajita-con-mini-vasitos-chinos-de-animales.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -2013,7 +2101,7 @@
     "descripcionSothebys": "A large Italian silver tray, Milan, 1944-68.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 300.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2079,7 +2167,7 @@
     "descripcionSothebys": "An Austrian silver ewer and basin, Vienna, 1836.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 1500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2158,7 +2246,7 @@
     "numItem": 57,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Jarras chinas decorativas de porcelana policromada con motivos florales",
+    "nombreES": "Jarras chinas decorativas de porcelana policromada con motiv",
     "descripcionES": "",
     "fotos": [
       "57A-1-jarras-chinas-decorativas-de-porcelana-policromada-con-motivos-florales.jpg"
@@ -2397,6 +2485,23 @@
     "notas": ""
   },
   {
+    "codigoItem": "67B",
+    "codigoPadre": "67",
+    "numItem": 67,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "catCodigo": "F",
+    "nombreES": "Mesa de centro en forma de nube dorada",
+    "fotos": [
+      "67B-1-par-de-mesas-de-centro-en-forma-de-nube-doradas.jpg"
+    ],
+    "tieneSothebys": false,
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "notas": "",
+    "precioUSD": 200.0
+  },
+  {
     "codigoItem": "68A",
     "codigoPadre": "68",
     "numItem": 68,
@@ -2458,7 +2563,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 100,
+    "precioUSD": 83.19,
     "cantidad": 1,
     "notas": "",
     "precioColones": 39039.83,
@@ -2690,7 +2795,7 @@
     "numItem": 76,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Dormitorio de lujo contemporaneo con cama tapizada y banco capitone",
+    "nombreES": "Dormitorio de lujo contemporaneo con cama tapizada y banco c",
     "descripcionES": "",
     "fotos": [
       "76A-1-dormitorio-de-lujo-contemporaneo-con-cama-tapizada-y-banco-capitone.jpg"
@@ -2799,6 +2904,32 @@
     "cantidadFotos": 3
   },
   {
+    "codigoItem": "80B",
+    "codigoPadre": "80",
+    "numItem": 80,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "catCodigo": "P",
+    "nombreES": "Paisaje montanoso abstracto amanecer atardecer",
+    "descripcionES": "",
+    "fotos": [
+      "80B-1-paisaje-montanoso-abstracto-amanecer-atardecer.jpg"
+    ],
+    "cantidadFotos": 1,
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marielos Alpizar",
+    "precioUSD": 120,
+    "precioColones": 56315.05,
+    "fechaVenta": "17/03/2026",
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "81A",
     "codigoPadre": "81",
     "numItem": 81,
@@ -2891,7 +3022,7 @@
     "numItem": 85,
     "tipoEstructural": "ARTICULO",
     "categoria": "Electrodomesticos",
-    "nombreES": "Televisor Samsung Smart TV de pantalla plana 65 pulgadas",
+    "nombreES": "Televisor samsung smart tv de pantalla plana 65 pulgadas",
     "descripcionES": "",
     "fotos": [
       "85A-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
@@ -2906,6 +3037,46 @@
     "precioUSD": 200,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "85B",
+    "codigoPadre": "85",
+    "numItem": 85,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "catCodigo": "E",
+    "nombreES": "Televisor samsung smart tv de pantalla plana 65 pulgadas",
+    "descripcionES": "",
+    "fotos": [
+      "85B-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
+    ],
+    "tieneSothebys": false,
+    "estado": "Vendido",
+    "reservadoPara": "Alejandro",
+    "notas": "",
+    "precioUSD": 200,
+    "precioColones": 91918,
+    "fechaVenta": "16/04/2026"
+  },
+  {
+    "codigoItem": "85C",
+    "codigoPadre": "85",
+    "numItem": 85,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "catCodigo": "E",
+    "nombreES": "Televisor samsung smart tv de pantalla plana 65 pulgadas",
+    "descripcionES": "",
+    "fotos": [
+      "85C-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
+    ],
+    "tieneSothebys": false,
+    "estado": "Vendido",
+    "reservadoPara": "Nuria",
+    "notas": "",
+    "precioUSD": 200,
+    "precioColones": 91918,
+    "fechaVenta": "16/04/2026"
   },
   {
     "codigoItem": "86A",
@@ -3023,7 +3194,7 @@
     "numItem": 89,
     "tipoEstructural": "SET",
     "categoria": "Decorativos",
-    "nombreES": "Conjunto decorativo esculturas ginkgo jarron oriental y anillos abstractos",
+    "nombreES": "Conjunto decorativo esculturas ginkgo jarron oriental y anil",
     "descripcionES": "",
     "fotos": [
       "89A-1-conjunto-decorativo-esculturas-ginkgo-jarron-oriental-y-anillos-abstractos.jpg"
@@ -3106,28 +3277,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "90AA",
-    "codigoPadre": "90A",
-    "numItem": 90,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Juego de cuatro jarrones chinos",
-    "descripcionES": "",
-    "fotos": [
-      "90AA-1-juego-de-cuatro-jarrones-chinos.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "90A",
     "codigoPadre": "",
     "numItem": 90,
@@ -3150,12 +3299,34 @@
     "notas": ""
   },
   {
+    "codigoItem": "90AA",
+    "codigoPadre": "90A",
+    "numItem": 90,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de cuatro jarrones chinos",
+    "descripcionES": "",
+    "fotos": [
+      "90AA-1-juego-de-cuatro-jarrones-chinos.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "90AB",
     "codigoPadre": "90A",
     "numItem": 90,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Jarron chino",
+    "nombreES": "Juego de cuatro jarrones chinos de porcelana policromada dec",
     "descripcionES": "",
     "fotos": [
       "90AB-1-juego-de-cuatro-jarrones-chinos.jpg"
@@ -3302,7 +3473,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Evelina Vargas",
-    "precioUSD": 500,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3334,7 +3505,7 @@
     "numItem": 98,
     "tipoEstructural": "ARTICULO",
     "categoria": "Electrodomesticos",
-    "nombreES": "Lampara de mesa moderna con base dorada y pantalla gris oscuro",
+    "nombreES": "Lampara de mesa moderna con base dorada y pantalla gris oscu",
     "descripcionES": "",
     "fotos": [
       "98A-1-lampara-de-mesa-moderna-con-base-dorada-y-pantalla-gris-oscuro.jpg"
@@ -3522,7 +3693,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Ana Isabel Beche",
-    "precioUSD": 500,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3547,6 +3718,23 @@
     "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "105A",
+    "codigoPadre": "105",
+    "numItem": 105,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "catCodigo": "E",
+    "nombreES": "Extractor de jugos hamilton beach",
+    "fotos": [
+      "105A-1-extractor-de-jugos-hamilton-beach.jpg"
+    ],
+    "tieneSothebys": false,
+    "estado": "Reservado",
+    "reservadoPara": "Nuria",
+    "notas": "",
+    "precioUSD": 30.0
   },
   {
     "codigoItem": "106A",
@@ -3687,7 +3875,7 @@
     "numItem": 111,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Mesa consola moderna con imitacion marmol negro y patas doradas",
+    "nombreES": "Mesa consola moderna con imitacion marmol negro y patas dora",
     "descripcionES": "",
     "fotos": [
       "111A-1-mesa-consola-moderna-con-imitacion-marmol-negro-y-patas-doradas.jpg"
@@ -3731,7 +3919,7 @@
     "numItem": 113,
     "tipoEstructural": "ARTICULO",
     "categoria": "Electrodomesticos",
-    "nombreES": "Lamparas de mesa contemporaneas con base laton y pantalla blanca",
+    "nombreES": "Lamparas de mesa contemporaneas con base laton y pantalla bl",
     "descripcionES": "",
     "fotos": [
       "113A-1-lamparas-de-mesa-contemporaneas-con-base-laton-y-pantalla-blanca.jpg"
@@ -4042,7 +4230,7 @@
     "numItem": 127,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Figuras decorativas de porcelana estilo tang caballo y camello",
+    "nombreES": "Figuras decorativas de porcelana estilo tang caballo y camel",
     "descripcionES": "",
     "fotos": [
       "127A-1-figuras-decorativas-de-porcelana-estilo-tang-caballo-y-camello.jpg"
@@ -4218,7 +4406,7 @@
     "numItem": 133,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Juego de ceramica botanica sopera y platos hoja d",
+    "nombreES": "Juego de ceramica botanica sopera y platos hoja de repollo",
     "descripcionES": "",
     "fotos": [
       "133AA-1-juego-de-ceramica-botanica-sopera-y-platos-hoja-d.jpg"
@@ -4230,7 +4418,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 160.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4274,7 +4462,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": null,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4296,7 +4484,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": null,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": "Ana Martin interesada - vender a Ana Martin cuando este disponible"
   },
@@ -4318,7 +4506,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Pablo Arias",
-    "precioUSD": 170,
+    "precioUSD": 170.47,
     "cantidad": 1,
     "notas": "",
     "precioColones": 80000,
@@ -4418,7 +4606,7 @@
     "numItem": 136,
     "tipoEstructural": "SET",
     "categoria": "Ceramica",
-    "nombreES": "Vajilla mixta ceramica botanica verde y cristaleria tradicional",
+    "nombreES": "Vajilla mixta ceramica botanica verde y cristaleria tradicio",
     "descripcionES": "",
     "fotos": [
       "136C-1-vajilla-mixta-ceramica-botanica-verde-y-cristaleria-tradicional.jpg",
@@ -4686,7 +4874,7 @@
     "numItem": 136,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Vajilla mixta plastico botanica verde y cristaleria tradicional",
+    "nombreES": "Vajilla mixta plastico botanica blanco",
     "descripcionES": "",
     "fotos": [
       "136F-1-vajilla-mixta-ceramica-botanica-verde-y-cristaleria-tradicional.jpg",
@@ -4754,7 +4942,7 @@
     "numItem": 136,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Vajilla mixta botanica verde y cristaleria",
+    "nombreES": "Vajilla plato de fondo lila (8).",
     "descripcionES": "",
     "fotos": [
       "136HA-1-vajilla-mixta-botanica-verde-y-cristaleria.jpg",
@@ -4767,7 +4955,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -4777,7 +4965,7 @@
     "numItem": 136,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Platos ceramicos clasicos con borde festoneado y ribete dorado",
+    "nombreES": "Platos ceramicos clasicos con borde festoneado y ribete dora",
     "descripcionES": "",
     "fotos": [
       "136IA-1-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
@@ -4896,7 +5084,7 @@
     "numItem": 140,
     "tipoEstructural": "ARTICULO",
     "categoria": "Decorativos",
-    "nombreES": "Reloj de pared decorativo de laton envejecido estilo rustico industrial",
+    "nombreES": "Reloj de pared decorativo de laton envejecido estilo rustico",
     "descripcionES": "",
     "fotos": [
       "140A-1-reloj-de-pared-decorativo-de-laton-envejecido-estilo-rustico-industrial.jpg"
@@ -5007,7 +5195,7 @@
     "numItem": 143,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas",
+    "nombreES": "Cristaleria transparente para gin tonic (14)",
     "descripcionES": "",
     "fotos": [
       "143AA-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
@@ -5019,7 +5207,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5074,7 +5262,7 @@
     "numItem": 143,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas",
+    "nombreES": "Vasos morados de agua altos (6)",
     "descripcionES": "",
     "fotos": [
       "143AD-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
@@ -5086,7 +5274,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5096,7 +5284,7 @@
     "numItem": 143,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas",
+    "nombreES": "Copas verdes para agua",
     "descripcionES": "",
     "fotos": [
       "143AE-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
@@ -5108,7 +5296,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5152,6 +5340,116 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AH",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado claro vino (15)",
+    "descripcionES": "",
+    "fotos": [
+      "143AH-1-copas-morado-claro-vino.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AI",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos morado claro de agua (13)",
+    "descripcionES": "",
+    "fotos": [
+      "143AI-1-vasos-morado-claro-de-agua-13.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AJ",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado claro vino (6)",
+    "descripcionES": "",
+    "fotos": [
+      "143AJ-1-copas-morado-claro-vino-6.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AL",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas verdes vino tinto (6)",
+    "descripcionES": "",
+    "fotos": [
+      "143AL-1-copas-verdes-vino-tinto.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "Nuria",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AM",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "copas-verdes-vino-tinto-y-blanco(8)",
+    "descripcionES": "",
+    "fotos": [
+      "143AM-1-copas-verdes-vino-tinto-y-blanco-8.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "Nuria",
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
@@ -5235,7 +5533,7 @@
     "numItem": 147,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Frutero de vidrio artesanal con variedad de frutas y verduras",
+    "nombreES": "Frutero de vidrio artesanal con variedad de frutas y verdura",
     "descripcionES": "",
     "fotos": [
       "147A-1-frutero-de-vidrio-artesanal-con-variedad-de-frutas-y-verduras.jpg"
@@ -5280,7 +5578,7 @@
     "numItem": 149,
     "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Coleccion de cristaleria vintage con detalles dorados y esmerilados",
+    "nombreES": "Coleccion de cristaleria vintage con detalles dorados y esme",
     "descripcionES": "",
     "fotos": [
       "149A-1-coleccion-de-cristaleria-vintage-con-detalles-dorados-y-esmerilados.jpg"
@@ -5370,7 +5668,7 @@
     "numItem": 150,
     "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
     "descripcionES": "",
     "fotos": [
       "150A-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5392,7 +5690,7 @@
     "numItem": 150,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
     "descripcionES": "",
     "fotos": [
       "150AA-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5414,7 +5712,7 @@
     "numItem": 150,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
     "descripcionES": "",
     "fotos": [
       "150AB-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5436,7 +5734,7 @@
     "numItem": 150,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
     "descripcionES": "",
     "fotos": [
       "150AC-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5458,7 +5756,7 @@
     "numItem": 150,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Platitos de cristal de colores (9)",
     "descripcionES": "",
     "fotos": [
       "150AD-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5470,7 +5768,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5480,7 +5778,7 @@
     "numItem": 150,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copas",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
     "descripcionES": "",
     "fotos": [
       "150AE-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
@@ -5492,7 +5790,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": null,
+    "precioUSD": 75.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5747,7 +6045,7 @@
     "numItem": 153,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Copas de vino estilo romer con tallo verde grabado",
+    "nombreES": "Vasos de cristal ondulado tono verde (25G Y 25P)",
     "descripcionES": "",
     "fotos": [
       "153A-1-copas-de-vino-estilo-romer-con-tallo-verde-grabado.jpg"
@@ -5764,12 +6062,32 @@
     "notas": ""
   },
   {
+    "codigoItem": "153B",
+    "codigoPadre": "",
+    "numItem": 153,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos de cristal ondulado tono verde (25G Y 25P)",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "154A",
     "codigoPadre": "154",
     "numItem": 154,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria verde esmeralda para agua vino y champana",
+    "nombreES": "Juego de cristaleria verde esmeralda para agua vino y champa",
     "descripcionES": "",
     "fotos": [
       "154A-1-juego-de-cristaleria-verde-esmeralda-para-agua-vino-y-champana.jpg"
@@ -5791,7 +6109,7 @@
     "numItem": 155,
     "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria clasico copas de cristal tallado y rojas",
+    "nombreES": "Juego de cristaleria clasico copas de cristal tallado y roja",
     "descripcionES": "",
     "fotos": [
       "155A-1-juego-de-cristaleria-clasico-copas-de-cristal-tallado-y-rojas.jpg"
@@ -5847,6 +6165,28 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "155AC",
+    "codigoPadre": "",
+    "numItem": 155,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "6 copas verdes con borde dorado",
+    "descripcionES": "",
+    "fotos": [
+      "155AC-1-6-copas-verde-con-borde-dorado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín",
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
@@ -5945,7 +6285,7 @@
     "numItem": 156,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Jarra de cristal y cuenco de amatista decorativos",
+    "nombreES": "cuenco de amatista decorativos",
     "descripcionES": "",
     "fotos": [
       "156AD-1-jarra-de-cristal-y-cuenco-de-amatista-decorativos.jpg"
@@ -5957,7 +6297,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6121,7 +6461,7 @@
     "numItem": 158,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Vajilla de cristal texturizado con borde dorado",
+    "nombreES": "Vajilla de cristal texturizado con borde dorado (17)",
     "descripcionES": "",
     "fotos": [
       "158AA-1-vajilla-de-cristal-texturizado-con-borde-dorado.jpg",
@@ -6134,7 +6474,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 160.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -6144,7 +6484,7 @@
     "numItem": 158,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria verde esmeralda juego de platos y cuencos modernos",
+    "nombreES": "Cristaleria verde esmeralda juego de platos y cuencos modern",
     "descripcionES": "",
     "fotos": [
       "158AB-1-cristaleria-verde-esmeralda-juego-de-platos-y-cuencos-modernos.jpg"
@@ -6210,7 +6550,7 @@
     "numItem": 159,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Azucareros individuales de ceramica blanca con relieve floral",
+    "nombreES": "Azucareros individuales de ceramica blanca con relieve flora",
     "descripcionES": "",
     "fotos": [
       "159AA-1-azucareros-individuales-de-ceramica-blanca-con-relieve-floral.jpg"
@@ -6386,7 +6726,7 @@
     "numItem": 160,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Buho decorativo de cristal soplado con detalles azules y blancos",
+    "nombreES": "Buho decorativo de cristal soplado con detalles azules y bla",
     "descripcionES": "",
     "fotos": [
       "160AA-1-buho-decorativo-de-cristal-soplado-con-detalles-azules-y-blancos.jpg"
@@ -6442,7 +6782,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 20.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6496,7 +6836,7 @@
     "numItem": 160,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria decorativa con patron diamante y bordes ondulados",
+    "nombreES": "Cristaleria decorativa con patron diamante y bordes ondulado",
     "descripcionES": "",
     "fotos": [
       "160AF-1-cristaleria-decorativa-con-patron-diamante-y-bordes-ondulados.jpg"
@@ -6883,7 +7223,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": null,
+    "precioUSD": 350.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -6906,7 +7246,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": null,
+    "precioUSD": 550.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -7026,7 +7366,7 @@
     "numItem": 165,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Mini platos de ceramica variada con motivos decorativos",
+    "nombreES": "Vajilla ceramica variada con motivos",
     "descripcionES": "",
     "fotos": [
       "165AB-1-mini-platos-ceramica-variada-con-motivos-decorativos.jpg"
@@ -7063,7 +7403,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 10.0,
     "cantidad": 4,
     "notas": ""
   },
@@ -7415,7 +7755,7 @@
     "descripcionSothebys": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 1000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7547,7 +7887,7 @@
     "descripcionSothebys": "A silver rose bowl, London, 1891.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7591,7 +7931,7 @@
     "descripcionSothebys": "A pair of Indian silver ashtrays with rupee coins, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7983,7 +8323,7 @@
     "numItem": 189,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Arte en vidrio soplado decorativo",
+    "nombreES": "Arte en vidrio soplado decorativo (13)",
     "descripcionES": "",
     "fotos": [
       "189A-1-arte-en-vidrio-soplado-decorativo.jpg"
@@ -7995,7 +8335,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8127,7 +8467,7 @@
     "descripcionSothebys": "A set of four decanters with gilt vines, 19th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8537,7 +8877,7 @@
     "numItem": 214,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Jarra de vidrio blenko artesanal tono ciruela con asa transparente",
+    "nombreES": "Jarra de vidrio blenko artesanal tono ciruela con asa transp",
     "descripcionES": "",
     "fotos": [
       "214A-1-jarra-de-vidrio-blenko-artesanal-tono-ciruela-con-asa-transparente.jpg"
@@ -8691,7 +9031,7 @@
     "numItem": 222,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Coleccion de copas de cristal con bases verdes y transparentes",
+    "nombreES": "Coleccion de copas de cristal con bases verdes y transparent",
     "descripcionES": "",
     "fotos": [
       "222A-1-coleccion-de-copas-de-cristal-con-bases-verdes-y-transparentes.jpg",
@@ -8714,7 +9054,7 @@
     "numItem": 223,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Jarra de cristal artistico con borde ondulado y diseno espiral",
+    "nombreES": "Jarra de cristal artistico con borde ondulado y diseno espir",
     "descripcionES": "",
     "fotos": [
       "223A-1-jarra-de-cristal-artistico-con-borde-ondulado-y-diseno-espiral.jpg"
@@ -9194,6 +9534,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "244AH",
+    "codigoPadre": "",
+    "numItem": 244,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria multi color claritas, base espiral (8).",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Arlyn Clachar",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "245A",
     "codigoPadre": "245",
     "numItem": 245,
@@ -9238,6 +9598,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "247A",
+    "codigoPadre": "",
+    "numItem": 247,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas de cristal tallado rubi con pie transparente",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "248A",
     "codigoPadre": "248",
     "numItem": 248,
@@ -9263,12 +9643,12 @@
     "codigoItem": "249A",
     "codigoPadre": "249",
     "numItem": 249,
-    "tipoEstructural": "ARTICULO",
+    "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Vasos de cristal ondulado tono verde",
+    "nombreES": "Vasos de cristal ondulado",
     "descripcionES": "",
     "fotos": [
-      "249A-1-vasos-de-cristal-ondulado-tono-verde.jpg"
+      "249A-1-vasos-de-cristal-ondulado-REF.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -9282,15 +9662,13 @@
     "notas": ""
   },
   {
-    "codigoItem": "250A",
-    "codigoPadre": "250",
-    "numItem": 250,
+    "codigoPadre": "249A",
+    "numItem": 249,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Fuentes decorativas de cristal rosa y transparente",
     "descripcionES": "",
     "fotos": [
-      "250A-1-fuentes-decorativas-de-cristal-rosa-y-transparente.jpg"
+      "249AA-1-vasos-de-cristal-ondulado.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -9299,9 +9677,55 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
+    "notas": "",
+    "codigoItem": "249AA",
+    "nombreES": "Vasos de cristal ondulado (9 uds)",
+    "precioUSD": 18.0,
+    "cantidad": 9
+  },
+  {
+    "codigoPadre": "249A",
+    "numItem": 249,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "descripcionES": "",
+    "fotos": [
+      "249AB-1-vasos-de-cristal-ondulado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "notas": "",
+    "codigoItem": "249AB",
+    "nombreES": "Vasos de cristal ondulado (9 uds)",
+    "precioUSD": 18.0,
+    "cantidad": 9
+  },
+  {
+    "codigoPadre": "249A",
+    "numItem": 249,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "descripcionES": "",
+    "fotos": [
+      "249AC-1-vasos-de-cristal-ondulado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "notas": "",
+    "codigoItem": "249AC",
+    "nombreES": "Vasos de cristal ondulado (6 uds)",
+    "precioUSD": 12.0,
+    "cantidad": 6
   },
   {
     "codigoItem": "251A",
@@ -9673,6 +10097,50 @@
     "notas": ""
   },
   {
+    "codigoItem": "266A",
+    "codigoPadre": "",
+    "numItem": 266,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Silla miniatura decorativa de madera oscura",
+    "descripcionES": "",
+    "fotos": [
+      "266A-1-silla-miniatura-decorativa-de-madera-oscura.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "267A",
+    "codigoPadre": "",
+    "numItem": 267,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Exprimmidor de na",
+    "descripcionES": "",
+    "fotos": [
+      "267A-1- exprimmidor de na.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "268A",
     "codigoPadre": "268",
     "numItem": 268,
@@ -9734,7 +10202,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 15.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9756,7 +10224,7 @@
     "descripcionSothebys": "A rose quartz buffalo, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9778,7 +10246,7 @@
     "descripcionSothebys": "An agate group of a maiden and monkey, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9800,7 +10268,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 650.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9810,7 +10278,7 @@
     "numItem": 274,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Vajilla de porcelana clasica con decoracion floral y detalles dorados",
+    "nombreES": "Vajilla de porcelana clasica con decoracion floral y detalle",
     "descripcionES": "",
     "fotos": [
       "274A-1-vajilla-de-porcelana-clasica-con-decoracion-floral-y-detalles-dorados.jpg"
@@ -9822,7 +10290,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 650.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9844,7 +10312,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 1320.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9898,7 +10366,7 @@
     "numItem": 278,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Tazas de ceramica oriental con decoracion policromada y borde dorado",
+    "nombreES": "Tazas de ceramica oriental con decoracion policromada y bord",
     "descripcionES": "",
     "fotos": [
       "278A-1-tazas-de-ceramica-oriental-con-decoracion-policromada-y-borde-dorado.jpg"
@@ -9986,7 +10454,7 @@
     "numItem": 283,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Cuencos y tarros de ceramica blanca decorada",
+    "nombreES": "Cuencos y tarros de ceramica blanca decorada: 6.",
     "descripcionES": "",
     "fotos": [
       "283A-1-cuencos-y-tarros-de-ceramica-blanca-decorada.jpg"
@@ -9998,7 +10466,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10052,7 +10520,7 @@
     "numItem": 286,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Anillos de servilleta ceramicos orientales con patrones florales y geometricos",
+    "nombreES": "Anillos de servilleta ceramicos orientales con patrones flor",
     "descripcionES": "",
     "fotos": [
       "286A-1-anillos-de-servilleta-ceramicos-orientales-con-patrones-florales-y-geometricos.jpg"
@@ -10118,7 +10586,7 @@
     "numItem": 289,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Platos de ceramica con diseno de hojas botanicas",
+    "nombreES": "Platos de ceramica con diseno de hojas botanicas. Rosado con verde",
     "descripcionES": "",
     "fotos": [
       "289A-1-platos-de-ceramica-con-diseno-de-hojas-botanicas.jpg"
@@ -10130,7 +10598,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10140,7 +10608,7 @@
     "numItem": 290,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Platos decorativos de ceramica esmaltada con motivos marinos y florales",
+    "nombreES": "Platos decorativos de ceramica esmaltada con motivos marinos",
     "descripcionES": "",
     "fotos": [
       "290A-1-platos-decorativos-de-ceramica-esmaltada-con-motivos-marinos-y-florales.jpg"
@@ -10184,7 +10652,7 @@
     "numItem": 292,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Plato decorativo ceramico estilo imari con pavos reales y aves",
+    "nombreES": "Plato decorativo ceramico estilo imari con pavos reales y av",
     "descripcionES": "",
     "fotos": [
       "292A-1-plato-decorativo-ceramico-estilo-imari-con-pavos-reales-y-aves.jpg"
@@ -10196,7 +10664,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 85.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10223,12 +10691,32 @@
     "notas": ""
   },
   {
+    "codigoItem": "294A",
+    "codigoPadre": "",
+    "numItem": 294,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "BBQ Rojo",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Gabriel Louzao",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "295A",
     "codigoPadre": "295",
     "numItem": 295,
     "tipoEstructural": "ARTICULO",
     "categoria": "Decorativos",
-    "nombreES": "Siete cetros ruyi de madera con incrustaciones de piedra dura",
+    "nombreES": "Siete cetros ruyi de hierro con incrustaciones de piedra dur",
     "descripcionES": "",
     "fotos": [
       "295A-1-siete-cetros-ruyi-de-madera-con-incrustaciones-de-piedra-dura.jpg"
@@ -10240,7 +10728,7 @@
     "descripcionSothebys": "Seven wood ruyi sceptres with hardstone inlay, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 600.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10299,6 +10787,26 @@
     "fotos": [
       "298A-1-tazas-de-porcelana-fina-con-motivos-florales-y-entomologicos.jpg"
     ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "299A",
+    "codigoPadre": "",
+    "numItem": 299,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Bandeja base de bambu para mesa (1)",
+    "descripcionES": "",
+    "fotos": [],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
@@ -10482,7 +10990,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10492,7 +11000,7 @@
     "numItem": 308,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Silla de oficina giratoria ergonomica de cuero sintetico negro",
+    "nombreES": "Silla de oficina giratoria ergonomica de cuero sintetico neg",
     "descripcionES": "",
     "fotos": [
       "308A-1-silla-de-oficina-giratoria-ergonomica-de-cuero-sintetico-negro.jpg"
@@ -10674,6 +11182,26 @@
     "fotos": [
       "316A-1-cristaleria-con-borde-dorado-flautas-y-copas-multicolor.jpg"
     ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "317A",
+    "codigoPadre": "",
+    "numItem": 317,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Plateria",
+    "nombreES": "Bandeja vasos y decantador de plata y cristal",
+    "descripcionES": "",
+    "fotos": [],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
@@ -10955,7 +11483,7 @@
     "numItem": 330,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Mesa auxiliar cuadrada de madera con lamparas de diseno moderno",
+    "nombreES": "Mesa auxiliar cuadrada de madera con lamparas de diseno mode",
     "descripcionES": "",
     "fotos": [
       "330A-1-mesa-auxiliar-cuadrada-de-madera-con-lamparas-de-diseno-moderno.jpg"
@@ -10999,7 +11527,7 @@
     "numItem": 332,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Compotera de cristal prensado con patron de diamantes y base decorada",
+    "nombreES": "Compotera de cristal prensado con patron de diamantes y base",
     "descripcionES": "",
     "fotos": [
       "332A-1-compotera-de-cristal-prensado-con-patron-de-diamantes-y-base-decorada.jpg"
@@ -11287,6 +11815,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "345A",
+    "codigoPadre": "",
+    "numItem": 345,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Silla de ruedas estandar plegable para movilidad asistida",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "346A",
     "codigoPadre": "346",
     "numItem": 346,
@@ -11304,7 +11852,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": null,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11331,63 +11879,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "85B",
-    "codigoPadre": "85",
-    "numItem": 85,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "catCodigo": "E",
-    "nombreES": "Televisor Samsung Smart TV de pantalla plana 65 pulgadas",
-    "descripcionES": "",
-    "fotos": [
-      "85B-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
-    ],
-    "tieneSothebys": false,
-    "estado": "Vendido",
-    "reservadoPara": "Alejandro",
-    "notas": "",
-    "precioUSD": 200,
-    "precioColones": 91918,
-    "fechaVenta": "16/04/2026"
-  },
-  {
-    "codigoItem": "85C",
-    "codigoPadre": "85",
-    "numItem": 85,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "catCodigo": "E",
-    "nombreES": "Televisor Samsung Smart TV de pantalla plana 65 pulgadas",
-    "descripcionES": "",
-    "fotos": [
-      "85C-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
-    ],
-    "tieneSothebys": false,
-    "estado": "Vendido",
-    "reservadoPara": "Nuria",
-    "notas": "",
-    "precioUSD": 200,
-    "precioColones": 91918,
-    "fechaVenta": "16/04/2026"
-  },
-  {
-    "codigoItem": "105A",
-    "codigoPadre": "105",
-    "numItem": 105,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "catCodigo": "E",
-    "nombreES": "Extractor de jugos Hamilton Beach",
-    "fotos": [
-      "105A-1-extractor-de-jugos-hamilton-beach.jpg"
-    ],
-    "tieneSothebys": false,
-    "estado": "Reservado",
-    "reservadoPara": "Nuria",
-    "notas": "",
-    "precioUSD": null
-  },
-  {
     "codigoItem": "348A",
     "codigoPadre": "348",
     "numItem": 348,
@@ -11401,7 +11892,8 @@
     "tieneSothebys": false,
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "notas": ""
+    "notas": "",
+    "precioUSD": 10.0
   },
   {
     "codigoItem": "349A",
@@ -11410,7 +11902,7 @@
     "tipoEstructural": "ARTICULO",
     "categoria": "Electrodomesticos",
     "catCodigo": "E",
-    "nombreES": "Licuadora Hamilton Beach",
+    "nombreES": "Licuadora hamilton beach",
     "fotos": [
       "349A-1-licuadora-hamilton-beach.jpg"
     ],
@@ -11436,25 +11928,8 @@
     "notas": ""
   },
   {
-    "codigoItem": "67B",
-    "codigoPadre": "67",
-    "numItem": 67,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "catCodigo": "F",
-    "nombreES": "Mesa de centro en forma de nube dorada",
-    "fotos": [
-      "67B-1-par-de-mesas-de-centro-en-forma-de-nube-doradas.jpg"
-    ],
-    "tieneSothebys": false,
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "notas": "",
-    "precioUSD": 130
-  },
-  {
     "codigoItem": "351A",
-    "nombreES": "Conjunto de cuencos y cajas lacadas chinas con escenas doradas",
+    "nombreES": "Conjunto de cuencos y cajas lacadas chinas con escenas dorad",
     "nombreEN": "Set of Chinese lacquered bowls and boxes with gilded scenes",
     "categoria": "Decorativos",
     "catCodigo": "D",
@@ -11505,7 +11980,7 @@
   },
   {
     "codigoItem": "354A",
-    "nombreES": "Par de pedestales chinos de madera tallada con calado decorativo",
+    "nombreES": "Par de pedestales chinos de madera tallada con calado decora",
     "nombreEN": "Pair of Chinese carved wood pedestal stands with pierced fretwork",
     "categoria": "Muebles",
     "catCodigo": "F",
@@ -11521,28 +11996,178 @@
     "notas": "Par de pedestales chinos de madera de palo de rosa con calado decorativo en la falda. Reservado por Ana Martin."
   },
   {
-    "codigoItem": "80B",
-    "codigoPadre": "80",
-    "numItem": 80,
+    "codigoItem": "355A",
+    "codigoPadre": "",
+    "numItem": 355,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "catCodigo": "P",
-    "nombreES": "Paisaje montanoso abstracto amanecer atardecer",
+    "categoria": "Ceramica",
+    "nombreES": "Platos verdes hojas 4 uds",
     "descripcionES": "",
     "fotos": [
-      "80B-1-paisaje-montanoso-abstracto-amanecer-atardecer.jpg"
+      "355A-1-platos-verdes-hojas-4-uds.jpg"
     ],
-    "cantidadFotos": 1,
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 120,
-    "precioColones": 56315.05,
-    "fechaVenta": "17/03/2026",
+    "reservadoPara": "Mariana Herrera",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "356A",
+    "codigoPadre": "",
+    "numItem": 356,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "8 platos de cerámica, verdes con patrones, marca Masons.",
+    "descripcionES": "",
+    "fotos": [
+      "356A-1-platos-de-ceramica-verdes-con-patrones-marca-masons-8-uds.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "357A",
+    "codigoPadre": "",
+    "numItem": 357,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Juego de platos con motivos chinos, de colores rojo y verde (12)",
+    "descripcionES": "",
+    "fotos": [
+      "357A-1-juego-de-platos-con-motivos-chinos-de-colores-rojo-y-verde-12-uds.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "359A",
+    "codigoPadre": "",
+    "numItem": 359,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Azafate de mimbre",
+    "descripcionES": "",
+    "fotos": [
+      "359A-1-azafate-de-mimbre.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mariana Herrera",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "360A",
+    "codigoPadre": "",
+    "numItem": 360,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Azafate estilo oriental de laton",
+    "descripcionES": "",
+    "fotos": [
+      "360A-1-azafate-estilo-oriental-de-laton.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "361A",
+    "codigoPadre": "",
+    "numItem": 361,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Azafate de mimbre y bambu",
+    "descripcionES": "",
+    "fotos": [
+      "361A-1-azafate-mimbre-y-bambu.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "362A",
+    "codigoPadre": "",
+    "numItem": 362,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Azafate laminado de color rojo",
+    "descripcionES": "",
+    "fotos": [
+      "362A-1-azafate-laminada-de-color-rojo.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "363A",
+    "codigoPadre": "",
+    "numItem": 363,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Azafate de madera color negro",
+    "descripcionES": "",
+    "fotos": [
+      "363A-1-azafate-de-madera-color-negro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   }
