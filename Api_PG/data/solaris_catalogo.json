@@ -3493,8 +3493,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Vendido",
+    "reservadoPara": "Joel Beltran",
     "precioUSD": 70,
     "cantidad": 1,
     "notas": ""
@@ -3669,8 +3669,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Vendido",
+    "reservadoPara": "Joel Beltran",
     "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
