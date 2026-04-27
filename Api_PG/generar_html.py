@@ -6,7 +6,7 @@ from collections import defaultdict
 BASE      = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE, "data", "solaris_catalogo.json")
 FOTOS_DIR = os.path.join(BASE, "images", "fotos-Solaris-inventory", "Todas las Fotos")
-OUTPUT    = os.path.join(BASE, "solaris_catalogo.html")
+OUTPUT    = os.path.join(os.path.dirname(BASE), "Api_PG_Deploy", "index.html")
 SOTH_CSV  = os.path.join(os.path.dirname(BASE), "docs", "sothebys_maestro_2026-04-13.csv")
 
 with open(DATA_FILE, encoding="utf-8-sig") as f:
