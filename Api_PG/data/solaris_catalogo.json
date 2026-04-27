@@ -12170,5 +12170,27 @@
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "364A",
+    "codigoPadre": "",
+    "numItem": 364,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "nombreES": "BBQ Kamado Joe",
+    "descripcionES": "",
+    "fotos": [
+      "364A-1-BBQ-kamadojoe.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
   }
 ]
