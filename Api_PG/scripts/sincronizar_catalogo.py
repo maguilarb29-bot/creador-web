@@ -39,26 +39,48 @@ service = build("sheets", "v4", credentials=creds)
 # ── Leer INVENTARIO_MAESTRO ──────────────────────────────────
 print("📥 Leyendo Google Sheet...")
 result = service.spreadsheets().values().get(
-    spreadsheetId=SHEET_ID, range="INVENTARIO_MAESTRO!A1:G600"
+    spreadsheetId=SHEET_ID, range="INVENTARIO_MAESTRO!A1:K600"
 ).execute()
 rows = result.get("values", [])
 headers = rows[0]
 data = rows[1:]
 
+# Mapear columnas por nombre (funciona con 7 o 11 columnas)
+h = {name: i for i, name in enumerate(headers)}
+idx_cod      = h.get("Artículo", 0)
+idx_nombre   = h.get("Nombre", 1)
+idx_precio   = h.get("Precio USD", 3)
+idx_minimo   = h.get("Mínimo", 5)
+idx_estado   = h.get("Estado", 6)
+idx_comprador= h.get("Reservado / Comprador", 7)
+idx_ref_soth = h.get("Ref Sotheby's", 8)
+idx_pag_soth = h.get("Página", 9)
+idx_est_soth = h.get("Estimación Sotheby's", 4)
+
+max_idx = max(idx_cod, idx_nombre, idx_precio, idx_minimo, idx_estado, idx_comprador, idx_ref_soth, idx_pag_soth, idx_est_soth)
+
 sheet_estados = {}
 for row in data:
-    row = row + [""] * (len(headers) - len(row))
-    cod     = row[0].strip()
-    nombre  = row[1].strip()
-    precio  = row[3].strip()
-    estado  = row[4].strip() or "Disponible"
-    comprador = row[5].strip()
+    row = row + [""] * (max_idx + 1 - len(row))
+    cod       = row[idx_cod].strip()
+    nombre    = row[idx_nombre].strip()
+    precio    = row[idx_precio].strip()
+    minimo    = row[idx_minimo].strip()
+    estado    = row[idx_estado].strip() or "Disponible"
+    comprador = row[idx_comprador].strip()
+    ref_soth  = row[idx_ref_soth].strip()
+    pag_soth  = row[idx_pag_soth].strip()
+    est_soth  = row[idx_est_soth].strip()
     if cod:
         sheet_estados[cod] = {
             "estado": estado,
             "reservadoPara": comprador,
             "nombre": nombre,
-            "precio": precio
+            "precio": precio,
+            "precioMinimo": minimo,
+            "refSothebys": ref_soth,
+            "paginaSothebys": pag_soth,
+            "estimacionSothebys": est_soth,
         }
 
 # ── Cargar catálogo JSON ─────────────────────────────────────
@@ -102,10 +124,27 @@ for item in catalogo:
         item["nombreES"] = s["nombre"]
         cambios += 1
 
-    # Precio (si sheet tiene precio y es diferente)
+    # Precio vendible: solo "Precio USD" (columna D). "Minimo" (F) es confirmacion.
     precio_sheet = parse_precio(s["precio"])
-    if precio_sheet and precio_sheet != item.get("precioUSD"):
+    if precio_sheet is not None and precio_sheet != item.get("precioUSD"):
         item["precioUSD"] = precio_sheet
+        cambios += 1
+
+    # Precio Mínimo (columna F del Sheet)
+    minimo_sheet = parse_precio(s.get("precioMinimo", ""))
+    if minimo_sheet is not None and minimo_sheet != item.get("precioMinimoUSD"):
+        item["precioMinimoUSD"] = minimo_sheet
+        cambios += 1
+
+    # Sotheby's fields (solo actualiza si Sheet tiene valores)
+    if s.get("refSothebys") and s["refSothebys"] != item.get("refSothebys",""):
+        item["refSothebys"] = s["refSothebys"]
+        cambios += 1
+    if s.get("paginaSothebys") and s["paginaSothebys"] != item.get("paginaSothebys",""):
+        item["paginaSothebys"] = s["paginaSothebys"]
+        cambios += 1
+    if s.get("estimacionSothebys") and s["estimacionSothebys"] != item.get("estimacionSothebys",""):
+        item["estimacionSothebys"] = s["estimacionSothebys"]
         cambios += 1
 
 print(f"✅ {cambios} cambios detectados")
