@@ -39,7 +39,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 250,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -61,7 +61,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 45.0,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -172,7 +172,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -194,7 +194,7 @@
     "descripcionSothebys": "A pair of Japanese Arita jars and covers, 17th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 250,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -216,7 +216,7 @@
     "descripcionSothebys": "A large wood table with corner legs, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 150,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -239,7 +239,7 @@
     "descripcionSothebys": "Nineteen figures of Shou Lao on horseback, late 20th century.",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": 400.0,
+    "precioUSD": 150.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -349,7 +349,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -371,7 +371,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 50,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -437,7 +437,7 @@
     "descripcionSothebys": "An early Louis XV style giltwood centre table, 19th century, with a marble top.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -482,7 +482,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -637,7 +637,7 @@
     "descripcionSothebys": "An Italian giltwood and engraved overmantel mirror, mid 18th century, formerly a frame, cresting possibly associated.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 1500,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -659,7 +659,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 1500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -681,7 +681,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -703,7 +703,7 @@
     "descripcionSothebys": "Henri Hecht Maik (1922-1993). Two Lions. Oil on board.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -815,7 +815,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -837,7 +837,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Lynn Kader",
-    "precioUSD": 80,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -859,7 +859,7 @@
     "descripcionSothebys": "Italian School, circa 1700. A classical garden with elegant figures.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -904,7 +904,7 @@
     "descripcionSothebys": "A Louis XV gilt-bronze cartel clock attributed to Jean-Joseph de Saint-Germain, circa 1748, with enamel dial; movement not inspected; case with crowned C poinÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§on.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1000,7 +1000,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1066,7 +1066,7 @@
     "descripcionSothebys": "The remaining watercolours and prints in the Master Bedroom, comprising eight modern architectural drawings in the Old Master taste and an early 18th century engraving of a member of the Pignatelli family.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 60,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1088,7 +1088,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 500,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1110,7 +1110,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 800,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1132,7 +1132,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 100,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1154,7 +1154,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1176,7 +1176,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1198,7 +1198,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 300,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1220,7 +1220,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 300.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1242,7 +1242,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1265,7 +1265,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -1353,7 +1353,7 @@
     "descripcionSothebys": "A 316-piece armorial glass service with the Pignatelli coat of arms.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1661,7 +1661,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1727,7 +1727,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 5,
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1749,7 +1749,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 5.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1859,7 +1859,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1947,7 +1947,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Alejandra Mendez",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1991,7 +1991,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2101,7 +2101,7 @@
     "descripcionSothebys": "A large Italian silver tray, Milan, 1944-68.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 300.0,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2236,7 +2236,7 @@
     "descripcionSothebys": "A pair of Louis XV style bombÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â© walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
     "estado": "Reservado",
     "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2303,7 +2303,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2325,7 +2325,7 @@
     "descripcionSothebys": "A pair of Continental porcelain models of parrots, 19th/20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2347,7 +2347,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2369,7 +2369,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 750,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2480,7 +2480,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 130,
+    "precioUSD": 300.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2499,7 +2499,7 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "notas": "",
-    "precioUSD": 200.0
+    "precioUSD": 130.0
   },
   {
     "codigoItem": "68A",
@@ -2519,7 +2519,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2541,7 +2541,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 80,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2563,7 +2563,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 100.0,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 39039.83,
@@ -2807,7 +2807,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2873,7 +2873,7 @@
     "descripcionSothebys": "A Canton famille-rose vase, early 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2897,7 +2897,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 70.0,
     "cantidad": 4,
     "notas": "",
     "precioColones": null,
@@ -2991,7 +2991,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3013,7 +3013,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 80,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3096,7 +3096,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3206,7 +3206,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3382,7 +3382,7 @@
     "descripcionSothebys": "A Louis XV carved beech console table, mid 18th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 1100,
+    "precioUSD": 190.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3407,7 +3407,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 120,
+    "precioUSD": 1100.0,
     "cantidad": 4,
     "notas": ""
   },
@@ -3473,7 +3473,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Evelina Vargas",
-    "precioUSD": 400.0,
+    "precioUSD": 90.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3495,7 +3495,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Joel Beltran",
-    "precioUSD": 70,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3517,7 +3517,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Evelina Vargas",
-    "precioUSD": 80,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3539,7 +3539,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 60,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3561,7 +3561,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3671,7 +3671,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Joel Beltran",
-    "precioUSD": 80,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3693,7 +3693,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 400.0,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3715,7 +3715,7 @@
     "descripcionSothebys": "A mahogany twin-pedestal desk, late 19th century",
     "estado": "Reservado",
     "reservadoPara": "Alejandro",
-    "precioUSD": 120,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3734,7 +3734,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria",
     "notas": "",
-    "precioUSD": 30.0
+    "precioUSD": 120.0
   },
   {
     "codigoItem": "106A",
@@ -3843,7 +3843,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 70.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -3865,7 +3865,7 @@
     "descripcionSothebys": "Mesa de centro panel laca china.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3953,7 +3953,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 600,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3975,7 +3975,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 70,
+    "precioUSD": 600.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4042,7 +4042,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 750,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4064,7 +4064,7 @@
     "descripcionSothebys": "An Empire mahogany commode and a twin pedestal desk.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 300,
+    "precioUSD": 750.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4088,7 +4088,7 @@
     "descripcionSothebys": "The Fourth Floor Bedroom and Bathroom, comprising four Chinese watercolours of junks in two frames; three Chinese watercolours of butterflies; five engravings of lions and other large cats after Spilsbury, 19th century; four reproduction engravings in two frames after J. Moore; an engraving of temples and a further reproduction.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 300.0,
     "cantidad": 3,
     "notas": ""
   },
@@ -4110,7 +4110,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4132,7 +4132,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4154,7 +4154,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4176,7 +4176,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4220,7 +4220,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4242,7 +4242,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4286,7 +4286,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 350,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4308,7 +4308,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 350.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4374,7 +4374,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín",
-    "precioUSD": 80,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4396,7 +4396,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5050,7 +5050,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 40.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -5207,7 +5207,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 60.0,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5590,7 +5590,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5612,7 +5612,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5702,7 +5702,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5878,7 +5878,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6143,7 +6143,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6231,7 +6231,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6407,7 +6407,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6474,7 +6474,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 150.0,
+    "precioUSD": 160.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -6496,7 +6496,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 160.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6738,7 +6738,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7112,7 +7112,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7223,7 +7223,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": 350.0,
+    "precioUSD": 150.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -7312,7 +7312,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7356,7 +7356,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7491,7 +7491,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7579,7 +7579,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7733,7 +7733,7 @@
     "descripcionSothebys": "An Italian silver four-piece tea service in the William IV style, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 500,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7755,7 +7755,7 @@
     "descripcionSothebys": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 1000.0,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7821,7 +7821,7 @@
     "descripcionSothebys": "A Sheffield plate double inkstand, circa 1780.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7843,7 +7843,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 250,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8155,7 +8155,7 @@
     "descripcionSothebys": "A Louis XVI giltwood barometer, circa 1790.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 900,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8177,7 +8177,7 @@
     "descripcionSothebys": "A.M. Ciscar, 20th century. A couple strolling.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 900.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8244,7 +8244,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": ""
   },
