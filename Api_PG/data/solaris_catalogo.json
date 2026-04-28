@@ -216,7 +216,7 @@
     "descripcionSothebys": "A large wood table with corner legs, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "Ana Isabel Beeche",
-    "precioUSD": 150.0,
+    "precioUSD": 6000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -393,7 +393,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 800.0,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -415,7 +415,7 @@
     "descripcionSothebys": "Nicolaes de Bruyn, 17th century. An Imaginary Animal Chasing an Insect. Engraving.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -437,7 +437,7 @@
     "descripcionSothebys": "An early Louis XV style giltwood centre table, 19th century, with a marble top.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 80.0,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -460,7 +460,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200,
+    "precioUSD": 4500.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -659,7 +659,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100.0,
+    "precioUSD": 3000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -859,7 +859,7 @@
     "descripcionSothebys": "Italian School, circa 1700. A classical garden with elegant figures.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 80.0,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1044,7 +1044,7 @@
     "descripcionSothebys": "Japanese, circa 1900. Woman with a Monkey. Bronze, 43 cm.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1066,7 +1066,7 @@
     "descripcionSothebys": "The remaining watercolours and prints in the Master Bedroom, comprising eight modern architectural drawings in the Old Master taste and an early 18th century engraving of a member of the Pignatelli family.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 60.0,
+    "precioUSD": 300.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1088,7 +1088,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 500.0,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2280,7 +2280,7 @@
     "descripcionSothebys": "Three soapstone pagodas, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": "",
     "confirmadoHeredero": false
@@ -2303,7 +2303,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": 450.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2347,7 +2347,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70.0,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2437,7 +2437,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 30.0,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2851,7 +2851,7 @@
     "descripcionSothebys": "A RÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â©gence giltwood wall bracket, early 18th century.",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": 50,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2873,7 +2873,7 @@
     "descripcionSothebys": "A Canton famille-rose vase, early 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70.0,
+    "precioUSD": 2000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2897,7 +2897,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": 200.0,
     "cantidad": 4,
     "notas": "",
     "precioColones": null,
@@ -3034,7 +3034,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 200.0,
+    "precioUSD": 140.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3360,7 +3360,7 @@
     "descripcionSothebys": "A large famille-verte dish, Kangxi period.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 190,
+    "precioUSD": 190.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3382,7 +3382,7 @@
     "descripcionSothebys": "A Louis XV carved beech console table, mid 18th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 1100.0,
+    "precioUSD": 650.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3451,7 +3451,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Evelina Vargas",
-    "precioUSD": 90.0,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4088,7 +4088,7 @@
     "descripcionSothebys": "The Fourth Floor Bedroom and Bathroom, comprising four Chinese watercolours of junks in two frames; three Chinese watercolours of butterflies; five engravings of lions and other large cats after Spilsbury, 19th century; four reproduction engravings in two frames after J. Moore; an engraving of temples and a further reproduction.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70.0,
+    "precioUSD": 400.0,
     "cantidad": 3,
     "notas": ""
   },
@@ -4110,7 +4110,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80.0,
+    "precioUSD": 600.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7645,7 +7645,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100.0,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7799,7 +7799,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 350.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7843,7 +7843,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70.0,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10290,7 +10290,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 15.0,
+    "precioUSD": 650.0,
     "cantidad": 1,
     "notas": ""
   },
