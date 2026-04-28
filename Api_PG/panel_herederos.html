@@ -1150,9 +1150,9 @@ function renderGrid() {
     const code = catCode(item.categoria);
     const inCart = cart.some(c=>c.codigoItem===item.codigoItem);
     const isAvail = (item.estado||'disponible').toLowerCase()==='disponible';
-    const precio = item.estimacionSothebys
-      ? `<div class="card-price">⚜ Valoración: ${item.estimacionSothebys}</div>`
-      : item.precioUSD ? `<div class="card-price">Precio: ${fmt(item.precioUSD)}</div>` : '';
+    const precio = item.precioUSD
+      ? `<div class="card-price">Precio: ${fmt(item.precioUSD)}</div>`
+      : '';
     return `
     <div class="card" data-code="${item.codigoItem}">
       <div style="position:relative">
@@ -1560,7 +1560,7 @@ function updateCartUI() {
       <div class="ci-info">
         <div class="ci-code">${item.codigoItem}</div>
         <div class="ci-name">${item.nombreES}</div>
-        <div class="ci-price">${item.estimacionSothebys?'⚜ '+item.estimacionSothebys:(item.precioUSD?fmt(item.precioUSD):'Sin tasación')}</div>
+        <div class="ci-price">${item.precioUSD?fmt(item.precioUSD):'Sin precio'}</div>
       </div>
       <button class="ci-remove" onclick="removeFromCart('${item.codigoItem}')">✕</button>
     </div>`;
