@@ -83,7 +83,7 @@
     "descripcionSothebys": "A pair of famille-rose baluster vases and covers, late 19th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200.0,
+    "precioUSD": 45.0,
     "cantidad": 1,
     "notas": "",
     "confirmadoHeredero": false
@@ -106,7 +106,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 45.0,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -956,7 +956,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40.0,
+    "precioUSD": 16000.0,
     "cantidad": 9,
     "notas": ""
   },
@@ -2947,7 +2947,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 950.0,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5296,7 +5296,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": 60.0,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6474,7 +6474,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 160.0,
+    "precioUSD": 150.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -7223,7 +7223,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": 150.0,
+    "precioUSD": 350.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -7425,7 +7425,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": 150.0,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10224,7 +10224,7 @@
     "descripcionSothebys": "A rose quartz buffalo, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80.0,
+    "precioUSD": 15.0,
     "cantidad": 1,
     "notas": ""
   },
