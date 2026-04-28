@@ -83,7 +83,7 @@
     "descripcionSothebys": "A pair of famille-rose baluster vases and covers, late 19th century.",
     "estado": "Reservado",
     "reservadoPara": "Alejandra Mendez",
-    "precioUSD": 200.0,
+    "precioUSD": 45.0,
     "cantidad": 1,
     "notas": "",
     "confirmadoHeredero": false
@@ -106,7 +106,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -261,7 +261,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -593,7 +593,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -956,7 +956,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40,
+    "precioUSD": 16000.0,
     "cantidad": 9,
     "notas": ""
   },
@@ -1551,7 +1551,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 55.0,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1573,7 +1573,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 150.0,
+    "precioUSD": 55.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1595,7 +1595,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1771,7 +1771,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2123,7 +2123,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2189,7 +2189,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 1500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2411,9 +2411,9 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 500,
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 750.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 234646.05,
@@ -2437,7 +2437,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 30,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2587,7 +2587,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 83.19,
     "cantidad": 1,
     "notas": ""
   },
@@ -2631,7 +2631,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2741,7 +2741,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2829,7 +2829,7 @@
     "descripcionSothebys": "A giltwood console table, possibly German, mid 18th century, with a fior di pesco marble top.",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2947,7 +2947,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 950,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3140,7 +3140,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3228,7 +3228,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3754,7 +3754,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 70,
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3887,7 +3887,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 100,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4418,7 +4418,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 160.0,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4440,7 +4440,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 160.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4482,8 +4482,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Rasmi",
+    "estado": "Disponible",
+    "reservadoPara": "",
     "precioUSD": 800.0,
     "cantidad": 1,
     "notas": "Ana Martin interesada - vender a Ana Martin cuando este disponible"
@@ -4506,7 +4506,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Pablo Brenes",
-    "precioUSD": 170.47,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 80000,
@@ -4530,7 +4530,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 500,
+    "precioUSD": 170.47,
     "cantidad": 1,
     "notas": ""
   },
@@ -4665,7 +4665,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4731,7 +4731,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4842,7 +4842,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4955,7 +4955,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": 70.0,
+    "precioUSD": 500.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -4980,7 +4980,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 70.0,
     "cantidad": 4,
     "notas": ""
   },
@@ -5162,7 +5162,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5230,7 +5230,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -5318,7 +5318,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5497,7 +5497,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Nuria",
-    "precioUSD": 100,
+    "precioUSD": 180.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 45959,
@@ -5521,7 +5521,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Nuria",
-    "precioUSD": 80,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 36767.2,
@@ -5790,7 +5790,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 75.0,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5812,7 +5812,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": null,
+    "precioUSD": 75.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5900,7 +5900,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6077,7 +6077,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Alejandra Mendez",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6319,7 +6319,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6496,7 +6496,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 160.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6562,7 +6562,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6804,7 +6804,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 20.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7246,7 +7246,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": 550.0,
+    "precioUSD": 350.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -7268,7 +7268,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 550.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7425,7 +7425,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7623,7 +7623,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 100,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7777,7 +7777,7 @@
     "descripcionSothebys": "A Victorian ivory and silver crumb scoop, and fish servers.",
     "estado": "Reservado",
     "reservadoPara": "Rasmi",
-    "precioUSD": 100,
+    "precioUSD": 1000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7865,7 +7865,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7909,7 +7909,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7953,7 +7953,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 250,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7975,7 +7975,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8357,7 +8357,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8489,7 +8489,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 400.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10224,7 +10224,7 @@
     "descripcionSothebys": "A rose quartz buffalo, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80.0,
+    "precioUSD": 15.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10246,7 +10246,7 @@
     "descripcionSothebys": "An agate group of a maiden and monkey, 20th century.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10268,7 +10268,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 650.0,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10312,7 +10312,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nathalie Rubinstein",
-    "precioUSD": 1320.0,
+    "precioUSD": 650.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10334,7 +10334,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 1320.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10488,7 +10488,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10620,7 +10620,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10686,7 +10686,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 85.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10750,7 +10750,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 600.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11012,7 +11012,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11874,7 +11874,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 800.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11909,7 +11909,8 @@
     "tieneSothebys": false,
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "notas": ""
+    "notas": "",
+    "precioUSD": 10.0
   },
   {
     "codigoItem": "350A",
