@@ -2928,11 +2928,12 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": 300.0,
     "cantidad": 3,
     "notas": "",
     "precioColones": null,
-    "cantidadFotos": 3
+    "cantidadFotos": 3,
+    "precioMinimoUSD": 300.0
   },
   {
     "codigoItem": "80B",
@@ -2954,7 +2955,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 300.0,
+    "precioUSD": 120.0,
     "precioColones": 56315.05,
     "fechaVenta": "17/03/2026",
     "cantidad": 1,
