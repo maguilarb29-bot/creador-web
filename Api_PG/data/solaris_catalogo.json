@@ -978,7 +978,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2459,7 +2459,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 300,
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2563,7 +2563,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 83.19,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": "",
     "precioColones": 39039.83,
@@ -2587,7 +2587,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 83.19,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2609,7 +2609,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2969,7 +2969,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200,
+    "precioUSD": 950.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3451,7 +3451,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Evelina Vargas",
-    "precioUSD": 90,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3931,7 +3931,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4020,7 +4020,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 50.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -4552,7 +4552,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5118,7 +5118,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -5185,7 +5185,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 50.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -6474,7 +6474,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 160.0,
+    "precioUSD": 150.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -6496,7 +6496,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 160.0,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7447,7 +7447,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7645,7 +7645,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7799,7 +7799,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
   },
