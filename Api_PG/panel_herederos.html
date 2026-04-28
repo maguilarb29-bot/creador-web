@@ -1614,6 +1614,9 @@ async function confirmarQuickRes() {
     if(d.success){
       closeOv('ov-quickres');
       await recargar();
+      if(d.transaccion?.sheetSync && !d.transaccion.sheetSync.ok){
+        alert('Reserva guardada, pero no se pudo sincronizar Google Sheet: '+d.transaccion.sheetSync.error);
+      }
       alert(`Reservado para ${heredero}`);
     } else alert('Error: '+(d.error||'desconocido'));
   } catch(e){ alert('Error de conexión') }
@@ -1718,6 +1721,9 @@ async function confirmarTx() {
     if(d.success){
       closeOv('ov-txform');
       await recargar();
+      if(d.transaccion?.sheetSync && !d.transaccion.sheetSync.ok){
+        alert('Transacción guardada, pero no se pudo sincronizar Google Sheet: '+d.transaccion.sheetSync.error);
+      }
       mostrarTiquete(d.transaccion);
     } else {
       alert('Error: '+(d.error||'desconocido'));
@@ -2172,6 +2178,9 @@ async function facGuardar() {
     const d = await r.json();
     if(d.success){
       await recargar();
+      if(d.transaccion?.sheetSync && !d.transaccion.sheetSync.ok){
+        alert('Transacción guardada, pero no se pudo sincronizar Google Sheet: '+d.transaccion.sheetSync.error);
+      }
       facGenerarHtmlYMostrar(d.transaccion);
       FAC_ITEMS=[];
       renderFacLineItems(); renderFacPreview();

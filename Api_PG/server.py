@@ -4,7 +4,7 @@ Arrancar: python server.py
 URL:      http://localhost:8080
 """
 from flask import Flask, jsonify, request, send_from_directory, abort
-import json, uuid
+import json, os, re, uuid
 from datetime import datetime
 from pathlib import Path
 from openpyxl import Workbook
@@ -18,6 +18,7 @@ TRANSACCIONES_FILE = DATA / "transacciones.json"
 ESTADOS_FILE       = DATA / "estados.json"
 CONTADORES_FILE    = DATA / "contadores.json"
 EXCEL_VENTAS       = DATA / "Registro_Ventas_Reservas.xlsx"
+ENV_PATHS          = [BASE.parent / "pignatelli-app" / ".env.local", BASE.parent / ".env.local"]
 
 app = Flask(__name__, static_folder=str(BASE))
 
@@ -30,11 +31,46 @@ def save_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+def load_env_file():
+    env = {}
+    for path in ENV_PATHS:
+        if not path.exists():
+            continue
+        for line in path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            v = v.strip()
+            if v.startswith('"') and v.endswith('"'):
+                v = v[1:-1]
+            env[k.strip()] = v
+    env.update({k: v for k, v in os.environ.items() if k.startswith("GOOGLE_")})
+    return env
+
 def siguiente_factura():
     c = load_json(CONTADORES_FILE) if CONTADORES_FILE.exists() else {"ultimaFactura": 9}
     c["ultimaFactura"] = c.get("ultimaFactura", 9) + 1
     save_json(CONTADORES_FILE, c)
     return f"FAC-{c['ultimaFactura']:04d}"
+
+def fmt_usd(value):
+    if value in (None, ""):
+        return ""
+    try:
+        n = float(value)
+    except Exception:
+        return str(value)
+    return f"${int(n)}" if n.is_integer() else f"${n:.2f}"
+
+def fmt_fecha(timestamp):
+    try:
+        return datetime.fromisoformat(timestamp).strftime("%d/%m/%Y")
+    except Exception:
+        return datetime.now().strftime("%d/%m/%Y")
+
+def item_codes(items):
+    return [str(i.get("codigoItem", "")).strip() for i in items if i.get("codigoItem")]
 
 def load_estados():
     if not ESTADOS_FILE.exists():
@@ -202,6 +238,254 @@ def parse_estimate(s):
         return {"min": int(nums[0].replace(",","")), "max": int(nums[1].replace(",",""))}
     return {"min": 0, "max": 0}
 
+def active_transactions_for_codes(transacciones, codes):
+    wanted = set(codes)
+    found = []
+    for tx in transacciones:
+        if tx.get("estado") != "confirmado":
+            continue
+        tx_codes = set(item_codes(tx.get("items", [])))
+        if tx_codes & wanted:
+            found.append(tx)
+    return found
+
+def build_tx(body, tipo, heredero, items, notas):
+    total_min = sum(i.get("estimMin", 0) or 0 for i in items)
+    total_max = sum(i.get("estimMax", 0) or 0 for i in items)
+    total_acordado = body.get("totalAcordadoUSD")
+    if total_acordado in ("", None):
+        total_acordado = sum(i.get("precioAcordado", 0) or 0 for i in items) or None
+    else:
+        total_acordado = float(total_acordado)
+
+    tx = {
+        "id": f"TX-{datetime.now().strftime('%Y%m%d-%H%M%S')}-{str(uuid.uuid4())[:4].upper()}",
+        "timestamp": datetime.now().isoformat(),
+        "tipo": tipo,
+        "heredero": heredero,
+        "items": items,
+        "totalEstMinUSD": total_min,
+        "totalEstMaxUSD": total_max,
+        "totalAcordadoUSD": total_acordado,
+        "notas": notas,
+        "estado": "confirmado",
+    }
+    if tipo == "venta":
+        tx["numeroFactura"] = siguiente_factura()
+        for item in tx["items"]:
+            if not item.get("precioAcordado") and len(tx["items"]) == 1:
+                item["precioAcordado"] = total_acordado
+    return tx
+
+def get_sheets_service():
+    env = load_env_file()
+    sheet_id = env.get("GOOGLE_SHEETS_ID", "").strip()
+    email = env.get("GOOGLE_SERVICE_ACCOUNT_EMAIL", "").strip()
+    key = env.get("GOOGLE_PRIVATE_KEY", "").replace("\\n", "\n").strip()
+    if not sheet_id or not email or not key:
+        return None, None, "Credenciales de Google Sheets no configuradas en el servidor"
+    try:
+        from google.oauth2 import service_account
+        from googleapiclient.discovery import build
+    except Exception as exc:
+        return None, None, f"Librerías Google no instaladas: {exc}"
+    info = {
+        "type": "service_account",
+        "project_id": "inventario-pignatelli",
+        "private_key_id": "",
+        "private_key": key,
+        "client_email": email,
+        "client_id": "",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_x509_cert_url": "",
+    }
+    try:
+        creds = service_account.Credentials.from_service_account_info(
+            info, scopes=["https://www.googleapis.com/auth/spreadsheets"]
+        )
+        return build("sheets", "v4", credentials=creds, cache_discovery=False), sheet_id, None
+    except Exception as exc:
+        return None, None, f"No se pudo iniciar Google Sheets: {exc}"
+
+def sheet_values(svc, sheet_id, range_name):
+    return svc.spreadsheets().values().get(
+        spreadsheetId=sheet_id,
+        range=range_name,
+        valueRenderOption="UNFORMATTED_VALUE",
+    ).execute().get("values", [])
+
+def normalize_header(s):
+    s = str(s or "").strip().lower()
+    for a, b in {"á":"a","é":"e","í":"i","ó":"o","ú":"u","ñ":"n"}.items():
+        s = s.replace(a, b)
+    return re.sub(r"[^a-z0-9]+", " ", s).strip()
+
+def header_index(headers, names):
+    normalized = [normalize_header(h) for h in headers]
+    for name in names:
+        n = normalize_header(name)
+        if n in normalized:
+            return normalized.index(n)
+    return None
+
+def find_sheet_row(rows, code):
+    target = str(code).strip()
+    for idx, row in enumerate(rows[1:], start=2):
+        if row and str(row[0]).strip() == target:
+            return idx, row
+    return None, None
+
+def sync_sheet_for_transaction(tx):
+    svc, sheet_id, error = get_sheets_service()
+    if error:
+        return {"ok": False, "error": error}
+
+    try:
+        inv = sheet_values(svc, sheet_id, "INVENTARIO_MAESTRO!A1:K1000")
+        ventas = sheet_values(svc, sheet_id, "VENTAS!A1:H1000")
+        reservas = sheet_values(svc, sheet_id, "RESERVAS!A1:F1200")
+        inv_headers = inv[0] if inv else []
+        idx_estado = header_index(inv_headers, ["Estado"])
+        idx_comprador = header_index(inv_headers, ["Reservado / Comprador", "Comprador", "Reservado Para"])
+        updates = []
+        clears = []
+        estado = "Vendido" if tx["tipo"] == "venta" else "Reservado"
+        fecha = fmt_fecha(tx["timestamp"])
+        nota_base = tx.get("notas", "")
+        if tx.get("numeroFactura"):
+            nota_base = f"{nota_base} | {tx['numeroFactura']}".strip(" | ")
+
+        for item in tx.get("items", []):
+            code = item.get("codigoItem", "")
+            inv_row, _ = find_sheet_row(inv, code)
+            if inv_row and idx_estado is not None:
+                col = chr(ord("A") + idx_estado)
+                updates.append({"range": f"INVENTARIO_MAESTRO!{col}{inv_row}", "values": [[estado]]})
+            if inv_row and idx_comprador is not None:
+                col = chr(ord("A") + idx_comprador)
+                updates.append({"range": f"INVENTARIO_MAESTRO!{col}{inv_row}", "values": [[tx.get("heredero", "")]]})
+
+            if tx["tipo"] == "venta":
+                res_row, _ = find_sheet_row(reservas, code)
+                if res_row:
+                    clears.append(f"RESERVAS!A{res_row}:F{res_row}")
+
+                ven_row, _ = find_sheet_row(ventas, code)
+                row_values = [[
+                    code,
+                    item.get("nombreES", ""),
+                    item.get("categoria", ""),
+                    tx.get("heredero", ""),
+                    fmt_usd(item.get("precioAcordado") or tx.get("totalAcordadoUSD")),
+                    "",
+                    fecha,
+                    nota_base,
+                ]]
+                if ven_row:
+                    updates.append({"range": f"VENTAS!A{ven_row}:H{ven_row}", "values": row_values})
+                else:
+                    svc.spreadsheets().values().append(
+                        spreadsheetId=sheet_id,
+                        range="VENTAS!A:H",
+                        valueInputOption="USER_ENTERED",
+                        insertDataOption="INSERT_ROWS",
+                        body={"values": row_values},
+                    ).execute()
+            else:
+                res_row, _ = find_sheet_row(reservas, code)
+                row_values = [[
+                    code,
+                    item.get("nombreES", ""),
+                    item.get("categoria", ""),
+                    tx.get("heredero", ""),
+                    fmt_usd(item.get("precioAcordado") or item.get("estimMin")),
+                    nota_base,
+                ]]
+                if res_row:
+                    updates.append({"range": f"RESERVAS!A{res_row}:F{res_row}", "values": row_values})
+                else:
+                    svc.spreadsheets().values().append(
+                        spreadsheetId=sheet_id,
+                        range="RESERVAS!A:F",
+                        valueInputOption="USER_ENTERED",
+                        insertDataOption="INSERT_ROWS",
+                        body={"values": row_values},
+                    ).execute()
+
+        if clears:
+            svc.spreadsheets().values().batchClear(
+                spreadsheetId=sheet_id, body={"ranges": clears}
+            ).execute()
+        if updates:
+            svc.spreadsheets().values().batchUpdate(
+                spreadsheetId=sheet_id,
+                body={"valueInputOption": "USER_ENTERED", "data": updates},
+            ).execute()
+        return {"ok": True}
+    except Exception as exc:
+        return {"ok": False, "error": str(exc)}
+
+def create_transaction(body):
+    items = body.get("items", [])
+    tipo = body.get("tipo", "reserva").strip().lower()
+    heredero = body.get("heredero", "").strip()
+    notas = body.get("notas", "").strip()
+    if tipo not in ("reserva", "venta"):
+        return None, (jsonify({"error": "Tipo inválido"}), 400)
+    if not items:
+        return None, (jsonify({"error": "Sin artículos"}), 400)
+    if not heredero:
+        return None, (jsonify({"error": "Debe indicar el heredero o comprador"}), 400)
+
+    codes = item_codes(items)
+    catalogo = {i["codigoItem"]: i for i in catalogo_con_estados()}
+    missing = [c for c in codes if c not in catalogo]
+    if missing:
+        return None, (jsonify({"error": f"Artículo no encontrado: {', '.join(missing)}"}), 404)
+
+    unavailable = []
+    for code in codes:
+        estado_actual = str(catalogo[code].get("estado", "Disponible")).lower()
+        if tipo == "reserva" and estado_actual != "disponible":
+            unavailable.append(code)
+        if tipo == "venta" and estado_actual == "vendido":
+            unavailable.append(code)
+    if unavailable:
+        return None, (jsonify({"error": f"Artículo no disponible: {', '.join(unavailable)}"}), 409)
+
+    data = load_transacciones()
+    conflicts = active_transactions_for_codes(data["transacciones"], codes)
+    active_sales = [t for t in conflicts if t.get("tipo") == "venta"]
+    if active_sales:
+        sold = ", ".join(sorted(set(c for t in active_sales for c in item_codes(t.get("items", []))) & set(codes)))
+        return None, (jsonify({"error": f"Ya vendido: {sold}"}), 409)
+    if tipo == "reserva" and conflicts:
+        reserved = ", ".join(sorted(set(c for t in conflicts for c in item_codes(t.get("items", []))) & set(codes)))
+        return None, (jsonify({"error": f"Ya reservado: {reserved}"}), 409)
+
+    tx = build_tx(body, tipo, heredero, items, notas)
+    if tipo == "venta" and not tx.get("totalAcordadoUSD"):
+        return None, (jsonify({"error": "Toda venta debe tener precio acordado"}), 400)
+
+    if tipo == "venta":
+        for old in conflicts:
+            if old.get("tipo") == "reserva":
+                old["estado"] = "convertido"
+                old["convertidoEn"] = tx["timestamp"]
+                old["ventaId"] = tx["id"]
+
+    data["transacciones"].append(tx)
+    save_json(TRANSACCIONES_FILE, data)
+
+    nuevo_estado = "Reservado" if tipo == "reserva" else "Vendido"
+    for code in codes:
+        save_estado(code, nuevo_estado, heredero)
+    rebuild_excel(data["transacciones"])
+    tx["sheetSync"] = sync_sheet_for_transaction(tx)
+    return tx, None
+
 # ── Rutas API ────────────────────────────────────────────────
 @app.route("/api/catalogo")
 def api_catalogo():
@@ -218,6 +502,10 @@ def api_transacciones():
 @app.route("/api/transaccion", methods=["POST"])
 def api_crear_transaccion():
     body = request.get_json(force=True)
+    tx, error = create_transaction(body)
+    if error:
+        return error
+    return jsonify({"success": True, "transaccion": tx})
     items = body.get("items", [])
     tipo  = body.get("tipo", "reserva")
     heredero = body.get("heredero", "").strip()
@@ -271,6 +559,26 @@ def api_reservar_item():
     item = next((i for i in catalogo if i["codigoItem"] == codigo), None)
     if not item:
         return jsonify({"error": "Artículo no encontrado"}), 404
+
+    est = parse_estimate(item.get("estimacionSothebys", ""))
+    tx, error = create_transaction({
+        "tipo": "reserva",
+        "heredero": heredero,
+        "notas": "Reserva directa Sotheby's",
+        "items": [{
+            "codigoItem": codigo,
+            "nombreES": item.get("nombreES", ""),
+            "categoria": item.get("categoria", ""),
+            "estimMin": est["min"],
+            "estimMax": est["max"],
+            "estimacionSothebys": item.get("estimacionSothebys", ""),
+            "refSothebys": item.get("refSothebys", ""),
+            "fotos": item.get("fotos", []),
+        }],
+    })
+    if error:
+        return error
+    return jsonify({"success": True, "transaccion": tx})
 
     save_estado(codigo, "Reservado", heredero, False)
 
