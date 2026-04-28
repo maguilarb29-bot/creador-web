@@ -11927,7 +11927,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria",
     "notas": "",
-    "precioUSD": 800.0
+    "precioUSD": null
   },
   {
     "codigoItem": "351A",
