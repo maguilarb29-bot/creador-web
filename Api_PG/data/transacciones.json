@@ -257,6 +257,391 @@
       "totalAcordadoUSD": null,
       "notas": "",
       "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260420-180824-70E2",
+      "timestamp": "2026-04-20T18:08:24.269148",
+      "tipo": "reserva",
+      "heredero": "Alejandro",
+      "items": [
+        {
+          "codigoItem": "308A",
+          "nombreES": "Silla de oficina giratoria ergonomica de cuero sintetico negro",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "308A-1-silla-de-oficina-giratoria-ergonomica-de-cuero-sintetico-negro.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260420-224704-F808",
+      "timestamp": "2026-04-20T22:47:04.949505",
+      "tipo": "reserva",
+      "heredero": "Fabrizia Pignatelli",
+      "items": [
+        {
+          "codigoItem": "14A",
+          "nombreES": "Grabado de nicolaes de bruyn",
+          "categoria": "Arte en papel",
+          "estimMin": 420,
+          "estimMax": 560,
+          "estimacionSothebys": "$420 - $560",
+          "refSothebys": "36",
+          "fotos": [
+            "14A-1-grabado-de-nicolaes-de-bruyn.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 420,
+      "totalEstMaxUSD": 560,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260421-023842-56EA",
+      "timestamp": "2026-04-21T02:38:42.728522",
+      "tipo": "venta",
+      "heredero": "ALEJANDRO",
+      "items": [
+        {
+          "codigoItem": "85B",
+          "nombreES": "Televisor Samsung Smart TV de pantalla plana 65 pulgadas",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "85B-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
+          ],
+          "precioAcordado": 200
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": 200,
+      "notas": "",
+      "estado": "confirmado",
+      "numeroFactura": "FAC-0010"
+    },
+    {
+      "id": "TX-20260421-183237-9F62",
+      "timestamp": "2026-04-21T18:32:37.705835",
+      "tipo": "reserva",
+      "heredero": "Arlyn Clachar",
+      "items": [
+        {
+          "codigoItem": "44AH",
+          "nombreES": "Cristaleria con borde dorado flautas y copas multicolor",
+          "categoria": "Cristaleria",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "44AH-1-cristaleria-con-borde-dorado-flautas-y-copas-multicolor.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "44AG",
+          "nombreES": "Cristaleria decorativa variada con detalles dorados y tallados",
+          "categoria": "Cristaleria",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "44AG-1-cristaleria-decorativa-variada-con-detalles-dorados-y-tallados.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "45AB",
+          "nombreES": "Copas transparentes tallo de color azul y rojo",
+          "categoria": "Cristaleria",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "45AB-1-copas-transparentes-tallo-de-color-azul-y-rojo.jpg"
+          ],
+          "precioAcordado": null
+        },
+        {
+          "codigoItem": "283A",
+          "nombreES": "Cuencos y tarros de ceramica blanca decorada",
+          "categoria": "Ceramica",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "283A-1-cuencos-y-tarros-de-ceramica-blanca-decorada.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260427-215805-F1AB",
+      "timestamp": "2026-04-27T21:58:05.375787",
+      "tipo": "reserva",
+      "heredero": "Margherita Pignatelli",
+      "items": [
+        {
+          "codigoItem": "11A",
+          "nombreES": "Pareja de jarrones esfericos rosas ceramicos",
+          "categoria": "Ceramica",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "11A-1-pareja-de-jarrones-esfericos-rosas-ceramicos.jpg"
+          ],
+          "precioAcordado": null
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": null,
+      "notas": "",
+      "estado": "confirmado"
+    },
+    {
+      "id": "TX-20260425-000000-BBQ1",
+      "timestamp": "2026-04-25T12:00:00.000000",
+      "tipo": "venta",
+      "heredero": "Gabriel Louzao Von B",
+      "items": [
+        {
+          "codigoItem": "364A",
+          "nombreES": "BBQ Kamado Joe",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "364A-1-BBQ-kamadojoe.jpg"
+          ],
+          "precioAcordado": 450
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": 450,
+      "notas": "SINPE $450 · Ref 48334640",
+      "estado": "confirmado",
+      "numeroFactura": "FAC-0011"
+    },
+    {
+      "id": "TX-20260427-220925-4FD3",
+      "timestamp": "2026-04-27T22:09:25.642584",
+      "tipo": "venta",
+      "heredero": "BELTRAN JOEL LOBO",
+      "items": [
+        {
+          "codigoItem": "96A",
+          "nombreES": "Cama completa queen size capitone gris azulado",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "96A-1-cama-completa-queen-size-capitone-gris-azulado.jpg"
+          ],
+          "precioAcordado": 400
+        },
+        {
+          "codigoItem": "101A",
+          "nombreES": "Par de mesitas de noche en laminado marron oscuro",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "101A-1-par-de-mesitas-de-noche-en-laminado-marron-oscuro.jpg"
+          ],
+          "precioAcordado": 50
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": 450,
+      "notas": "COMPROBANTE N 48317869",
+      "estado": "confirmado",
+      "numeroFactura": "FAC-0012"
+    },
+    {
+      "id": "TX-20260428-032251-2CE4",
+      "timestamp": "2026-04-28T03:22:51.803215",
+      "tipo": "venta",
+      "heredero": "Rasmi Camacho",
+      "items": [
+        {
+          "codigoItem": "12A",
+          "nombreES": "Mesa consola negra con base escultural de varillas curvas",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "12A-1-mesa-consola-negra-con-base-escultural-de-varillas-curvas.jpg"
+          ],
+          "precioAcordado": 50
+        },
+        {
+          "codigoItem": "84A",
+          "nombreES": "Mesa consola moderna con patas doradas y marmol negro",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "84A-1-mesa-consola-moderna-con-patas-doradas-y-marmol-negro.jpg"
+          ],
+          "precioAcordado": 80
+        },
+        {
+          "codigoItem": "85A",
+          "nombreES": "Televisor samsung smart tv de pantalla plana 65 pulgadas",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "85A-1-televisor-samsung-smart-tv-de-pantalla-plana-65-pulgadas.jpg"
+          ],
+          "precioAcordado": 200
+        },
+        {
+          "codigoItem": "93A",
+          "nombreES": "Pintura jardin floral impresionista",
+          "categoria": "Arte en papel",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "93A-1-pintura-jardin-floral-impresionista.jpg",
+            "93A-2-pintura-jardin-floral-impresionista.jpg",
+            "93A-3-pintura-jardin-floral-impresionista.jpg",
+            "93A-4-pintura-jardin-floral-impresionista.jpg"
+          ],
+          "precioAcordado": 120
+        },
+        {
+          "codigoItem": "111A",
+          "nombreES": "Mesa consola moderna con imitacion marmol negro y patas dora",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "111A-1-mesa-consola-moderna-con-imitacion-marmol-negro-y-patas-doradas.jpg"
+          ],
+          "precioAcordado": 100
+        },
+        {
+          "codigoItem": "115A",
+          "nombreES": "Lampara de pie laton con doble luz led lectura y ambiente",
+          "categoria": "Electrodomesticos",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "115A-1-lampara-de-pie-laton-con-doble-luz-led-lectura-y-ambiente.jpg"
+          ],
+          "precioAcordado": 70
+        },
+        {
+          "codigoItem": "134B",
+          "nombreES": "Juego de muebles de exterior rattan y cojines terracota",
+          "categoria": "Muebles",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "134B-1-juego-de-muebles-de-exterior-rattan-y-cojines-terracota.jpg"
+          ],
+          "precioAcordado": 800
+        },
+        {
+          "codigoItem": "139A",
+          "nombreES": "Par de grabados de bagres en el agua",
+          "categoria": "Arte en papel",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "139A-1-par-de-grabados-de-bagres-en-el-agua.jpg",
+            "139A-2-par-de-grabados-de-bagre-en-el-agua.jpg"
+          ],
+          "precioAcordado": 70
+        },
+        {
+          "codigoItem": "143AA",
+          "nombreES": "Cristaleria transparente para gin tonic (14)",
+          "categoria": "Cristaleria",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "143AA-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
+          ],
+          "precioAcordado": 60
+        },
+        {
+          "codigoItem": "150AE",
+          "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
+          "categoria": "Cristaleria",
+          "estimMin": 0,
+          "estimMax": 0,
+          "estimacionSothebys": null,
+          "refSothebys": null,
+          "fotos": [
+            "150AE-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
+          ],
+          "precioAcordado": 75
+        }
+      ],
+      "totalEstMinUSD": 0,
+      "totalEstMaxUSD": 0,
+      "totalAcordadoUSD": 1625,
+      "notas": "",
+      "estado": "confirmado",
+      "numeroFactura": "FAC-0013"
     }
   ]
 }
