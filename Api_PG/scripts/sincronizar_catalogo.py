@@ -145,7 +145,7 @@ else:
     print("🚀 Desplegando en servidor...")
     subprocess.run([
         "ssh", "root@24.199.89.36",
-        "cd /app && git pull && systemctl restart pignatelli"
+        "cd /app && git checkout Api_PG/data/solaris_catalogo.json && git pull && systemctl restart pignatelli"
     ], check=True)
 
 print("\n✅ SINCRONIZACIÓN COMPLETA")
