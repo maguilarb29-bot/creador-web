@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python -c \":*)",
-      "Bash(ls \"C:\\\\Users\\\\Alejandro\\\\Documents\\\\Proyecto Pignatelli\\\\Api_PG\\\\images\"\" 2>/dev/null || echo \"no existe \")"
-    ]
-  }
-}
