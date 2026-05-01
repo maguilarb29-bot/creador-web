@@ -219,7 +219,7 @@
     "descripcionSothebys": "A large wood table with corner legs, 20th century.",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 400.0,
+    "precioUSD": 200.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 400.0
@@ -354,7 +354,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": 75.0,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 75.0
@@ -1724,7 +1724,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 10.0,
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 10.0
@@ -3445,7 +3445,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 30.0,
+    "precioUSD": 120.0,
     "cantidad": 4,
     "notas": ""
   },
@@ -5041,7 +5041,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Nuria",
-    "precioUSD": 100.0,
+    "precioUSD": 70.0,
     "cantidad": 2,
     "notas": "",
     "precioMinimoUSD": 70.0
@@ -5340,7 +5340,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Mireya",
-    "precioUSD": 120.0,
+    "precioUSD": 130.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9789,7 +9789,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 2.0,
+    "precioUSD": 25.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 2.0
@@ -12444,7 +12444,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Alejandra Mendez",
-    "precioUSD": 10.0,
+    "precioUSD": 20.0,
     "cantidad": 0,
     "notas": ""
   },
