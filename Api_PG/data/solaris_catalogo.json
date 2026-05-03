@@ -1813,7 +1813,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -1879,7 +1879,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -11403,7 +11403,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 5,
     "cantidad": 1,
     "notas": ""
   },
@@ -11601,7 +11601,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 5,
     "cantidad": 1,
     "notas": ""
   },
@@ -11711,7 +11711,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -11740,7 +11740,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 5,
     "cantidad": 8,
     "notas": ""
   },
@@ -11806,7 +11806,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -11828,7 +11828,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -11850,7 +11850,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -11872,7 +11872,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -11894,7 +11894,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Isabel Marin",
-    "precioUSD": 150,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -11916,7 +11916,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Isabel Marin",
-    "precioUSD": 150,
+    "precioUSD": 5,
     "cantidad": 1,
     "notas": ""
   },
@@ -11938,7 +11938,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 5,
     "cantidad": 1,
     "notas": ""
   },
@@ -11960,7 +11960,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -12085,7 +12085,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria Alpizar",
     "notas": "",
-    "precioUSD": 150,
+    "precioUSD": 20,
     "estimacionSothebys": "",
     "refSothebys": "",
     "paginaSothebys": ""
