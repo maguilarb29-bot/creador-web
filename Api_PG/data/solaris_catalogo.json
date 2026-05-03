@@ -1281,7 +1281,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 2,
     "notas": ""
   },
@@ -1303,7 +1303,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -1325,7 +1325,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -1369,7 +1369,7 @@
     "descripcionSothebys": "A 316-piece armorial glass service with the Pignatelli coat of arms.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1391,7 +1391,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1413,7 +1413,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1435,7 +1435,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1479,7 +1479,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1501,7 +1501,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1523,7 +1523,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1680,7 +1680,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -1702,7 +1702,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -1769,7 +1769,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -1791,7 +1791,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -1835,7 +1835,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2011,7 +2011,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2033,7 +2033,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2055,7 +2055,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -2077,7 +2077,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4646,7 +4646,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4870,7 +4870,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4936,7 +4936,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4982,7 +4982,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5191,7 +5191,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5416,7 +5416,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -5502,7 +5502,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -5710,7 +5710,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -5733,7 +5733,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 2,
     "notas": ""
   },
@@ -5756,7 +5756,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 2,
     "notas": ""
   },
@@ -5800,7 +5800,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5822,7 +5822,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5844,7 +5844,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6000,7 +6000,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6023,7 +6023,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 2,
     "notas": ""
   },
@@ -6046,7 +6046,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 2,
     "notas": ""
   },
@@ -6068,7 +6068,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6090,7 +6090,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6112,7 +6112,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6135,7 +6135,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 2,
     "notas": ""
   },
@@ -6243,7 +6243,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6265,7 +6265,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6287,7 +6287,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -6331,7 +6331,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6353,7 +6353,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -6375,7 +6375,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -6442,7 +6442,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -6464,7 +6464,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -6508,7 +6508,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6530,7 +6530,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6840,7 +6840,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6862,7 +6862,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -6929,7 +6929,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -6951,7 +6951,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6973,7 +6973,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7039,7 +7039,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7061,7 +7061,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7083,7 +7083,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7149,7 +7149,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7215,7 +7215,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -7237,7 +7237,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -7259,7 +7259,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -7281,7 +7281,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -7553,7 +7553,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -7796,7 +7796,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -8427,7 +8427,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8494,7 +8494,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8516,7 +8516,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -8560,7 +8560,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8649,7 +8649,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8671,7 +8671,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8693,7 +8693,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8715,7 +8715,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8741,7 +8741,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 5,
     "notas": ""
   },
@@ -8763,7 +8763,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8785,7 +8785,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8807,7 +8807,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8829,7 +8829,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8851,7 +8851,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8873,7 +8873,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -8895,7 +8895,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8917,7 +8917,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8939,7 +8939,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -8961,7 +8961,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -8983,7 +8983,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9005,7 +9005,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -9027,7 +9027,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -9049,7 +9049,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -9071,7 +9071,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9093,7 +9093,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9115,7 +9115,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -9137,7 +9137,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9160,7 +9160,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 2,
     "notas": ""
   },
@@ -9182,7 +9182,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -9204,7 +9204,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9227,7 +9227,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -9249,7 +9249,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -9271,7 +9271,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9293,7 +9293,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9315,7 +9315,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9337,7 +9337,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9359,7 +9359,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9381,7 +9381,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9403,7 +9403,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9425,7 +9425,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9447,7 +9447,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9469,7 +9469,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9491,7 +9491,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9513,7 +9513,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9535,7 +9535,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -9557,7 +9557,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9579,7 +9579,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9601,7 +9601,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9623,7 +9623,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9645,7 +9645,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9665,7 +9665,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": null,
+    "precioUSD": 60,
     "cantidad": 1,
     "notas": ""
   },
@@ -9709,7 +9709,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9729,7 +9729,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -9751,7 +9751,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9862,7 +9862,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -9950,7 +9950,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -9972,7 +9972,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -10941,7 +10941,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10983,7 +10983,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11359,7 +11359,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11401,7 +11401,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11445,7 +11445,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11489,7 +11489,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11709,7 +11709,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
