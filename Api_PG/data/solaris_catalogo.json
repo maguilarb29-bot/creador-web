@@ -2750,7 +2750,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -2772,7 +2772,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -2794,7 +2794,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -2825,7 +2825,7 @@
     "codigoPadre": "76",
     "numItem": 76,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
+    "categoria": "Muebles",
     "nombreES": "Dormitorio de lujo contemporaneo con cama tapizada y banco c",
     "descripcionES": "",
     "fotos": [
@@ -2838,7 +2838,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -4399,7 +4399,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -10275,7 +10275,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
