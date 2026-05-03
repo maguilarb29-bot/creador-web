@@ -5487,6 +5487,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "143AK",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado oscuro",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "143AL",
     "codigoPadre": "",
     "numItem": 143,
