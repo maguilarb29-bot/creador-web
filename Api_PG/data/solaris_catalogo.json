@@ -760,7 +760,7 @@
     "descripcionSothebys": "A Louis XV style beech, mahogany, rosewood, kingwood and gilt-bronze-mounted commode, 19th century, in the manner of J. J. Dubois, with a Spanish portor top.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 5600,
     "cantidad": 1,
     "notas": ""
   },
@@ -2258,7 +2258,7 @@
     "descripcionSothebys": "A pair of Louis XV style bombÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
     "estado": "Reservado",
     "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 7000,
     "cantidad": 1,
     "notas": ""
   },
@@ -2860,7 +2860,7 @@
     "descripcionSothebys": "A giltwood console table, possibly German, mid 18th century, with a fior di pesco marble top.",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": 150,
+    "precioUSD": 14000,
     "cantidad": 1,
     "notas": ""
   },
@@ -7562,7 +7562,7 @@
     "codigoPadre": "167",
     "numItem": 167,
     "tipoEstructural": "SET",
-    "categoria": "Muebles",
+    "categoria": "Cristaleria",
     "nombreES": "Cristaleria eclectica de mesa y decoracion",
     "descripcionES": "",
     "fotos": [
@@ -7584,7 +7584,7 @@
     "codigoPadre": "167A",
     "numItem": 167,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
+    "categoria": "Cristaleria",
     "nombreES": "Cristaleria eclectica de mesa y decoracion",
     "descripcionES": "",
     "fotos": [
@@ -7606,7 +7606,7 @@
     "codigoPadre": "167A",
     "numItem": 167,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
+    "categoria": "Cristaleria",
     "nombreES": "Cristaleria eclectica de mesa y decoracion",
     "descripcionES": "",
     "fotos": [
@@ -7628,7 +7628,7 @@
     "codigoPadre": "167A",
     "numItem": 167,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
+    "categoria": "Cristaleria",
     "nombreES": "Cristaleria eclectica de mesa y decoracion",
     "descripcionES": "",
     "fotos": [
@@ -8358,7 +8358,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
