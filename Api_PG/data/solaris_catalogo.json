@@ -130,7 +130,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -266,7 +266,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Luciana Paris",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -288,7 +288,7 @@
     "descripcionSothebys": "Referencia adicional confirmada manualmente.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -491,7 +491,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -513,7 +513,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -536,7 +536,7 @@
     "descripcionSothebys": "Referencia adicional confirmada manualmente.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 2,
     "notas": ""
   },
@@ -558,7 +558,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -714,7 +714,7 @@
     "descripcionSothebys": "Henri Hecht Maik (1922-1993). Two Lions. Oil on board.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -738,7 +738,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 3,
     "notas": ""
   },
@@ -760,7 +760,7 @@
     "descripcionSothebys": "A Louis XV style beech, mahogany, rosewood, kingwood and gilt-bronze-mounted commode, 19th century, in the manner of J. J. Dubois, with a Spanish portor top.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1813,7 +1813,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1879,7 +1879,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -1901,7 +1901,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -2166,7 +2166,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -2258,7 +2258,7 @@
     "descripcionSothebys": "A pair of Louis XV style bombÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
     "estado": "Reservado",
     "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2640,7 +2640,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -2662,7 +2662,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -2684,7 +2684,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -2728,7 +2728,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2750,7 +2750,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -2772,7 +2772,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2794,7 +2794,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -2838,7 +2838,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -2860,7 +2860,7 @@
     "descripcionSothebys": "A giltwood console table, possibly German, mid 18th century, with a fior di pesco marble top.",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -3161,7 +3161,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -3249,7 +3249,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -3932,7 +3932,7 @@
     "descripcionSothebys": "Mesa de centro panel laca china.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -4245,7 +4245,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -4377,7 +4377,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "HOLD UNTIL SALE",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4399,7 +4399,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -4465,7 +4465,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4624,7 +4624,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4668,7 +4668,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4691,7 +4691,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 2,
     "notas": ""
   },
@@ -4715,7 +4715,7 @@
     "descripcionSothebys": "An octagonal famille-rose bowl with Xianfeng seal mark.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 3,
     "notas": ""
   },
@@ -4737,7 +4737,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4759,7 +4759,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4781,7 +4781,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4803,7 +4803,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4825,7 +4825,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4848,7 +4848,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 2,
     "notas": ""
   },
@@ -4892,7 +4892,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4914,7 +4914,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -4959,7 +4959,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 2,
     "notas": "| Material: plastico (no ceramica)",
     "catCodigo": "U"
@@ -5004,7 +5004,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -5078,7 +5078,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 4,
     "notas": ""
   },
@@ -5123,7 +5123,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 2,
     "notas": ""
   },
@@ -5213,7 +5213,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -6620,7 +6620,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6642,7 +6642,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6664,7 +6664,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6686,7 +6686,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6708,7 +6708,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6730,7 +6730,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6752,7 +6752,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6774,7 +6774,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6796,7 +6796,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -6995,7 +6995,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7017,7 +7017,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7105,7 +7105,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7127,7 +7127,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7417,7 +7417,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -7461,7 +7461,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7483,7 +7483,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7597,7 +7597,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -7619,7 +7619,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -7641,7 +7641,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -7685,7 +7685,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7707,7 +7707,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7774,7 +7774,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -7976,7 +7976,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8088,7 +8088,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8110,7 +8110,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8132,7 +8132,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8154,7 +8154,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8176,7 +8176,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8198,7 +8198,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8220,7 +8220,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -8291,7 +8291,7 @@
     "descripcionSothebys": "A.M. Ciscar, 20th century. A couple strolling.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -8314,7 +8314,7 @@
     "descripcionSothebys": "The remaining work on the Stairs, comprising a watercolour of a doorway by Rossi, 2005; a watercolour of an Italian village by H.W. Cole; and an oil painting of the heads of four children.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 2,
     "notas": ""
   },
@@ -8358,7 +8358,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -8383,7 +8383,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 4,
     "notas": ""
   },
@@ -8405,7 +8405,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 100,
     "cantidad": 1,
     "notas": ""
   },
@@ -8627,7 +8627,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -9884,7 +9884,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9906,7 +9906,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 800,
     "cantidad": 1,
     "notas": ""
   },
@@ -9928,7 +9928,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 10,
     "cantidad": 1,
     "notas": ""
   },
@@ -10032,7 +10032,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 20,
     "cantidad": 39,
     "notas": ""
   },
@@ -10074,7 +10074,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -10096,7 +10096,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -10118,7 +10118,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -10140,7 +10140,7 @@
     "descripcionSothebys": "Busto de bronce.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -10162,7 +10162,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -10206,7 +10206,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -10228,7 +10228,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -10251,7 +10251,7 @@
     "descripcionSothebys": "Twelve Italian menu holders formed as coins and other markers.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 2,
     "notas": ""
   },
@@ -10273,7 +10273,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -10295,7 +10295,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -10317,7 +10317,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -10339,7 +10339,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -10521,7 +10521,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10543,7 +10543,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10565,7 +10565,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10587,7 +10587,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10609,7 +10609,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10676,7 +10676,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10698,7 +10698,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10720,7 +10720,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10742,7 +10742,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10809,7 +10809,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 5,
     "cantidad": 1,
     "notas": ""
   },
@@ -10963,7 +10963,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11027,7 +11027,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11049,7 +11049,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -11071,7 +11071,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -11093,7 +11093,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -11115,7 +11115,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 40,
     "cantidad": 1,
     "notas": ""
   },
@@ -11137,7 +11137,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "cantidad": 1,
     "notas": ""
   },
@@ -11204,7 +11204,7 @@
     "descripcionSothebys": "A pair of electroplated rose bowls in the 18th century style.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -11226,7 +11226,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11248,7 +11248,7 @@
     "descripcionSothebys": "Referencia adicional confirmada manualmente.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -11270,7 +11270,7 @@
     "descripcionSothebys": "An electroplated steak set and ivory salad servers.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -11292,7 +11292,7 @@
     "descripcionSothebys": "A French silver-gilt dessert service of 36 pieces, circa 1900.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -11315,7 +11315,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 2,
     "notas": ""
   },
@@ -11337,7 +11337,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -11379,7 +11379,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 300,
     "cantidad": 1,
     "notas": ""
   },
@@ -11423,7 +11423,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11511,7 +11511,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -11533,7 +11533,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -11555,7 +11555,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -11577,7 +11577,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": null,
+    "precioUSD": 120,
     "cantidad": 1,
     "notas": ""
   },
@@ -11599,7 +11599,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11621,7 +11621,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11643,7 +11643,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11665,7 +11665,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11731,7 +11731,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11760,7 +11760,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 8,
     "notas": ""
   },
@@ -11782,7 +11782,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11804,7 +11804,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Fundación Andrea Jiménez",
-    "precioUSD": null,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -11826,7 +11826,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11848,7 +11848,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11870,7 +11870,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11892,7 +11892,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11914,7 +11914,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Isabel Marin",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11936,7 +11936,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Isabel Marin",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11958,7 +11958,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -11980,7 +11980,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -12000,7 +12000,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -12085,7 +12085,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria Alpizar",
     "notas": "",
-    "precioUSD": null,
+    "precioUSD": 250,
     "estimacionSothebys": "—",
     "refSothebys": "",
     "paginaSothebys": ""
@@ -12105,7 +12105,7 @@
     "estado": "Reservado",
     "reservadoPara": "Nuria Alpizar",
     "notas": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "estimacionSothebys": "",
     "refSothebys": "",
     "paginaSothebys": ""
@@ -12123,7 +12123,7 @@
     "fotos": [
       "351A-1-conjunto-de-cuencos-y-cajas-lacadas-chinas-con-escenas-doradas.jpg"
     ],
-    "precioUSD": null,
+    "precioUSD": 120,
     "precioColones": null,
     "notas": "Set de cuencos y cajas lacadas negras con decoracion dorada de escenas chinas.",
     "tieneSothebys": false,
@@ -12144,7 +12144,7 @@
     "fotos": [
       "352A-1-mesa-consola-altar-china-de-madera-oscura.jpg"
     ],
-    "precioUSD": null,
+    "precioUSD": 150,
     "precioColones": null,
     "notas": "Mesa consola de madera oscura estilo altar chino, patas rectangulares arquitectonicas.",
     "estimacionSothebys": "—",
@@ -12165,7 +12165,7 @@
     "fotos": [
       "353A-1-mesita-kang-china-de-madera-con-moldura-de-meandro.jpg"
     ],
-    "precioUSD": null,
+    "precioUSD": 150,
     "precioColones": null,
     "notas": "Mesita baja tipo kang de madera negra con moldura de meandro tallada.",
     "estimacionSothebys": "—",
@@ -12186,7 +12186,7 @@
     "fotos": [
       "354A-1-par-de-pedestales-chinos-de-madera-tallada-con-calado-decorativo.jpg"
     ],
-    "precioUSD": null,
+    "precioUSD": 150,
     "precioColones": null,
     "notas": "Par de pedestales chinos de madera de palo de rosa con calado decorativo en la falda.",
     "estimacionSothebys": "—",
@@ -12322,7 +12322,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -12344,7 +12344,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
@@ -12366,7 +12366,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": null,
+    "precioUSD": 150,
     "cantidad": 1,
     "notas": ""
   },
