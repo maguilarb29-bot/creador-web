@@ -9271,7 +9271,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 35,
     "cantidad": 1,
     "notas": ""
   },
@@ -9293,7 +9293,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9315,7 +9315,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 40,
     "cantidad": 1,
     "notas": ""
   },
@@ -9337,7 +9337,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9359,7 +9359,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9381,7 +9381,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9403,7 +9403,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9425,7 +9425,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9447,7 +9447,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 25,
     "cantidad": 1,
     "notas": ""
   },
@@ -9469,7 +9469,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -9491,7 +9491,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -9513,7 +9513,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 25,
     "cantidad": 1,
     "notas": ""
   },
@@ -9535,7 +9535,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 60,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9557,7 +9557,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 25,
     "cantidad": 1,
     "notas": ""
   },
@@ -9579,7 +9579,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 15,
     "cantidad": 1,
     "notas": ""
   },
@@ -9601,7 +9601,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9623,7 +9623,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9645,7 +9645,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 25,
     "cantidad": 1,
     "notas": ""
   },
@@ -9687,7 +9687,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 160.0,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -9709,27 +9709,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "247A",
-    "codigoPadre": "",
-    "numItem": 247,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas de cristal tallado rubi con pie transparente",
-    "descripcionES": "",
-    "fotos": [],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 100,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -9751,7 +9731,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80,
+    "precioUSD": 40,
     "cantidad": 1,
     "notas": ""
   },
