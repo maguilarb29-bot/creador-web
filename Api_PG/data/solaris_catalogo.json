@@ -1369,7 +1369,7 @@
     "descripcionSothebys": "A 316-piece armorial glass service with the Pignatelli coat of arms.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 16800.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -1769,7 +1769,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -2640,7 +2640,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -2750,7 +2750,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 80.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -3161,7 +3161,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -3249,7 +3249,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -4469,7 +4469,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 30.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -4695,7 +4695,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 2,
     "notas": ""
   },
@@ -4785,7 +4785,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -4896,7 +4896,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -5008,7 +5008,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -6227,7 +6227,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Oscar Murillo",
-    "precioUSD": 250.0,
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6648,7 +6648,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -9759,7 +9759,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Mariana Herrera",
-    "precioUSD": 25.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 2.0
