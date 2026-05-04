@@ -1582,7 +1582,7 @@
     "nombreES": "45AB-1-copas-transparentes-tallo-de-color-azul- (6).",
     "descripcionES": "",
     "fotos": [
-      "44AI-1-cristaleria-de-copas-tintadas-verde-esmeralda-y-azul.jpg"
+      "44AI-1-copas-transparentes-tallo-de-color-azul.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -1693,7 +1693,7 @@
     "nombreES": "Copas tintadas verde esmeralda",
     "descripcionES": "",
     "fotos": [
-      "45AB-1-copas-transparentes-tallo-de-color-azul-y-rojo.jpg"
+      "45AB-1-cristaleria-de-copas-tintadas-verde-esmeralda.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -3772,7 +3772,7 @@
     "nombreES": "Ventilador de torre fahrenheit cubierto",
     "descripcionES": "",
     "fotos": [
-      "106A-1-ventilador-de-torre-fahrenheit-cubierto.jpg"
+      "106A-1-calentador-de -electrico.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -3834,7 +3834,7 @@
     "codigoPadre": "107",
     "numItem": 107,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Decorativos",
     "nombreES": "Caja  decorativa chinos lacados",
     "descripcionES": "",
     "fotos": [],
@@ -3854,7 +3854,7 @@
     "codigoPadre": "107",
     "numItem": 107,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Decorativos",
     "nombreES": "Cuenco decorativos chinos lacados",
     "descripcionES": "",
     "fotos": [],
@@ -4501,7 +4501,7 @@
     "nombreES": "Juego de platos estilo imari decoracion japonesa rojo y azul (5)",
     "descripcionES": "",
     "fotos": [
-      "133AB-1-juego-de-platos-estilo-imari-decoracion-japonesa-rojo-y-azul.jpg"
+      "133AB-1-juego-de-platos-estilo-imari-decoracion-japonesa-rojo-y-negro.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -5204,7 +5204,7 @@
     "nombreES": "Recipiente cuadrado transparente con asas",
     "descripcionES": "",
     "fotos": [
-      "141B-1-recipiente-cuadrado-transparente-con-asas.jpg"
+      "141B-1-Hielera-cuadrado-transparente-con-asas.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -9811,7 +9811,7 @@
     "categoria": "Cristaleria",
     "descripcionES": "",
     "fotos": [
-      "249AC-1-vasos-de-cristal-ondulado.jpg"
+      "249AC-1-candeleros-de-cristal-ondulado.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -10181,7 +10181,7 @@
     "nombreES": "Mobiliario miniatura oriental de madera tallada",
     "descripcionES": "",
     "fotos": [
-      "263A-1-mobiliario-miniatura-oriental-de-madera-tallada.jpg"
+      "263A-1- Licuadora.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -12381,7 +12381,7 @@
     "codigoPadre": "365",
     "numItem": 365,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Ropa",
     "nombreES": "pashmina (3)",
     "descripcionES": "",
     "fotos": [],
@@ -12401,7 +12401,7 @@
     "codigoPadre": "366",
     "numItem": 366,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Ropa",
     "nombreES": "Vestidos (2)",
     "descripcionES": "",
     "fotos": [],
@@ -12421,7 +12421,7 @@
     "codigoPadre": "367",
     "numItem": 367,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Ropa",
     "nombreES": "pashmina (2)",
     "descripcionES": "",
     "fotos": [],
@@ -12441,7 +12441,7 @@
     "codigoPadre": "",
     "numItem": 368,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "bisutería",
     "nombreES": "Broche espada",
     "descripcionES": "",
     "fotos": [],
@@ -12461,7 +12461,7 @@
     "codigoPadre": "",
     "numItem": 369,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Sin clasificar",
+    "categoria": "Utensilios",
     "nombreES": "Libros rojo con letras doradas",
     "descripcionES": "",
     "fotos": [],
