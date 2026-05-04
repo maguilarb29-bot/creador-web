@@ -5213,7 +5213,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -10173,8 +10173,8 @@
     "codigoPadre": "263",
     "numItem": 263,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Mobiliario miniatura oriental de madera tallada",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Licuadora",
     "descripcionES": "",
     "fotos": [
       "263A-1-mobiliario-miniatura-oriental-de-madera-tallada.jpg"
@@ -10186,7 +10186,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -10297,7 +10297,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 80,
     "cantidad": 1,
     "notas": ""
   },
@@ -10319,7 +10319,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 50,
     "cantidad": 1,
     "notas": ""
   },
@@ -11317,7 +11317,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -11491,7 +11491,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
@@ -11513,7 +11513,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 35,
     "cantidad": 1,
     "notas": ""
   },
@@ -11535,7 +11535,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -11557,7 +11557,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 120,
+    "precioUSD": 25,
     "cantidad": 1,
     "notas": ""
   },
@@ -12103,7 +12103,7 @@
     "fotos": [
       "351A-1-conjunto-de-cuencos-y-cajas-lacadas-chinas-con-escenas-doradas.jpg"
     ],
-    "precioUSD": 120,
+    "precioUSD": 50,
     "precioColones": null,
     "notas": "Set de cuencos y cajas lacadas negras con decoracion dorada de escenas chinas.",
     "tieneSothebys": false,
