@@ -1192,7 +1192,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": 130,
     "cantidad": 1,
     "notas": ""
   },
@@ -7400,7 +7400,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 300.0,
+    "precioUSD": 30,
     "cantidad": 1,
     "notas": ""
   },
@@ -8366,7 +8366,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 100.0,
+    "precioUSD": 45,
     "cantidad": 4,
     "notas": ""
   },
