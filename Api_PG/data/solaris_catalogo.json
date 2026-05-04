@@ -422,7 +422,7 @@
     "descripcionSothebys": "Nicolaes de Bruyn, 17th century. An Imaginary Animal Chasing an Insect. Engraving.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 420,
+    "precioUSD": 420.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 250.0
@@ -714,7 +714,7 @@
     "descripcionSothebys": "Henri Hecht Maik (1922-1993). Two Lions. Oil on board.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 840,
+    "precioUSD": 840.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -871,7 +871,7 @@
     "descripcionSothebys": "Italian School, circa 1700. A classical garden with elegant figures.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 7000,
+    "precioUSD": 7000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1192,7 +1192,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 130,
+    "precioUSD": 130.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1413,7 +1413,7 @@
     "descripcionSothebys": "",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 16800,
+    "precioUSD": 16800.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2826,7 +2826,7 @@
     "numItem": 76,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Cama tapizada con respaldo y banco capitone",
+    "nombreES": "Dormitorio de lujo contemporaneo con cama tapizada y banco c",
     "descripcionES": "",
     "fotos": [
       "76A-1-dormitorio-de-lujo-contemporaneo-con-cama-tapizada-y-banco-capitone.jpg"
@@ -2838,7 +2838,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 500,
+    "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2859,7 +2859,7 @@
     "estimacionSothebys": "$14,000 - $21,000",
     "descripcionSothebys": "A giltwood console table, possibly German, mid 18th century, with a fior di pesco marble top.",
     "estado": "Reservado",
-    "reservadoPara": "Disponible",
+    "reservadoPara": "Margherita Pignatelli",
     "precioUSD": 14000.0,
     "cantidad": 1,
     "notas": ""
@@ -2882,7 +2882,7 @@
     "descripcionSothebys": "A RÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gence giltwood wall bracket, early 18th century.",
     "estado": "Reservado",
     "reservadoPara": "Margherita Pignatelli",
-    "precioUSD": 3500,
+    "precioUSD": 3500.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 2000.0
@@ -3924,7 +3924,7 @@
     "numItem": 110,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Mesa de centro china lacada",
+    "nombreES": "Margherita Pignatelli",
     "descripcionES": "",
     "fotos": [
       "110A-1-mesa-de-centro-china-lacada.jpg"
@@ -7400,7 +7400,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 30,
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7846,7 +7846,7 @@
     "descripcionSothebys": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 2100,
+    "precioUSD": 2100.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 1000.0
@@ -8274,7 +8274,7 @@
     "descripcionSothebys": "A.M. Ciscar, 20th century. A couple strolling.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 4200,
+    "precioUSD": 4200.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8297,7 +8297,7 @@
     "descripcionSothebys": "The remaining work on the Stairs, comprising a watercolour of a doorway by Rossi, 2005; a watercolour of an Italian village by H.W. Cole; and an oil painting of the heads of four children.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 560,
+    "precioUSD": 560.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -8366,7 +8366,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 45,
+    "precioUSD": 45.0,
     "cantidad": 4,
     "notas": ""
   },
@@ -10105,7 +10105,7 @@
     "descripcionSothebys": "Busto de bronce.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 7150,
+    "precioUSD": 7150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10216,7 +10216,7 @@
     "descripcionSothebys": "Twelve Italian menu holders formed as coins and other markers.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 840,
+    "precioUSD": 840.0,
     "cantidad": 2,
     "notas": ""
   },
@@ -11173,7 +11173,7 @@
     "descripcionSothebys": "Referencia adicional confirmada manualmente.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 1120,
+    "precioUSD": 1120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11195,7 +11195,7 @@
     "descripcionSothebys": "An electroplated steak set and ivory salad servers.",
     "estado": "Reservado",
     "reservadoPara": "Diego Pignatelli",
-    "precioUSD": 280,
+    "precioUSD": 280.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11217,7 +11217,7 @@
     "descripcionSothebys": "A French silver-gilt dessert service of 36 pieces, circa 1900.",
     "estado": "Reservado",
     "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 1120,
+    "precioUSD": 1120.0,
     "cantidad": 1,
     "notas": ""
   },
