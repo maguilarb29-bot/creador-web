@@ -5494,7 +5494,9 @@
     "categoria": "Cristaleria",
     "nombreES": "Copas morado oscuro",
     "descripcionES": "",
-    "fotos": [],
+    "fotos": [
+      "143AK-1-copas-morado-oscuro.jpg"
+    ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
@@ -10024,7 +10026,9 @@
     "categoria": "bisutería",
     "nombreES": "Carterita dorada",
     "descripcionES": "",
-    "fotos": [],
+    "fotos": [
+      "256AA-38-anillos-y-broches-de-fantasia-con-gemas-variadas.jpg"
+    ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
@@ -11447,7 +11451,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 16000.0,
+    "precioUSD": 20,
     "cantidad": 1,
     "notas": ""
   },
