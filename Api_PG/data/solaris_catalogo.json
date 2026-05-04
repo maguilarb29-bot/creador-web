@@ -6123,29 +6123,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "152AG",
-    "codigoPadre": "152A",
-    "numItem": 152,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vasos de agua eclecticos de cristal",
-    "descripcionES": "",
-    "fotos": [
-      "152AG-1-vasos-de-agua-eclecticos-de-cristal.jpg",
-      "152AG-2-vasos-de-agua-eclecticos-de-cristal.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 2,
-    "notas": ""
-  },
-  {
     "codigoItem": "153A",
     "codigoPadre": "153",
     "numItem": 153,
