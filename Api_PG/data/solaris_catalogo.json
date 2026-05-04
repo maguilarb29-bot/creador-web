@@ -2826,7 +2826,7 @@
     "numItem": 76,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Dormitorio de lujo contemporaneo con cama tapizada y banco c",
+    "nombreES": "Cama tapizada con respaldo y banco capitone",
     "descripcionES": "",
     "fotos": [
       "76A-1-dormitorio-de-lujo-contemporaneo-con-cama-tapizada-y-banco-capitone.jpg"
@@ -2838,7 +2838,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 500,
     "cantidad": 1,
     "notas": ""
   },
