@@ -288,7 +288,7 @@
     "descripcionSothebys": "Referencia adicional confirmada manualmente.",
     "estado": "Reservado",
     "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 120.0,
+    "precioUSD": 7000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1533,7 +1533,7 @@
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria decorativa copas shot de colores",
+    "nombreES": "cristaleria-decorativa-copa-shot-de-colores",
     "descripcionES": "",
     "fotos": [
       "44AG-1-cristaleria-decorativa-copa-shot-de-colores.jpg"
@@ -1690,7 +1690,7 @@
     "numItem": 45,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Copas tintadas verde esmeralda",
+    "nombreES": "cristaleria-de-copas-tintadas-verde-esmeralda",
     "descripcionES": "",
     "fotos": [
       "45AB-1-cristaleria-de-copas-tintadas-verde-esmeralda.jpg"
@@ -3616,7 +3616,7 @@
     "numItem": 99,
     "tipoEstructural": "ARTICULO",
     "categoria": "Decorativos",
-    "nombreES": "Instrumentos y esferas decorativas",
+    "nombreES": "instrumentos-esferas-decorativas",
     "descripcionES": "",
     "fotos": [
       "99AC-1-instrumentos-y-candelabro-decorativos.jpg"
@@ -5540,7 +5540,7 @@
     "numItem": 143,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Copas verdes vino tinto y blanco (8)",
+    "nombreES": "copas-verdes-vino-tinto-y-blanco(8)",
     "descripcionES": "",
     "fotos": [
       "143AM-1-copas-verdes-vino-tinto-y-blanco-8.jpg"
@@ -8655,7 +8655,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 85,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -10847,6 +10847,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "294A",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "BBQ Rojo",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Gabriel Louzao",
+    "precioUSD": 450.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "295A",
     "codigoPadre": "295",
     "numItem": 295,
@@ -10928,6 +10948,26 @@
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "299A",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Bandeja base de bambu para mesa (1)",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
@@ -11312,6 +11352,26 @@
     "notas": ""
   },
   {
+    "codigoItem": "317A",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Plateria",
+    "nombreES": "Bandeja vasos y decantador de plata y cristal",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 300.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "318A",
     "codigoPadre": "318",
     "numItem": 318,
@@ -11395,7 +11455,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 20,
+    "precioUSD": 16000.0,
     "cantidad": 1,
     "notas": ""
   },
