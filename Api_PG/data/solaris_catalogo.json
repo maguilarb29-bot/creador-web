@@ -15,8 +15,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marita",
     "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
@@ -82,7 +82,7 @@
     "paginaSothebys": "92",
     "estimacionSothebys": "$140 - $280",
     "descripcionSothebys": "A pair of famille-rose baluster vases and covers, late 19th century.",
-    "estado": "Reservado",
+    "estado": "Vendido",
     "reservadoPara": "Alejandra Mendez",
     "precioUSD": 200.0,
     "cantidad": 1,
@@ -398,8 +398,8 @@
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
     "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
@@ -426,29 +426,6 @@
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 250.0
-  },
-  {
-    "codigoItem": "15A",
-    "codigoPadre": "15",
-    "numItem": 15,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa central rococo con tapa de marmol",
-    "descripcionES": "",
-    "fotos": [
-      "15A-1-mesa-central-rococo-con-tapa-de-marmol.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "45",
-    "paginaSothebys": "33",
-    "estimacionSothebys": "$5,600 - $8,400",
-    "descripcionSothebys": "An early Louis XV style giltwood centre table, 19th century, with a marble top.",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 4500.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 4500.0
   },
   {
     "codigoItem": "16A",
@@ -608,28 +585,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "17A",
-    "codigoPadre": "17",
-    "numItem": 17,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Candelabros florales metalicos oscuros",
-    "descripcionES": "",
-    "fotos": [
-      "17A-1-candelabros-florales-metalicos-oscuros.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "18A",
     "codigoPadre": "18",
     "numItem": 18,
@@ -651,6 +606,28 @@
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 3000.0
+  },
+  {
+    "codigoItem": "17A",
+    "codigoPadre": "17",
+    "numItem": 17,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Candelabros florales metalicos oscuros",
+    "descripcionES": "",
+    "fotos": [
+      "17A-1-candelabros-florales-metalicos-oscuros.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
   },
   {
     "codigoItem": "19A",
@@ -693,6 +670,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "25A",
+    "codigoPadre": "25",
+    "numItem": 25,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Figuras chinas de ceramica esmaltada estilo tang",
+    "descripcionES": "",
+    "fotos": [
+      "25A-1-figuras-chinas-de-ceramica-esmaltada-estilo-tang.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -787,15 +786,16 @@
     "notas": ""
   },
   {
-    "codigoItem": "25A",
-    "codigoPadre": "25",
-    "numItem": 25,
+    "codigoItem": "29A",
+    "codigoPadre": "29",
+    "numItem": 29,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Figuras chinas de ceramica esmaltada estilo tang",
+    "categoria": "Muebles",
+    "nombreES": "Sofa esquinero capitone azul petroleo",
     "descripcionES": "",
     "fotos": [
-      "25A-1-figuras-chinas-de-ceramica-esmaltada-estilo-tang.jpg"
+      "29A-1-sofa-esquinero-capitone-azul-petroleo.jpg",
+      "29A-2-sofa-esquinero-capitone-azul-petroleo.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -804,8 +804,8 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 50.0,
-    "cantidad": 1,
+    "precioUSD": 750.0,
+    "cantidad": 2,
     "notas": ""
   },
   {
@@ -874,74 +874,6 @@
     "precioUSD": 7000.0,
     "cantidad": 1,
     "notas": ""
-  },
-  {
-    "codigoItem": "29A",
-    "codigoPadre": "29",
-    "numItem": 29,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sofa esquinero capitone azul petroleo",
-    "descripcionES": "",
-    "fotos": [
-      "29A-1-sofa-esquinero-capitone-azul-petroleo.jpg",
-      "29A-2-sofa-esquinero-capitone-azul-petroleo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 750.0,
-    "cantidad": 2,
-    "notas": ""
-  },
-  {
-    "codigoItem": "30A",
-    "codigoPadre": "30",
-    "numItem": 30,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Reloj cartel luis xv bronce dorado saint german",
-    "descripcionES": "",
-    "fotos": [
-      "30A-1-reloj-cartel-luis-xv-bronce-dorado-saint-german.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "97",
-    "paginaSothebys": "50",
-    "estimacionSothebys": "$11,200 - $16,800",
-    "descripcionSothebys": "A Louis XV gilt-bronze cartel clock attributed to Jean-Joseph de Saint-Germain, circa 1748, with enamel dial; movement not inspected; case with crowned C poinÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§on.",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 200.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "31A",
-    "codigoPadre": "31",
-    "numItem": 31,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Par de espejos italianos dorados rococo del siglo xviii",
-    "descripcionES": "",
-    "fotos": [
-      "31A-1-par-de-espejos-italianos-dorados-rococo-del-siglo-xviii.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "41",
-    "paginaSothebys": "32",
-    "estimacionSothebys": "$16,800 - $25,200",
-    "descripcionSothebys": "A pair of Italian giltwood mirrors, mid 18th century, probably Neapolitan, associated plates, formerly frames.",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 16000.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 16000.0
   },
   {
     "codigoItem": "32A",
@@ -1018,28 +950,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "33AB",
-    "codigoPadre": "33A",
-    "numItem": 33,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Par de urnas neoclasicas de marmol y bronce",
-    "descripcionES": "",
-    "fotos": [
-      "33AB-1-par-de-urnas-neoclasicas-de-marmol-y-bronce.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "(Varios)",
-    "paginaSothebys": "1",
-    "estimacionSothebys": "1400 - $2400",
-    "descripcionSothebys": "Pareja de urnas de mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡rmol negro y latÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n.",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 600.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "34A",
     "codigoPadre": "34",
     "numItem": 34,
@@ -1106,51 +1016,6 @@
     "precioUSD": 500.0,
     "cantidad": 1,
     "notas": ""
-  },
-  {
-    "codigoItem": "37A",
-    "codigoPadre": "37",
-    "numItem": 37,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa de comedor de cristal y laton para 8 personas",
-    "descripcionES": "",
-    "fotos": [
-      "37A-1-mesa-de-comedor-de-cristal-y-laton-para-8-personas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 800.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "38A",
-    "codigoPadre": "38",
-    "numItem": 38,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Centro de mesa de cristal soplado rosa con diseno moteado",
-    "descripcionES": "",
-    "fotos": [
-      "38A-1-centro-de-mesa-de-cristal-soplado-rosa-con-diseno-moteado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 100.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 100.0
   },
   {
     "codigoItem": "39A",
@@ -1239,6 +1104,51 @@
     "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "37A",
+    "codigoPadre": "37",
+    "numItem": 37,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa de comedor de cristal y laton para 8 personas",
+    "descripcionES": "",
+    "fotos": [
+      "37A-1-mesa-de-comedor-de-cristal-y-laton-para-8-personas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 800.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "38A",
+    "codigoPadre": "38",
+    "numItem": 38,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Centro de mesa de cristal soplado rosa con diseno moteado",
+    "descripcionES": "",
+    "fotos": [
+      "38A-1-centro-de-mesa-de-cristal-soplado-rosa-con-diseno-moteado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 100.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 100.0
   },
   {
     "codigoItem": "43A",
@@ -1348,6 +1258,94 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AD",
+    "codigoPadre": "44A",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor",
+    "descripcionES": "",
+    "fotos": [
+      "44AD-1-cristaleria-con-borde-dorado-flautas-y-copas-multicolor.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AE",
+    "codigoPadre": "44A",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas de champan de cristal grabadas con logo universitario",
+    "descripcionES": "",
+    "fotos": [
+      "44AE-1-copas-de-champan-de-cristal-grabadas-con-logo-universitario.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AF",
+    "codigoPadre": "44A",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas de champan de cristal con espiral metalica",
+    "descripcionES": "",
+    "fotos": [
+      "44AF-1-copas-de-champan-de-cristal-con-espiral-metalica.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "45AA",
+    "codigoPadre": "45A",
+    "numItem": 45,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas transparentes tallo de color azul y rojo",
+    "descripcionES": "",
+    "fotos": [
+      "45AA-1-copas-transparentes-tallo-de-color-azul-y-rojo.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -1462,15 +1460,15 @@
     "notas": ""
   },
   {
-    "codigoItem": "44AD",
-    "codigoPadre": "44A",
-    "numItem": 44,
+    "codigoItem": "45AB",
+    "codigoPadre": "45A",
+    "numItem": 45,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor",
+    "nombreES": "cristaleria-de-copas-tintadas-verde-esmeralda",
     "descripcionES": "",
     "fotos": [
-      "44AD-1-cristaleria-con-borde-dorado-flautas-y-copas-multicolor.jpg"
+      "45AB-1-cristaleria-de-copas-tintadas-verde-esmeralda.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -1479,20 +1477,20 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
   {
-    "codigoItem": "44AE",
-    "codigoPadre": "44A",
-    "numItem": 44,
+    "codigoItem": "47A",
+    "codigoPadre": "47",
+    "numItem": 47,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas de champan de cristal grabadas con logo universitario",
+    "categoria": "Utensilios",
+    "nombreES": "Surtido de servilletas de papel decorativas para bar",
     "descripcionES": "",
     "fotos": [
-      "44AE-1-copas-de-champan-de-cristal-grabadas-con-logo-universitario.jpg"
+      "47A-1-surtido-de-servilletas-de-papel-decorativas-para-bar.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -1501,20 +1499,20 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": 5.0,
     "cantidad": 1,
     "notas": ""
   },
   {
-    "codigoItem": "44AF",
-    "codigoPadre": "44A",
-    "numItem": 44,
-    "tipoEstructural": "ARTICULO",
+    "codigoItem": "48A",
+    "codigoPadre": "48",
+    "numItem": 48,
+    "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Copas de champan de cristal con espiral metalica",
+    "nombreES": "Juego de cristaleria para bar decantadores y cubiteras clasi",
     "descripcionES": "",
     "fotos": [
-      "44AF-1-copas-de-champan-de-cristal-con-espiral-metalica.jpg"
+      "48A-1-juego-de-cristaleria-para-bar-decantadores-y-cubiteras-clasicas.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -1523,7 +1521,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
+    "precioUSD": null,
     "cantidad": 1,
     "notas": ""
   },
@@ -1551,15 +1549,15 @@
     "precioMinimoUSD": 120.0
   },
   {
-    "codigoItem": "44AH",
-    "codigoPadre": "44A",
-    "numItem": 44,
+    "codigoItem": "48AA",
+    "codigoPadre": "48A",
+    "numItem": 48,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor: 5.",
+    "nombreES": "Decantador de cristal tallado con tapon facetado",
     "descripcionES": "",
     "fotos": [
-      "44AH-1-cristaleria-multi-color-claritas-base-espiral-8.jpg"
+      "48AA-1-decantador-de-cristal-tallado-con-tapon-facetado.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -1568,10 +1566,9 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 55.0,
+    "precioUSD": 30.0,
     "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 55.0
+    "notas": ""
   },
   {
     "codigoItem": "44AI",
@@ -1663,139 +1660,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "45AA",
-    "codigoPadre": "45A",
-    "numItem": 45,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas transparentes tallo de color azul y rojo",
-    "descripcionES": "",
-    "fotos": [
-      "45AA-1-copas-transparentes-tallo-de-color-azul-y-rojo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "45AB",
-    "codigoPadre": "45A",
-    "numItem": 45,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "cristaleria-de-copas-tintadas-verde-esmeralda",
-    "descripcionES": "",
-    "fotos": [
-      "45AB-1-cristaleria-de-copas-tintadas-verde-esmeralda.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "46A",
-    "codigoPadre": "46",
-    "numItem": 46,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Utensilios",
-    "nombreES": "Bandeja base de bambu para mesa (3)",
-    "descripcionES": "",
-    "fotos": [
-      "46A-1-Bandeja-base-de-bambu-para-mesa.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 30.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 10.0
-  },
-  {
-    "codigoItem": "47A",
-    "codigoPadre": "47",
-    "numItem": 47,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Utensilios",
-    "nombreES": "Surtido de servilletas de papel decorativas para bar",
-    "descripcionES": "",
-    "fotos": [
-      "47A-1-surtido-de-servilletas-de-papel-decorativas-para-bar.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 5.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "48A",
-    "codigoPadre": "48",
-    "numItem": 48,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria para bar decantadores y cubiteras clasi",
-    "descripcionES": "",
-    "fotos": [
-      "48A-1-juego-de-cristaleria-para-bar-decantadores-y-cubiteras-clasicas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "48AA",
-    "codigoPadre": "48A",
-    "numItem": 48,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Decantador de cristal tallado con tapon facetado",
-    "descripcionES": "",
-    "fotos": [
-      "48AA-1-decantador-de-cristal-tallado-con-tapon-facetado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 30.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "48AB",
     "codigoPadre": "48A",
     "numItem": 48,
@@ -1838,6 +1702,29 @@
     "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "46A",
+    "codigoPadre": "46",
+    "numItem": 46,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Bandeja base de bambu para mesa (3)",
+    "descripcionES": "",
+    "fotos": [
+      "46A-1-Bandeja-base-de-bambu-para-mesa.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Arlyn Clachar",
+    "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 10.0
   },
   {
     "codigoItem": "49A",
@@ -1906,28 +1793,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "50A",
-    "codigoPadre": "50",
-    "numItem": 50,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vasos de cristal oscuro sin tallar",
-    "descripcionES": "",
-    "fotos": [
-      "50A-1-vasos-de-cristal-oscuro-sin-tallar.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "51A",
     "codigoPadre": "51",
     "numItem": 51,
@@ -1946,50 +1811,6 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "51AA",
-    "codigoPadre": "",
-    "numItem": 51,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cajita con mini vasitos chinos de animales",
-    "descripcionES": "",
-    "fotos": [
-      "51AA-1-cajita-con-mini-vasitos-chinos-de-animales.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Alejandra Mendez",
-    "precioUSD": 45.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "52A",
-    "codigoPadre": "52",
-    "numItem": 52,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria variada transparente para bar",
-    "descripcionES": "",
-    "fotos": [
-      "52A-1-cristaleria-variada-transparente-para-bar.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2082,6 +1903,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "71A",
+    "codigoPadre": "71",
+    "numItem": 71,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Otomana rectangular capitone de terciopelo azul petroleo",
+    "descripcionES": "",
+    "fotos": [
+      "71A-1-otomana-rectangular-capitone-de-terciopelo-azul-petroleo.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "53A",
     "codigoPadre": "53",
     "numItem": 53,
@@ -2100,6 +1943,48 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "51AA",
+    "codigoPadre": "",
+    "numItem": 51,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cajita con mini vasitos chinos de animales",
+    "descripcionES": "",
+    "fotos": [
+      "51AA-1-cajita-con-mini-vasitos-chinos-de-animales.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 45.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "51AB",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "utencilios",
+    "nombreES": "Servilletero dorado gemas rojas",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2212,75 +2097,6 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 1500.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "55A",
-    "codigoPadre": "55",
-    "numItem": 55,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Paneles de madera con relieves orientales",
-    "descripcionES": "",
-    "fotos": [
-      "55A-1-paneles-de-madera-con-relieves-orientales.jpg",
-      "55A-2-paneles-de-madera-con-relieves-orientales.jpg",
-      "55A-3-paneles-de-madera-con-relieves-orientales.jpg",
-      "55A-4-cuatro-paneles-de-madera-tallada-con-escenas-chinas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Laura Bonilla",
-    "precioUSD": 100.0,
-    "cantidad": 4,
-    "notas": ""
-  },
-  {
-    "codigoItem": "56A",
-    "codigoPadre": "56",
-    "numItem": 56,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Comoda bombe estilo luis xv con marqueteria y bronces",
-    "descripcionES": "",
-    "fotos": [
-      "56A-1-comoda-bombe-estilo-luis-xv-con-marqueteria-y-bronces.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "73",
-    "paginaSothebys": "42",
-    "estimacionSothebys": "$7,000 - $9,800",
-    "descripcionSothebys": "A pair of Louis XV style bombÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
-    "estado": "Reservado",
-    "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": 7000.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "57A",
-    "codigoPadre": "57",
-    "numItem": 57,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Jarras chinas decorativas de porcelana policromada con motiv",
-    "descripcionES": "",
-    "fotos": [
-      "57A-1-jarras-chinas-decorativas-de-porcelana-policromada-con-motivos-florales.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2398,76 +2214,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "63A",
-    "codigoPadre": "63",
-    "numItem": 63,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sofa tuxedo tapizado beige con botones clasico",
-    "descripcionES": "",
-    "fotos": [
-      "63A-1-sofa-tuxedo-tapizado-beige-con-botones-clasico.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "cantidad": 1,
-    "notas": "",
-    "precioUSD": 750.0,
-    "precioMinimoUSD": 750.0
-  },
-  {
-    "codigoItem": "64A",
-    "codigoPadre": "64",
-    "numItem": 64,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sofa clasico de tres plazas sin brazos con faldon",
-    "descripcionES": "",
-    "fotos": [
-      "64A-1-sofa-clasico-de-tres-plazas-sin-brazos-con-faldon.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 500.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioColones": 234646.05,
-    "fechaVenta": "17/03/2026",
-    "precioMinimoUSD": 500.0
-  },
-  {
-    "codigoItem": "65A",
-    "codigoPadre": "65",
-    "numItem": 65,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Utensilios",
-    "nombreES": "Cojines decorativos a tnicos para sofa",
-    "descripcionES": "",
-    "fotos": [
-      "65A-1-cojines-decorativos-a-tnicos-para-sofa.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 30.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "66A",
     "codigoPadre": "66",
     "numItem": 66,
@@ -2490,14 +2236,18 @@
     "notas": ""
   },
   {
-    "codigoItem": "67A",
-    "numItem": 67,
+    "codigoItem": "55A",
+    "codigoPadre": "55",
+    "numItem": 55,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa de centro en forma de nube dorada",
+    "categoria": "Decorativos",
+    "nombreES": "Paneles de madera con relieves orientales",
     "descripcionES": "",
     "fotos": [
-      "67A-1-par-de-mesas-de-centro-en-forma-de-nube-doradas.jpg"
+      "55A-1-paneles-de-madera-con-relieves-orientales.jpg",
+      "55A-2-paneles-de-madera-con-relieves-orientales.jpg",
+      "55A-3-paneles-de-madera-con-relieves-orientales.jpg",
+      "55A-4-cuatro-paneles-de-madera-tallada-con-escenas-chinas.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -2505,11 +2255,54 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 200.0,
+    "reservadoPara": "Laura Bonilla",
+    "precioUSD": 100.0,
+    "cantidad": 4,
+    "notas": ""
+  },
+  {
+    "codigoItem": "56A",
+    "codigoPadre": "56",
+    "numItem": 56,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Comoda bombe estilo luis xv con marqueteria y bronces",
+    "descripcionES": "",
+    "fotos": [
+      "56A-1-comoda-bombe-estilo-luis-xv-con-marqueteria-y-bronces.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "73",
+    "paginaSothebys": "42",
+    "estimacionSothebys": "$7,000 - $9,800",
+    "descripcionSothebys": "A pair of Louis XV style bombÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© walnut, marquetry and gilt-brass mounted commodes, late 19th century.",
+    "estado": "Reservado",
+    "reservadoPara": "Maria Cristina Pignatelli",
+    "precioUSD": 7000.0,
     "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 200.0
+    "notas": ""
+  },
+  {
+    "codigoItem": "57A",
+    "codigoPadre": "57",
+    "numItem": 57,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Jarras chinas decorativas de porcelana policromada con motiv",
+    "descripcionES": "",
+    "fotos": [
+      "57A-1-jarras-chinas-decorativas-de-porcelana-policromada-con-motivos-florales.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Maria Cristina Pignatelli",
+    "precioUSD": 70.0,
+    "cantidad": 1,
+    "notas": ""
   },
   {
     "codigoItem": "67B",
@@ -2550,75 +2343,6 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 120.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "69A",
-    "codigoPadre": "69",
-    "numItem": 69,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa auxiliar c shape bronce con tapa de cristal",
-    "descripcionES": "",
-    "fotos": [
-      "69A-1-mesa-auxiliar-c-shape-bronce-con-tapa-de-cristal.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "70A",
-    "codigoPadre": "70",
-    "numItem": 70,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Par de taburetes auxiliares escultoricos en bronce dorado",
-    "descripcionES": "",
-    "fotos": [
-      "70A-1-par-de-taburetes-auxiliares-escultoricos-en-bronce-dorado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 83.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioColones": 39039.83,
-    "fechaVenta": "17/03/2026",
-    "precioMinimoUSD": 100.0
-  },
-  {
-    "codigoItem": "71A",
-    "codigoPadre": "71",
-    "numItem": 71,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Otomana rectangular capitone de terciopelo azul petroleo",
-    "descripcionES": "",
-    "fotos": [
-      "71A-1-otomana-rectangular-capitone-de-terciopelo-azul-petroleo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2711,6 +2435,53 @@
     "notas": ""
   },
   {
+    "codigoItem": "64A",
+    "codigoPadre": "64",
+    "numItem": 64,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Sofa clasico de tres plazas sin brazos con faldon",
+    "descripcionES": "",
+    "fotos": [
+      "64A-1-sofa-clasico-de-tres-plazas-sin-brazos-con-faldon.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marielos Alpizar",
+    "precioUSD": 500.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioColones": 234646.05,
+    "fechaVenta": "17/03/2026",
+    "precioMinimoUSD": 500.0
+  },
+  {
+    "codigoItem": "65A",
+    "codigoPadre": "65",
+    "numItem": 65,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Utensilios",
+    "nombreES": "Cojines decorativos a tnicos para sofa",
+    "descripcionES": "",
+    "fotos": [
+      "65A-1-cojines-decorativos-a-tnicos-para-sofa.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marielos Alpizar",
+    "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "73B",
     "codigoPadre": "73",
     "numItem": 73,
@@ -2731,6 +2502,28 @@
     "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "67A",
+    "numItem": 67,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa de centro en forma de nube dorada",
+    "descripcionES": "",
+    "fotos": [
+      "67A-1-par-de-mesas-de-centro-en-forma-de-nube-doradas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 200.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 200.0
   },
   {
     "codigoItem": "74A",
@@ -2773,6 +2566,75 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "69A",
+    "codigoPadre": "69",
+    "numItem": 69,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa auxiliar c shape bronce con tapa de cristal",
+    "descripcionES": "",
+    "fotos": [
+      "69A-1-mesa-auxiliar-c-shape-bronce-con-tapa-de-cristal.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "70A",
+    "codigoPadre": "70",
+    "numItem": 70,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Par de taburetes auxiliares escultoricos en bronce dorado",
+    "descripcionES": "",
+    "fotos": [
+      "70A-1-par-de-taburetes-auxiliares-escultoricos-en-bronce-dorado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marielos Alpizar",
+    "precioUSD": 83.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioColones": 39039.83,
+    "fechaVenta": "17/03/2026",
+    "precioMinimoUSD": 100.0
+  },
+  {
+    "codigoItem": "95A",
+    "codigoPadre": "95",
+    "numItem": 95,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Sillon de terciopelo naranja con cojin bordado",
+    "descripcionES": "",
+    "fotos": [
+      "95A-1-sillon-de-terciopelo-naranja-con-cojin-bordado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Mireya",
+    "precioUSD": 90.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -2843,6 +2705,161 @@
     "notas": ""
   },
   {
+    "codigoItem": "79A",
+    "codigoPadre": "79",
+    "numItem": 79,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Jarron famille rose con aves y flores",
+    "descripcionES": "",
+    "fotos": [
+      "79A-1-jarron-famille-rose-con-aves-y-flores.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "213",
+    "paginaSothebys": "89",
+    "estimacionSothebys": "$280 - $420",
+    "descripcionSothebys": "A Canton famille-rose vase, early 20th century.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 200.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 200.0
+  },
+  {
+    "codigoItem": "82A",
+    "codigoPadre": "82",
+    "numItem": 82,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Alfombra clasica negra y beige con patron floral",
+    "descripcionES": "",
+    "fotos": [
+      "82A-1-alfombra-clasica-negra-y-beige-con-patron-floral.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 200.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "83A",
+    "codigoPadre": "83",
+    "numItem": 83,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Juego de mesas de centro de cristal y metal dorado",
+    "descripcionES": "",
+    "fotos": [
+      "83A-1-juego-de-mesas-de-centro-de-cristal-y-metal-dorado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 120.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "87A",
+    "codigoPadre": "87",
+    "numItem": 87,
+    "tipoEstructural": "SET",
+    "categoria": "Decorativos",
+    "nombreES": "Esculturas decorativas de galgos",
+    "descripcionES": "",
+    "fotos": [
+      "87A-1-esculturas-decorativas-de-galgos-y-esfera-orbital.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "87AB",
+    "codigoPadre": "87A",
+    "numItem": 87,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Esfera orbital decorativa de metal",
+    "descripcionES": "",
+    "fotos": [
+      "87AB-1-esfera-orbital-decorativa-de-metal.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "88A",
+    "codigoPadre": "88",
+    "numItem": 88,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Consola de madera y metal estilo industrial moderno",
+    "descripcionES": "",
+    "fotos": [
+      "88A-1-consola-de-madera-y-metal-estilo-industrial-moderno.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "89A",
+    "codigoPadre": "89",
+    "numItem": 89,
+    "tipoEstructural": "SET",
+    "categoria": "Decorativos",
+    "nombreES": "Conjunto decorativo esculturas ginkgo jarron oriental y anil",
+    "descripcionES": "",
+    "fotos": [
+      "89A-1-conjunto-decorativo-esculturas-ginkgo-jarron-oriental-y-anillos-abstractos.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "77A",
     "codigoPadre": "77",
     "numItem": 77,
@@ -2888,27 +2905,26 @@
     "precioMinimoUSD": 2000.0
   },
   {
-    "codigoItem": "79A",
-    "codigoPadre": "79",
-    "numItem": 79,
+    "codigoItem": "89AA",
+    "codigoPadre": "89A",
+    "numItem": 89,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Jarron famille rose con aves y flores",
+    "categoria": "Ceramica",
+    "nombreES": "Jarron rojo de ceramica decorativa",
     "descripcionES": "",
     "fotos": [
-      "79A-1-jarron-famille-rose-con-aves-y-flores.jpg"
+      "89AA-1-jarron-rojo-de-ceramica-decorativa.jpg"
     ],
-    "tieneSothebys": true,
-    "refSothebys": "213",
-    "paginaSothebys": "89",
-    "estimacionSothebys": "$280 - $420",
-    "descripcionSothebys": "A Canton famille-rose vase, early 20th century.",
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200.0,
+    "precioUSD": 22.0,
     "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 200.0
+    "notas": ""
   },
   {
     "codigoItem": "80A",
@@ -2987,15 +3003,15 @@
     "notas": ""
   },
   {
-    "codigoItem": "82A",
-    "codigoPadre": "82",
-    "numItem": 82,
+    "codigoItem": "89AB",
+    "codigoPadre": "89A",
+    "numItem": 89,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Alfombra clasica negra y beige con patron floral",
+    "categoria": "Decorativos",
+    "nombreES": "Escultura circular dorada abstracta",
     "descripcionES": "",
     "fotos": [
-      "82A-1-alfombra-clasica-negra-y-beige-con-patron-floral.jpg"
+      "89AB-1-escultura-circular-dorada-abstracta.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -3004,20 +3020,20 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200.0,
+    "precioUSD": 22.0,
     "cantidad": 1,
     "notas": ""
   },
   {
-    "codigoItem": "83A",
-    "codigoPadre": "83",
-    "numItem": 83,
+    "codigoItem": "89AC",
+    "codigoPadre": "89A",
+    "numItem": 89,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Juego de mesas de centro de cristal y metal dorado",
+    "categoria": "Decorativos",
+    "nombreES": "Esculturas decorativas de hojas doradas",
     "descripcionES": "",
     "fotos": [
-      "83A-1-juego-de-mesas-de-centro-de-cristal-y-metal-dorado.jpg"
+      "89AC-1-esculturas-decorativas-de-hojas-doradas.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -3026,7 +3042,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 120.0,
+    "precioUSD": 22.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3122,226 +3138,6 @@
     "paginaSothebys": ""
   },
   {
-    "codigoItem": "86A",
-    "codigoPadre": "86",
-    "numItem": 86,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Apliques de pared decorativos con diseno de hoja metalica",
-    "descripcionES": "",
-    "fotos": [
-      "86A-1-apliques-de-pared-decorativos-con-diseno-de-hoja-metalica.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "87A",
-    "codigoPadre": "87",
-    "numItem": 87,
-    "tipoEstructural": "SET",
-    "categoria": "Decorativos",
-    "nombreES": "Esculturas decorativas de galgos",
-    "descripcionES": "",
-    "fotos": [
-      "87A-1-esculturas-decorativas-de-galgos-y-esfera-orbital.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "87AA",
-    "codigoPadre": "87A",
-    "numItem": 87,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Par de perros de bronce decorativos",
-    "descripcionES": "",
-    "fotos": [
-      "87AA-1-par-de-perros-de-bronce-decorativos.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Laura Bonilla",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "87AB",
-    "codigoPadre": "87A",
-    "numItem": 87,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Esfera orbital decorativa de metal",
-    "descripcionES": "",
-    "fotos": [
-      "87AB-1-esfera-orbital-decorativa-de-metal.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "88A",
-    "codigoPadre": "88",
-    "numItem": 88,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Consola de madera y metal estilo industrial moderno",
-    "descripcionES": "",
-    "fotos": [
-      "88A-1-consola-de-madera-y-metal-estilo-industrial-moderno.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "89A",
-    "codigoPadre": "89",
-    "numItem": 89,
-    "tipoEstructural": "SET",
-    "categoria": "Decorativos",
-    "nombreES": "Conjunto decorativo esculturas ginkgo jarron oriental y anil",
-    "descripcionES": "",
-    "fotos": [
-      "89A-1-conjunto-decorativo-esculturas-ginkgo-jarron-oriental-y-anillos-abstractos.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": null,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "89AA",
-    "codigoPadre": "89A",
-    "numItem": 89,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Jarron rojo de ceramica decorativa",
-    "descripcionES": "",
-    "fotos": [
-      "89AA-1-jarron-rojo-de-ceramica-decorativa.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 22.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "89AB",
-    "codigoPadre": "89A",
-    "numItem": 89,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Escultura circular dorada abstracta",
-    "descripcionES": "",
-    "fotos": [
-      "89AB-1-escultura-circular-dorada-abstracta.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 22.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "89AC",
-    "codigoPadre": "89A",
-    "numItem": 89,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Esculturas decorativas de hojas doradas",
-    "descripcionES": "",
-    "fotos": [
-      "89AC-1-esculturas-decorativas-de-hojas-doradas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 22.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "90AA",
-    "codigoPadre": "90A",
-    "numItem": 90,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Juego de dos jarrones chinos",
-    "descripcionES": "",
-    "fotos": [
-      "90AA-1-juego-de-cuatro-jarrones-chinos.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 45.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "90AB",
     "codigoPadre": "90A",
     "numItem": 90,
@@ -3387,6 +3183,28 @@
     "precioMinimoUSD": 650.0
   },
   {
+    "codigoItem": "87AA",
+    "codigoPadre": "87A",
+    "numItem": 87,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Par de perros de bronce decorativos",
+    "descripcionES": "",
+    "fotos": [
+      "87AA-1-par-de-perros-de-bronce-decorativos.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Laura Bonilla",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "92A",
     "codigoPadre": "92",
     "numItem": 92,
@@ -3405,142 +3223,6 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 1100.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "93A",
-    "codigoPadre": "93",
-    "numItem": 93,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Pintura jardin floral impresionista (4)",
-    "descripcionES": "",
-    "fotos": [
-      "93A-1-pintura-jardin-floral-impresionista.jpg",
-      "93A-2-pintura-jardin-floral-impresionista.jpg",
-      "93A-3-pintura-jardin-floral-impresionista.jpg",
-      "93A-4-pintura-jardin-floral-impresionista.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 120.0,
-    "cantidad": 4,
-    "notas": ""
-  },
-  {
-    "codigoItem": "94A",
-    "codigoPadre": "94",
-    "numItem": 94,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Par de platos lacados rojos",
-    "descripcionES": "",
-    "fotos": [
-      "94A-1-par-de-platos-lacados-rojos.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "228",
-    "paginaSothebys": "94",
-    "estimacionSothebys": "$420 - $700",
-    "descripcionSothebys": "A pair of red lacquer dishes, circa 1900.",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 250.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 250.0
-  },
-  {
-    "codigoItem": "95A",
-    "codigoPadre": "95",
-    "numItem": 95,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sillon de terciopelo naranja con cojin bordado",
-    "descripcionES": "",
-    "fotos": [
-      "95A-1-sillon-de-terciopelo-naranja-con-cojin-bordado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Evelina Vargas",
-    "precioUSD": 90.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "96A",
-    "codigoPadre": "96",
-    "numItem": 96,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Cama completa queen size capitone gris azulado",
-    "descripcionES": "",
-    "fotos": [
-      "96A-1-cama-completa-queen-size-capitone-gris-azulado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "BELTRAN JOEL LOBO",
-    "precioUSD": 400.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "97A",
-    "codigoPadre": "97",
-    "numItem": 97,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Par de mesitas de noche efecto marmol gris con base dorada",
-    "descripcionES": "",
-    "fotos": [
-      "97A-1-par-de-mesitas-de-noche-efecto-marmol-gris-con-base-dorada.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "BELTRAN JOEL LOBO",
-    "precioUSD": 70.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "98A",
-    "codigoPadre": "98",
-    "numItem": 98,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Lampara de mesa moderna con base dorada y pantalla gris oscu",
-    "descripcionES": "",
-    "fotos": [
-      "98A-1-lampara-de-mesa-moderna-con-base-dorada-y-pantalla-gris-oscuro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -3633,159 +3315,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "100A",
-    "codigoPadre": "100",
-    "numItem": 100,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Cajoneras decorativas estilo boticario industrial",
-    "descripcionES": "",
-    "fotos": [
-      "100A-1-cajoneras-decorativas-estilo-boticario-industrial.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "101A",
-    "codigoPadre": "101",
-    "numItem": 101,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Par de mesitas de noche en laminado marron oscuro",
-    "descripcionES": "",
-    "fotos": [
-      "101A-1-par-de-mesitas-de-noche-en-laminado-marron-oscuro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "BELTRAN JOEL LOBO",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "102A",
-    "codigoPadre": "102",
-    "numItem": 102,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Lampara de mesa moderna con base dorada y pantalla blanca",
-    "descripcionES": "",
-    "fotos": [
-      "102A-1-lampara-de-mesa-moderna-con-base-dorada-y-pantalla-blanca.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "103A",
-    "codigoPadre": "103",
-    "numItem": 103,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sofa seccional beige 8 piezas",
-    "descripcionES": "",
-    "fotos": [
-      "103A-1-cama-completa-queen-size-capitone-beige-rosado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 400.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "104A",
-    "codigoPadre": "104",
-    "numItem": 104,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Escritorio clasico de madera de cerezo con pedestal",
-    "descripcionES": "",
-    "fotos": [
-      "104A-1-escritorio-clasico-de-madera-de-cerezo-con-pedestal.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "77",
-    "paginaSothebys": "43",
-    "estimacionSothebys": "$400 - $600",
-    "descripcionSothebys": "A mahogany twin-pedestal desk, late 19th century",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 375.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "105A",
-    "codigoPadre": "105",
-    "numItem": 105,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "catCodigo": "E",
-    "nombreES": "Extractor de jugos hamilton beach",
-    "fotos": [
-      "105A-1-extractor-de-jugos-hamilton-beach.jpg"
-    ],
-    "tieneSothebys": false,
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "notas": "",
-    "precioUSD": 30.0,
-    "precioMinimoUSD": 30.0,
-    "estimacionSothebys": "—",
-    "refSothebys": "",
-    "paginaSothebys": ""
-  },
-  {
-    "codigoItem": "106A",
-    "codigoPadre": "106",
-    "numItem": 106,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Ventilador de torre fahrenheit cubierto",
-    "descripcionES": "",
-    "fotos": [
-      "106A-1-calentador-de -electrico.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Jerancy Alpizar",
-    "precioUSD": 70.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "106B",
     "codigoPadre": "106",
     "numItem": 106,
@@ -3808,69 +3337,25 @@
     "notas": ""
   },
   {
-    "codigoItem": "107A",
-    "codigoPadre": "107",
-    "numItem": 107,
+    "codigoItem": "90AA",
+    "codigoPadre": "90A",
+    "numItem": 90,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Caja decorativa chinos lacados",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de dos jarrones chinos",
     "descripcionES": "",
     "fotos": [
-      "107A-1-cajas-y-cuenco-decorativos-chinos-lacados.jpg"
+      "90AA-1-juego-de-cuatro-jarrones-chinos.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Mireya",
-    "precioUSD": 35.0,
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra",
+    "precioUSD": 45.0,
     "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "107B",
-    "codigoPadre": "107",
-    "numItem": 107,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Caja  decorativa chinos lacados",
-    "descripcionES": "",
-    "fotos": [
-      "107B-1-cajas-decorativos-chinos-lacados -.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 35.0,
-    "cantidad": 0,
-    "notas": ""
-  },
-  {
-    "codigoItem": "107C",
-    "codigoPadre": "107",
-    "numItem": 107,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Cuenco decorativos chinos lacados",
-    "descripcionES": "",
-    "fotos": [
-      "107C-1-cuenco-decorativos-chinos-lacados -.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 20.0,
-    "cantidad": 0,
     "notas": ""
   },
   {
@@ -3941,15 +3426,18 @@
     "notas": ""
   },
   {
-    "codigoItem": "111A",
-    "codigoPadre": "111",
-    "numItem": 111,
+    "codigoItem": "93A",
+    "codigoPadre": "93",
+    "numItem": 93,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa consola moderna con imitacion marmol negro y patas dora",
+    "categoria": "Arte en papel",
+    "nombreES": "Pintura jardin floral impresionista (4)",
     "descripcionES": "",
     "fotos": [
-      "111A-1-mesa-consola-moderna-con-imitacion-marmol-negro-y-patas-doradas.jpg"
+      "93A-1-pintura-jardin-floral-impresionista.jpg",
+      "93A-2-pintura-jardin-floral-impresionista.jpg",
+      "93A-3-pintura-jardin-floral-impresionista.jpg",
+      "93A-4-pintura-jardin-floral-impresionista.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -3958,118 +3446,8 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 100.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "112A",
-    "codigoPadre": "112",
-    "numItem": 112,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesita de noche moderna con cajones y estante abierto",
-    "descripcionES": "",
-    "fotos": [
-      "112A-1-mesita-de-noche-moderna-con-cajones-y-estante-abierto.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "113A",
-    "codigoPadre": "113",
-    "numItem": 113,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Lamparas de mesa contemporaneas con base laton y pantalla bl",
-    "descripcionES": "",
-    "fotos": [
-      "113A-1-lamparas-de-mesa-contemporaneas-con-base-laton-y-pantalla-blanca.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "114A",
-    "codigoPadre": "114",
-    "numItem": 114,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Cabecero king size tapizado beige acanalado",
-    "descripcionES": "",
-    "fotos": [
-      "114A-1-cabecero-king-size-tapizado-beige-acanalado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 600.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "115A",
-    "codigoPadre": "115",
-    "numItem": 115,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Lampara de pie laton con doble luz led lectura y ambiente",
-    "descripcionES": "",
-    "fotos": [
-      "115A-1-lampara-de-pie-laton-con-doble-luz-led-lectura-y-ambiente.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 70.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "116A",
-    "codigoPadre": "116",
-    "numItem": 116,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Juego de platos decorativos chinos policromados",
-    "descripcionES": "",
-    "fotos": [
-      "116A-1-juego-de-platos-decorativos-chinos-policromados.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 50.0,
-    "cantidad": 1,
+    "precioUSD": 120.0,
+    "cantidad": 4,
     "notas": ""
   },
   {
@@ -4093,6 +3471,72 @@
     "reservadoPara": "",
     "precioUSD": 120.0,
     "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "100A",
+    "codigoPadre": "100",
+    "numItem": 100,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Cajoneras decorativas estilo boticario industrial",
+    "descripcionES": "",
+    "fotos": [
+      "100A-1-cajoneras-decorativas-estilo-boticario-industrial.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "96A",
+    "codigoPadre": "96",
+    "numItem": 96,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Cama completa queen size capitone gris azulado",
+    "descripcionES": "",
+    "fotos": [
+      "96A-1-cama-completa-queen-size-capitone-gris-azulado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "BELTRAN JOEL LOBO",
+    "precioUSD": 400.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "97A",
+    "codigoPadre": "97",
+    "numItem": 97,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Par de mesitas de noche efecto marmol gris con base dorada",
+    "descripcionES": "",
+    "fotos": [
+      "97A-1-par-de-mesitas-de-noche-efecto-marmol-gris-con-base-dorada.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "BELTRAN JOEL LOBO",
+    "precioUSD": 70.0,
+    "cantidad": 1,
     "notas": ""
   },
   {
@@ -4210,6 +3654,94 @@
     "notas": ""
   },
   {
+    "codigoItem": "125A",
+    "codigoPadre": "125",
+    "numItem": 125,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Banca pie de cama tapizada capitone rosa",
+    "descripcionES": "",
+    "fotos": [
+      "125A-1-banca-pie-de-cama-tapizada-capitone-rosa.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "101A",
+    "codigoPadre": "101",
+    "numItem": 101,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Par de mesitas de noche en laminado marron oscuro",
+    "descripcionES": "",
+    "fotos": [
+      "101A-1-par-de-mesitas-de-noche-en-laminado-marron-oscuro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "BELTRAN JOEL LOBO",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "50A",
+    "codigoPadre": "50",
+    "numItem": 50,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos de cristal oscuro sin tallar",
+    "descripcionES": "",
+    "fotos": [
+      "50A-1-vasos-de-cristal-oscuro-sin-tallar.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "103A",
+    "codigoPadre": "103",
+    "numItem": 103,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Sofa seccional beige 8 piezas",
+    "descripcionES": "",
+    "fotos": [
+      "103A-1-cama-completa-queen-size-capitone-beige-rosado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 400.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "123A",
     "codigoPadre": "123",
     "numItem": 123,
@@ -4232,46 +3764,45 @@
     "notas": ""
   },
   {
-    "codigoItem": "124A",
-    "codigoPadre": "124",
-    "numItem": 124,
+    "codigoItem": "105A",
+    "codigoPadre": "105",
+    "numItem": 105,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa de centro china lacada",
-    "descripcionES": "",
+    "categoria": "Electrodomesticos",
+    "catCodigo": "E",
+    "nombreES": "Extractor de jugos hamilton beach",
     "fotos": [
-      "124A-1-mesa-de-centro-china-lacada.jpg"
+      "105A-1-extractor-de-jugos-hamilton-beach.jpg"
     ],
-    "tieneSothebys": true,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "$1,716",
-    "descripcionSothebys": "",
+    "tieneSothebys": false,
     "estado": "Reservado",
-    "reservadoPara": "Maria Cristina Pignatelli",
-    "precioUSD": 1716.0,
-    "cantidad": 1,
-    "notas": ""
+    "reservadoPara": "Nuria Alpizar",
+    "notas": "",
+    "precioUSD": 30.0,
+    "precioMinimoUSD": 30.0,
+    "estimacionSothebys": "—",
+    "refSothebys": "",
+    "paginaSothebys": ""
   },
   {
-    "codigoItem": "125A",
-    "codigoPadre": "125",
-    "numItem": 125,
+    "codigoItem": "106A",
+    "codigoPadre": "106",
+    "numItem": 106,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Banca pie de cama tapizada capitone rosa",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Ventilador de torre fahrenheit cubierto",
     "descripcionES": "",
     "fotos": [
-      "125A-1-banca-pie-de-cama-tapizada-capitone-rosa.jpg"
+      "106A-1-calentador-de -electrico.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 150.0,
+    "estado": "Reservado",
+    "reservadoPara": "Jerancy Alpizar",
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4298,24 +3829,24 @@
     "notas": ""
   },
   {
-    "codigoItem": "127A",
-    "codigoPadre": "127",
-    "numItem": 127,
+    "codigoItem": "102A",
+    "codigoPadre": "102",
+    "numItem": 102,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Figuras decorativas de porcelana estilo tang caballo y camello",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Lampara de mesa moderna con base dorada y pantalla blanca",
     "descripcionES": "",
     "fotos": [
-      "127A-1-figuras-decorativas-de-porcelana-estilo-tang-caballo-y-camello.jpg"
+      "102A-1-lampara-de-mesa-moderna-con-base-dorada-y-pantalla-blanca.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Reservado",
+    "estado": "Vendido",
     "reservadoPara": "Mireya",
-    "precioUSD": 80.0,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4364,28 +3895,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "130A",
-    "codigoPadre": "130",
-    "numItem": 130,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Escultura ceramica figuras danzantes estilizadas",
-    "descripcionES": "",
-    "fotos": [
-      "130A-1-escultura-ceramica-figuras-danzantes-estilizadas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "HOLD UNTIL SALE",
-    "precioUSD": 30.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "130B",
     "codigoPadre": "130",
     "numItem": 130,
@@ -4430,28 +3939,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "132A",
-    "codigoPadre": "132",
-    "numItem": 132,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa consola de metal y cristal para terraza",
-    "descripcionES": "",
-    "fotos": [
-      "132A-1-mesa-consola-de-metal-y-cristal-para-terraza.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "133A",
     "codigoPadre": "133",
     "numItem": 133,
@@ -4474,15 +3961,15 @@
     "notas": ""
   },
   {
-    "codigoItem": "133AA",
-    "codigoPadre": "133A",
-    "numItem": 133,
+    "codigoItem": "111A",
+    "codigoPadre": "111",
+    "numItem": 111,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Juego de ceramica botanica sopera y platos hoja de repollo",
+    "categoria": "Muebles",
+    "nombreES": "Mesa consola moderna con imitacion marmol negro y patas dora",
     "descripcionES": "",
     "fotos": [
-      "133AA-1-juego-de-ceramica-botanica-sopera-y-platos-hoja-d.jpg"
+      "111A-1-mesa-consola-moderna-con-imitacion-marmol-negro-y-patas-doradas.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -4490,11 +3977,10 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "Mariana Herrera",
-    "precioUSD": 160.0,
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 100.0,
     "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 160.0
+    "notas": ""
   },
   {
     "codigoItem": "133AB",
@@ -4519,38 +4005,59 @@
     "notas": ""
   },
   {
-    "codigoItem": "134A",
-    "codigoPadre": "134",
-    "numItem": 134,
+    "codigoItem": "113A",
+    "codigoPadre": "113",
+    "numItem": 113,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Comedor exterior de ratan con mesa de cristal",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Lamparas de mesa contemporaneas con base laton y pantalla bl",
     "descripcionES": "",
     "fotos": [
-      "134A-1-comedor-exterior-de-ratan-con-mesa-de-cristal.jpg"
+      "113A-1-lamparas-de-mesa-contemporaneas-con-base-laton-y-pantalla-blanca.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 800.0,
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 50.0,
     "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 800.0
+    "notas": ""
   },
   {
-    "codigoItem": "134B",
-    "codigoPadre": "134",
-    "numItem": 134,
+    "codigoItem": "114A",
+    "codigoPadre": "114",
+    "numItem": 114,
     "tipoEstructural": "ARTICULO",
     "categoria": "Muebles",
-    "nombreES": "Juego de muebles de exterior rattan y cojines terracota",
+    "nombreES": "Cabecero king size tapizado beige acanalado",
     "descripcionES": "",
     "fotos": [
-      "134B-1-juego-de-muebles-de-exterior-rattan-y-cojines-terracota.jpg"
+      "114A-1-cabecero-king-size-tapizado-beige-acanalado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 600.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "115A",
+    "codigoPadre": "115",
+    "numItem": 115,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Lampara de pie laton con doble luz led lectura y ambiente",
+    "descripcionES": "",
+    "fotos": [
+      "115A-1-lampara-de-pie-laton-con-doble-luz-led-lectura-y-ambiente.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -4559,54 +4066,7 @@
     "descripcionSothebys": "",
     "estado": "Vendido",
     "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 800.0,
-    "cantidad": 1,
-    "notas": "Ana Beeche interesada - vender a Ana Beeche cuando este disponible",
-    "precioMinimoUSD": 800.0
-  },
-  {
-    "codigoItem": "135A",
-    "codigoPadre": "135",
-    "numItem": 135,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Cafetera espresso y cappuccino ninja con molinillo integrado",
-    "descripcionES": "",
-    "fotos": [
-      "135A-1-cafetera-espresso-y-cappuccino-ninja-con-molinillo-integrado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Pablo Arias",
-    "precioUSD": 170.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioColones": 80000,
-    "fechaVenta": "17/03/2026"
-  },
-  {
-    "codigoItem": "136A",
-    "codigoPadre": "136",
-    "numItem": 136,
-    "tipoEstructural": "SET",
-    "categoria": "Ceramica",
-    "nombreES": "Juego mixto de platos llanos de postre y cargadores",
-    "descripcionES": "",
-    "fotos": [
-      "136A-1-Juego-mixto-de-platos-llanos-de-postre-y-cargadores.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Pablo Arias",
-    "precioUSD": 500.0,
+    "precioUSD": 70.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4628,50 +4088,6 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "136AB",
-    "codigoPadre": "136A",
-    "numItem": 136,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria tallada cuenco facetado y bandeja ondulada",
-    "descripcionES": "",
-    "fotos": [
-      "136AB-1-cristaleria-tallada-cuenco-facetado-y-bandeja-ondulada.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "136AC",
-    "codigoPadre": "136A",
-    "numItem": 136,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Juego de platos ceramicos con motivo de lirios",
-    "descripcionES": "",
-    "fotos": [
-      "136AC-1-juego-de-platos-ceramicos-con-motivo-de-lirios.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
     "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
@@ -4834,6 +4250,53 @@
     "notas": ""
   },
   {
+    "codigoItem": "124A",
+    "codigoPadre": "124",
+    "numItem": 124,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa de centro china lacada",
+    "descripcionES": "",
+    "fotos": [
+      "124A-1-mesa-de-centro-china-lacada.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "$1,716",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Maria Cristina Pignatelli",
+    "precioUSD": 1716.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "185A",
+    "codigoPadre": "185",
+    "numItem": 185,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Retrato ancestral de dama noble china dinastia qing",
+    "descripcionES": "",
+    "fotos": [
+      "185A-1-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
+      "185A-2-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
+      "185A-3-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
+      "185A-4-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 50.0,
+    "cantidad": 4,
+    "notas": ""
+  },
+  {
     "codigoItem": "136DC",
     "codigoPadre": "136D",
     "numItem": 136,
@@ -4854,6 +4317,28 @@
     "reservadoPara": "",
     "precioUSD": 40.0,
     "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AC",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria eclectica para vinos y bebidas",
+    "descripcionES": "",
+    "fotos": [
+      "143AC-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 120.0,
+    "cantidad": 1,
     "notas": ""
   },
   {
@@ -4897,6 +4382,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": null,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "130A",
+    "codigoPadre": "130",
+    "numItem": 130,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Escultura ceramica figuras danzantes estilizadas",
+    "descripcionES": "",
+    "fotos": [
+      "130A-1-escultura-ceramica-figuras-danzantes-estilizadas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "HOLD UNTIL SALE",
+    "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -4945,6 +4452,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "132A",
+    "codigoPadre": "132",
+    "numItem": 132,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa consola de metal y cristal para terraza",
+    "descripcionES": "",
+    "fotos": [
+      "132A-1-mesa-consola-de-metal-y-cristal-para-terraza.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "136F",
     "codigoPadre": "136",
     "numItem": 136,
@@ -4967,6 +4496,29 @@
     "cantidad": 2,
     "notas": "| Material: plastico (no ceramica)",
     "catCodigo": "U"
+  },
+  {
+    "codigoItem": "133AA",
+    "codigoPadre": "133A",
+    "numItem": 133,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de ceramica botanica sopera y platos hoja de repollo",
+    "descripcionES": "",
+    "fotos": [
+      "133AA-1-juego-de-ceramica-botanica-sopera-y-platos-hoja-d.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mariana Herrera",
+    "precioUSD": 160.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 160.0
   },
   {
     "codigoItem": "136G",
@@ -5013,52 +4565,72 @@
     "notas": ""
   },
   {
-    "codigoItem": "136HA",
-    "codigoPadre": "136H",
-    "numItem": 136,
+    "codigoItem": "134B",
+    "codigoPadre": "134",
+    "numItem": 134,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla plato de fondo lila (8).",
+    "categoria": "Muebles",
+    "nombreES": "Juego de muebles de exterior rattan y cojines terracota",
     "descripcionES": "",
     "fotos": [
-      "136HA-1-vajilla-mixta-botanica-verde-y-cristaleria.jpg",
-      "136HA-1-vajilla-mixta-botanica-verde-y-cristaleria.jpg"
+      "134B-1-juego-de-muebles-de-exterior-rattan-y-cojines-terracota.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 70.0,
-    "cantidad": 2,
-    "notas": "",
-    "precioMinimoUSD": 70.0
+    "estado": "Vendido",
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 800.0,
+    "cantidad": 1,
+    "notas": "Ana Beeche interesada - vender a Ana Beeche cuando este disponible",
+    "precioMinimoUSD": 800.0
   },
   {
-    "codigoItem": "136IA",
-    "codigoPadre": "136I",
-    "numItem": 136,
+    "codigoItem": "135A",
+    "codigoPadre": "135",
+    "numItem": 135,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Platos ceramicos clasicos con borde festoneado y ribete dorado",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Cafetera espresso y cappuccino ninja con molinillo integrado",
     "descripcionES": "",
     "fotos": [
-      "136IA-1-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
-      "136IA-2-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
-      "136IA-3-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
-      "136IA-4-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg"
+      "135A-1-cafetera-espresso-y-cappuccino-ninja-con-molinillo-integrado.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 70.0,
-    "cantidad": 4,
+    "estado": "Vendido",
+    "reservadoPara": "Pablo Arias",
+    "precioUSD": 170.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioColones": 80000,
+    "fechaVenta": "17/03/2026"
+  },
+  {
+    "codigoItem": "136A",
+    "codigoPadre": "136",
+    "numItem": 136,
+    "tipoEstructural": "SET",
+    "categoria": "Ceramica",
+    "nombreES": "Juego mixto de platos llanos de postre y cargadores",
+    "descripcionES": "",
+    "fotos": [
+      "136A-1-Juego-mixto-de-platos-llanos-de-postre-y-cargadores.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Pablo Arias",
+    "precioUSD": 500.0,
+    "cantidad": 1,
     "notas": ""
   },
   {
@@ -5084,6 +4656,50 @@
     "reservadoPara": "",
     "precioUSD": 40.0,
     "cantidad": 4,
+    "notas": ""
+  },
+  {
+    "codigoItem": "136AB",
+    "codigoPadre": "136A",
+    "numItem": 136,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria tallada cuenco facetado y bandeja ondulada",
+    "descripcionES": "",
+    "fotos": [
+      "136AB-1-cristaleria-tallada-cuenco-facetado-y-bandeja-ondulada.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "136AC",
+    "codigoPadre": "136A",
+    "numItem": 136,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de platos ceramicos con motivo de lirios",
+    "descripcionES": "",
+    "fotos": [
+      "136AC-1-juego-de-platos-ceramicos-con-motivo-de-lirios.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 40.0,
+    "cantidad": 1,
     "notas": ""
   },
   {
@@ -5129,52 +4745,6 @@
     "reservadoPara": "",
     "precioUSD": 40.0,
     "cantidad": 2,
-    "notas": ""
-  },
-  {
-    "codigoItem": "139A",
-    "codigoPadre": "139",
-    "numItem": 139,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Par de grabados de bagres en el agua",
-    "descripcionES": "",
-    "fotos": [
-      "139A-1-par-de-grabados-de-bagres-en-el-agua.jpg",
-      "139A-2-par-de-grabados-de-bagre-en-el-agua.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 70.0,
-    "cantidad": 2,
-    "notas": "",
-    "cantidadFotos": 2
-  },
-  {
-    "codigoItem": "140A",
-    "codigoPadre": "140",
-    "numItem": 140,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Decorativos",
-    "nombreES": "Reloj de pared decorativo de laton envejecido estilo rustico",
-    "descripcionES": "",
-    "fotos": [
-      "140A-1-reloj-de-pared-decorativo-de-laton-envejecido-estilo-rustico-industrial.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 40.0,
-    "cantidad": 1,
     "notas": ""
   },
   {
@@ -5267,142 +4837,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "143AA",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria transparente para gin tonic (14)",
-    "descripcionES": "",
-    "fotos": [
-      "143AA-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 60.0
-  },
-  {
-    "codigoItem": "143AB",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Coleccion variada de cristaleria para bar",
-    "descripcionES": "",
-    "fotos": [
-      "143AB-1-coleccion-variada-de-cristaleria-para-bar.jpg",
-      "143AB-2-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 2,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AC",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas",
-    "descripcionES": "",
-    "fotos": [
-      "143AC-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Mireya",
-    "precioUSD": 130.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AD",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas (morado oscuro) (6)",
-    "descripcionES": "",
-    "fotos": [
-      "143AD-1-vasos-morados-de-agua-altos-6.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 54.96,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 200.0
-  },
-  {
-    "codigoItem": "143AE",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas verde (agua 6)",
-    "descripcionES": "",
-    "fotos": [
-      "143AE-1-copas-verdes-para-agua.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 60.0
-  },
-  {
-    "codigoItem": "143AF",
-    "codigoPadre": "143A",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria eclectica para vinos y bebidas (12)",
-    "descripcionES": "",
-    "fotos": [
-      "143AF-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "143AG",
     "codigoPadre": "143A",
     "numItem": 143,
@@ -5422,258 +4856,6 @@
     "reservadoPara": "",
     "precioUSD": 60.0,
     "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AH",
-    "codigoPadre": "",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas morado claro vino (15)",
-    "descripcionES": "",
-    "fotos": [
-      "143AH-1-copas-morado-claro-vino.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 137.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AI",
-    "codigoPadre": "",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vasos morado claro de agua (13)",
-    "descripcionES": "",
-    "fotos": [
-      "143AI-1-vasos-morado-claro-de-agua-13.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 119.08,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AJ",
-    "codigoPadre": "",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas morado claro vino (6)",
-    "descripcionES": "",
-    "fotos": [
-      "143AJ-1-copas-morado-claro-vino-6.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 54.96,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AK",
-    "codigoPadre": "",
-    "numItem": 0,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas morado oscuro",
-    "descripcionES": "",
-    "fotos": [
-      "143AK-1-copas-morado-oscuro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AL",
-    "codigoPadre": "",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Copas verdes para agua",
-    "descripcionES": "",
-    "fotos": [
-      "143AL-1-copas-verdes-vino-tinto.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "143AM",
-    "codigoPadre": "",
-    "numItem": 143,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "copas-verdes-vino-tinto-y-blanco(8)",
-    "descripcionES": "",
-    "fotos": [
-      "143AM-1-copas-verdes-vino-tinto-y-blanco-8.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "144A",
-    "codigoPadre": "144",
-    "numItem": 144,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Set de 4 taburetes de bar de terciopelo",
-    "descripcionES": "",
-    "fotos": [
-      "144A-1-set-de-4-taburetes-de-bar-de-terciopelo.jpg",
-      "144A-2-set-de-4-taburetes-de-bar-de-terciopelo-beige-capitone.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Alejandro Aguilar",
-    "precioUSD": 180.0,
-    "cantidad": 2,
-    "notas": "",
-    "precioColones": 82726.2,
-    "fechaVenta": "16/04/2026"
-  },
-  {
-    "codigoItem": "145A",
-    "codigoPadre": "145",
-    "numItem": 145,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Sillas wishbone de madera negra y paja",
-    "descripcionES": "",
-    "fotos": [
-      "145A-1-sillas-wishbone-de-madera-negra-y-paja.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 100.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioColones": 45959,
-    "fechaVenta": "16/04/2026",
-    "precioMinimoUSD": 100.0
-  },
-  {
-    "codigoItem": "146A",
-    "codigoPadre": "146",
-    "numItem": 146,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Mesa de comedor circular con pedestal de madera",
-    "descripcionES": "",
-    "fotos": [
-      "146A-1-mesa-de-comedor-circular-con-pedestal-de-madera.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioColones": 36767.2,
-    "fechaVenta": "16/04/2026",
-    "precioMinimoUSD": 80.0
-  },
-  {
-    "codigoItem": "147A",
-    "codigoPadre": "147",
-    "numItem": 147,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Frutero de vidrio artesanal con variedad de frutas y verdura",
-    "descripcionES": "",
-    "fotos": [
-      "147A-1-frutero-de-vidrio-artesanal-con-variedad-de-frutas-y-verduras.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "148A",
-    "codigoPadre": "148",
-    "numItem": 148,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Triptico de retratos de animales: loro, leopardo y conejo",
-    "descripcionES": "",
-    "fotos": [
-      "148A-2-triptico-de-retratos-de-animales-loro-leopardo-y-conejo.jpg",
-      "148A-2-triptico-de-retratos-animales-loro-leopardo-y-conejo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 50.0,
-    "cantidad": 2,
     "notas": ""
   },
   {
@@ -5855,118 +5037,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "150AD",
-    "codigoPadre": "150A",
-    "numItem": 150,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Platitos de cristal de colores (9)",
-    "descripcionES": "",
-    "fotos": [
-      "150AD-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 40.0
-  },
-  {
-    "codigoItem": "150AE",
-    "codigoPadre": "150A",
-    "numItem": 150,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
-    "descripcionES": "",
-    "fotos": [
-      "150AE-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Rasmi Camacho",
-    "precioUSD": 75.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 75.0
-  },
-  {
-    "codigoItem": "150AF",
-    "codigoPadre": "150A",
-    "numItem": 150,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Platos de porcelana diseno concha estriados",
-    "descripcionES": "",
-    "fotos": [
-      "150AF-1-platos-de-porcelana-diseno-concha-estriados.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 75.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "150AG",
-    "codigoPadre": "150A",
-    "numItem": 150,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla de ceramica con motivos florales (12)",
-    "descripcionES": "",
-    "fotos": [
-      "150AG-1-vajilla-de-ceramica-con-motivos-florales.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 84.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "151A",
-    "codigoPadre": "151",
-    "numItem": 151,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla clasica de porcelana hiedra y oro",
-    "descripcionES": "",
-    "fotos": [
-      "151A-1-vajilla-clasica-de-porcelana-hiedra-y-oro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 120.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "152A",
     "codigoPadre": "152",
     "numItem": 152,
@@ -6079,6 +5149,30 @@
     "notas": ""
   },
   {
+    "codigoItem": "139A",
+    "codigoPadre": "139",
+    "numItem": 139,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Par de grabados de bagres en el agua",
+    "descripcionES": "",
+    "fotos": [
+      "139A-1-par-de-grabados-de-bagres-en-el-agua.jpg",
+      "139A-2-par-de-grabados-de-bagre-en-el-agua.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 70.0,
+    "cantidad": 2,
+    "notas": "",
+    "cantidadFotos": 2
+  },
+  {
     "codigoItem": "152AE",
     "codigoPadre": "152A",
     "numItem": 152,
@@ -6145,26 +5239,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "153B",
-    "codigoPadre": "",
-    "numItem": 153,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vasos de cristal ondulado tono verde (25G Y 25P)",
-    "descripcionES": "",
-    "fotos": [],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 150.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "154A",
     "codigoPadre": "154",
     "numItem": 154,
@@ -6182,28 +5256,6 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 150.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "155A",
-    "codigoPadre": "155",
-    "numItem": 155,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Juego de cristaleria clasico copas de cristal tallado y roja",
-    "descripcionES": "",
-    "fotos": [
-      "155A-1-juego-de-cristaleria-clasico-copas-de-cristal-tallado-y-rojas.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Oscar Murillo",
     "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
@@ -6231,6 +5283,29 @@
     "notas": ""
   },
   {
+    "codigoItem": "143AA",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria transparente para gin tonic (14)",
+    "descripcionES": "",
+    "fotos": [
+      "143AA-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 60.0
+  },
+  {
     "codigoItem": "155AB",
     "codigoPadre": "155A",
     "numItem": 155,
@@ -6253,46 +5328,24 @@
     "notas": ""
   },
   {
-    "codigoItem": "155AC",
-    "codigoPadre": "",
-    "numItem": 155,
+    "codigoItem": "107A",
+    "codigoPadre": "107",
+    "numItem": 107,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "6 copas verdes con borde dorado",
+    "categoria": "Decorativos",
+    "nombreES": "Caja decorativa chinos lacados",
     "descripcionES": "",
     "fotos": [
-      "155AC-1-6-copas-verde-con-borde-dorado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "156A",
-    "codigoPadre": "156",
-    "numItem": 156,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Coleccion eclectica de cristaleria y ceramica decorativa.",
-    "descripcionES": "",
-    "fotos": [
-      "156A-1-coleccion-eclectica-de-cristaleria-y-ceramica-decorativa.jpg"
+      "107A-1-cajas-y-cuenco-decorativos-chinos-lacados.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 120.0,
+    "estado": "Reservado",
+    "reservadoPara": "Mireya",
+    "precioUSD": 35.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6319,6 +5372,29 @@
     "notas": ""
   },
   {
+    "codigoItem": "143AE",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria eclectica para vinos y bebidas verde (agua 6)",
+    "descripcionES": "",
+    "fotos": [
+      "143AE-1-copas-verdes-para-agua.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 60.0
+  },
+  {
     "codigoItem": "156AB",
     "codigoPadre": "156A",
     "numItem": 156,
@@ -6339,51 +5415,6 @@
     "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
-  },
-  {
-    "codigoItem": "156AC",
-    "codigoPadre": "156A",
-    "numItem": 156,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Juego de vinagreras aceiteras de cristal ambar vintage",
-    "descripcionES": "",
-    "fotos": [
-      "156AC-1-juego-de-vinagreras-aceiteras-de-cristal-ambar-vintage.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 150.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "156AD",
-    "codigoPadre": "156A",
-    "numItem": 156,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Jarra de cristal morada",
-    "descripcionES": "",
-    "fotos": [
-      "156AD-1-jarra-de-cristal-y-cuenco-de-amatista-decorativos.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 10.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 10.0
   },
   {
     "codigoItem": "156AE",
@@ -6452,6 +5483,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "143AJ",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado claro vino (6)",
+    "descripcionES": "",
+    "fotos": [
+      "143AJ-1-copas-morado-claro-vino-6.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 54.96,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "157A",
     "codigoPadre": "157",
     "numItem": 157,
@@ -6471,6 +5524,170 @@
     "reservadoPara": "",
     "precioUSD": 80.0,
     "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AL",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas verdes para agua",
+    "descripcionES": "",
+    "fotos": [
+      "143AL-1-copas-verdes-vino-tinto.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AM",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "copas-verdes-vino-tinto-y-blanco(8)",
+    "descripcionES": "",
+    "fotos": [
+      "143AM-1-copas-verdes-vino-tinto-y-blanco-8.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "144A",
+    "codigoPadre": "144",
+    "numItem": 144,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Set de 4 taburetes de bar de terciopelo",
+    "descripcionES": "",
+    "fotos": [
+      "144A-1-set-de-4-taburetes-de-bar-de-terciopelo.jpg",
+      "144A-2-set-de-4-taburetes-de-bar-de-terciopelo-beige-capitone.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandro Aguilar",
+    "precioUSD": 180.0,
+    "cantidad": 2,
+    "notas": "",
+    "precioColones": 82726.2,
+    "fechaVenta": "16/04/2026"
+  },
+  {
+    "codigoItem": "145A",
+    "codigoPadre": "145",
+    "numItem": 145,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Sillas wishbone de madera negra y paja",
+    "descripcionES": "",
+    "fotos": [
+      "145A-1-sillas-wishbone-de-madera-negra-y-paja.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 100.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioColones": 45959,
+    "fechaVenta": "16/04/2026",
+    "precioMinimoUSD": 100.0
+  },
+  {
+    "codigoItem": "146A",
+    "codigoPadre": "146",
+    "numItem": 146,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa de comedor circular con pedestal de madera",
+    "descripcionES": "",
+    "fotos": [
+      "146A-1-mesa-de-comedor-circular-con-pedestal-de-madera.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioColones": 36767.2,
+    "fechaVenta": "16/04/2026",
+    "precioMinimoUSD": 80.0
+  },
+  {
+    "codigoItem": "147A",
+    "codigoPadre": "147",
+    "numItem": 147,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Frutero de vidrio artesanal con variedad de frutas y verdura",
+    "descripcionES": "",
+    "fotos": [
+      "147A-1-frutero-de-vidrio-artesanal-con-variedad-de-frutas-y-verduras.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "148A",
+    "codigoPadre": "148",
+    "numItem": 148,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Triptico de retratos de animales: loro, leopardo y conejo",
+    "descripcionES": "",
+    "fotos": [
+      "148A-2-triptico-de-retratos-de-animales-loro-leopardo-y-conejo.jpg",
+      "148A-2-triptico-de-retratos-animales-loro-leopardo-y-conejo.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 50.0,
+    "cantidad": 2,
     "notas": ""
   },
   {
@@ -6538,30 +5755,6 @@
     "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
-  },
-  {
-    "codigoItem": "158AA",
-    "codigoPadre": "158A",
-    "numItem": 158,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vajilla de cristal texturizado con borde dorado (17)",
-    "descripcionES": "",
-    "fotos": [
-      "158AA-1-vajilla-de-cristal-texturizado-con-borde-dorado.jpg",
-      "158AA-2-vajilla-de-cristal-texturizado-con-borde.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Mariana Herrera",
-    "precioUSD": 160.0,
-    "cantidad": 2,
-    "notas": "",
-    "precioMinimoUSD": 160.0
   },
   {
     "codigoItem": "158AB",
@@ -6674,6 +5867,52 @@
     "notas": ""
   },
   {
+    "codigoItem": "150AD",
+    "codigoPadre": "150A",
+    "numItem": 150,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Platitos de cristal de colores (9)",
+    "descripcionES": "",
+    "fotos": [
+      "150AD-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 40.0
+  },
+  {
+    "codigoItem": "150AE",
+    "codigoPadre": "150A",
+    "numItem": 150,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Miscelanea de cristaleria con garrafas cuencos platos y copa",
+    "descripcionES": "",
+    "fotos": [
+      "150AE-1-miscelanea-de-cristaleria-con-garrafas-cuencos-platos-y-copas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Rasmi Camacho",
+    "precioUSD": 75.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 75.0
+  },
+  {
     "codigoItem": "159AC",
     "codigoPadre": "159A",
     "numItem": 159,
@@ -6692,6 +5931,50 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 15.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "150AG",
+    "codigoPadre": "150A",
+    "numItem": 150,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla de ceramica con motivos florales (12)",
+    "descripcionES": "",
+    "fotos": [
+      "150AG-1-vajilla-de-ceramica-con-motivos-florales.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 84.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "151A",
+    "codigoPadre": "151",
+    "numItem": 151,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla clasica de porcelana hiedra y oro",
+    "descripcionES": "",
+    "fotos": [
+      "151A-1-vajilla-clasica-de-porcelana-hiedra-y-oro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -6850,29 +6133,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "160AC",
-    "codigoPadre": "160A",
-    "numItem": 160,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Jarras decorativas de vidrio soplado estilo murano",
-    "descripcionES": "",
-    "fotos": [
-      "160AC-1-jarras-decorativas-de-vidrio-soplado-estilo-murano.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 20.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 20.0
-  },
-  {
     "codigoItem": "160AD",
     "codigoPadre": "160A",
     "numItem": 160,
@@ -6939,6 +6199,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "155A",
+    "codigoPadre": "155",
+    "numItem": 155,
+    "tipoEstructural": "SET",
+    "categoria": "Cristaleria",
+    "nombreES": "Juego de cristaleria clasico copas de cristal tallado y roja",
+    "descripcionES": "",
+    "fotos": [
+      "155A-1-juego-de-cristaleria-clasico-copas-de-cristal-tallado-y-rojas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Oscar Murillo",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "160AG",
     "codigoPadre": "160A",
     "numItem": 160,
@@ -6979,6 +6261,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 20.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "155AC",
+    "codigoPadre": "",
+    "numItem": 155,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "6 copas verdes con borde dorado",
+    "descripcionES": "",
+    "fotos": [
+      "155AC-1-6-copas-verde-con-borde-dorado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7027,28 +6331,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "160AK",
-    "codigoPadre": "160A",
-    "numItem": 160,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Vasos cilindricos de cuerno natural pulido",
-    "descripcionES": "",
-    "fotos": [
-      "160AK-1-vasos-cilindricos-de-cuerno-natural-pulido.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 30.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "160AL",
     "codigoPadre": "160A",
     "numItem": 160,
@@ -7069,6 +6351,51 @@
     "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "156AC",
+    "codigoPadre": "156A",
+    "numItem": 156,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Juego de vinagreras aceiteras de cristal ambar vintage",
+    "descripcionES": "",
+    "fotos": [
+      "156AC-1-juego-de-vinagreras-aceiteras-de-cristal-ambar-vintage.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 20.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "156AD",
+    "codigoPadre": "156A",
+    "numItem": 156,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Jarra de cristal morada",
+    "descripcionES": "",
+    "fotos": [
+      "156AD-1-jarra-de-cristal-y-cuenco-de-amatista-decorativos.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 10.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 10.0
   },
   {
     "codigoItem": "160AM",
@@ -7159,28 +6486,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "162A",
-    "codigoPadre": "162",
-    "numItem": 162,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Coleccion cristaleria tallada roja y oro",
-    "descripcionES": "",
-    "fotos": [
-      "162A-1-coleccion-cristaleria-tallada-roja-y-oro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "Oscar Murillo",
-    "precioUSD": 80.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "162AA",
     "codigoPadre": "162A",
     "numItem": 162,
@@ -7225,50 +6530,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "162AC",
-    "codigoPadre": "162A",
-    "numItem": 162,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria tallada roja y dorada",
-    "descripcionES": "",
-    "fotos": [
-      "162AC-1-cristaleria-tallada-roja-y-dorada.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 100.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "162AD",
-    "codigoPadre": "162A",
-    "numItem": 162,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Coleccion cristaleria tallada roja y oro",
-    "descripcionES": "",
-    "fotos": [
-      "162AD-1-coleccion-cristaleria-tallada-roja-y-oro.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Oscar Murillo",
-    "precioUSD": 75.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "163A",
     "codigoPadre": "163",
     "numItem": 163,
@@ -7291,40 +6552,16 @@
     "notas": ""
   },
   {
-    "codigoItem": "163AA",
-    "codigoPadre": "163A",
-    "numItem": 163,
+    "codigoItem": "158AA",
+    "codigoPadre": "158A",
+    "numItem": 158,
     "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla ceramica clasica con motivos",
+    "categoria": "Cristaleria",
+    "nombreES": "Vajilla de cristal texturizado con borde dorado (17)",
     "descripcionES": "",
     "fotos": [
-      "163AA-1-vajilla-ceramica-clasica-con-motivos.jpg",
-      "163AA-2-vajilla-ceramica-clasica-con-motivos-florales-verdes-y-dorados.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Luciana Paris",
-    "precioUSD": 350.0,
-    "cantidad": 2,
-    "notas": "",
-    "precioMinimoUSD": 350.0
-  },
-  {
-    "codigoItem": "163AB",
-    "codigoPadre": "163A",
-    "numItem": 163,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla ceramica azul y blanca floral",
-    "descripcionES": "",
-    "fotos": [
-      "163AB-1-vajilla-ceramica-azul-y-blanca-floral.jpg",
-      "163AB-2-vajilla-ceramica-azul-y-blanca-floral.jpg"
+      "158AA-1-vajilla-de-cristal-texturizado-con-borde-dorado.jpg",
+      "158AA-2-vajilla-de-cristal-texturizado-con-borde.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -7332,33 +6569,11 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "Laura Bonilla",
-    "precioUSD": 550.0,
+    "reservadoPara": "Mariana Herrera",
+    "precioUSD": 160.0,
     "cantidad": 2,
     "notas": "",
-    "precioMinimoUSD": 550.0
-  },
-  {
-    "codigoItem": "163AC",
-    "codigoPadre": "163A",
-    "numItem": 163,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Jarras de cristal rubi grabadas con motivos de caza",
-    "descripcionES": "",
-    "fotos": [
-      "163AC-1-jarras-de-cristal-rubi-grabadas-con-motivos-de-caza.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Luciana Paris",
-    "precioUSD": 35.0,
-    "cantidad": 1,
-    "notas": ""
+    "precioMinimoUSD": 160.0
   },
   {
     "codigoItem": "164A",
@@ -7467,54 +6682,6 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "165AC",
-    "codigoPadre": "165A",
-    "numItem": 165,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Vajilla ceramica variada con motivos",
-    "descripcionES": "",
-    "fotos": [
-      "165AC-1-vajilla-ceramica-variada-con-motivos.jpg",
-      "165AC-2-vajilla-ceramica-variada-con-motivos.jpg",
-      "165AC-3-vajilla-ceramica-variada-con-motivos.jpg",
-      "165AC-4-platos-de-ceramica-estilo-imari-con-pavos-reales-y-flores.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 10.0,
-    "cantidad": 4,
-    "notas": "",
-    "precioMinimoUSD": 10.0
-  },
-  {
-    "codigoItem": "166A",
-    "codigoPadre": "166",
-    "numItem": 166,
-    "tipoEstructural": "SET",
-    "categoria": "Cristaleria",
-    "nombreES": "Coleccion variada de vajilla de vidrio y ceramica",
-    "descripcionES": "",
-    "fotos": [
-      "166A-1-coleccion-variada-de-vajilla-de-vidrio-y-ceramica.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Nuria Alpizar",
-    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -7695,27 +6862,27 @@
     "notas": ""
   },
   {
-    "codigoItem": "171A",
-    "codigoPadre": "171",
-    "numItem": 171,
-    "tipoEstructural": "SET",
+    "codigoItem": "160AC",
+    "codigoPadre": "160A",
+    "numItem": 160,
+    "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Coleccion variada de vajilla y cristaleria de cocina",
+    "nombreES": "Jarras decorativas de vidrio soplado estilo murano",
     "descripcionES": "",
     "fotos": [
-      "171A-1-coleccion-variada-de-vajilla-y-cristaleria-de-cocina.jpg"
+      "160AC-1-jarras-decorativas-de-vidrio-soplado-estilo-murano.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Marielos Alpizar",
-    "precioUSD": 250.0,
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 20.0,
     "cantidad": 1,
     "notas": "",
-    "precioMinimoUSD": 250.0
+    "precioMinimoUSD": 20.0
   },
   {
     "codigoItem": "171AA",
@@ -7829,52 +6996,6 @@
     "precioMinimoUSD": 500.0
   },
   {
-    "codigoItem": "174A",
-    "codigoPadre": "174",
-    "numItem": 174,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Plateria",
-    "nombreES": "Par de salseras francesas de plata",
-    "descripcionES": "",
-    "fotos": [
-      "174A-1-par-de-salseras-francesas-de-plata.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "154",
-    "paginaSothebys": "69",
-    "estimacionSothebys": "$2,100 - $2,800",
-    "descripcionSothebys": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
-    "estado": "Reservado",
-    "reservadoPara": "Fabrizia Pignatelli",
-    "precioUSD": 2100.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 1000.0
-  },
-  {
-    "codigoItem": "175A",
-    "codigoPadre": "175",
-    "numItem": 175,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Plateria",
-    "nombreES": "Cubiertos de plata y marfil para servir",
-    "descripcionES": "",
-    "fotos": [
-      "175A-1-cubiertos-de-plata-y-marfil-para-servir.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "112",
-    "paginaSothebys": "60",
-    "estimacionSothebys": "$420 - $560",
-    "descripcionSothebys": "A Victorian ivory and silver crumb scoop, and fish servers.",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
-    "precioUSD": 350.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 350.0
-  },
-  {
     "codigoItem": "176A",
     "codigoPadre": "176",
     "numItem": 176,
@@ -7918,6 +7039,28 @@
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 150.0
+  },
+  {
+    "codigoItem": "160AK",
+    "codigoPadre": "160A",
+    "numItem": 160,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos cilindricos de cuerno natural pulido",
+    "descripcionES": "",
+    "fotos": [
+      "160AK-1-vasos-cilindricos-de-cuerno-natural-pulido.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": ""
   },
   {
     "codigoItem": "178B",
@@ -8032,6 +7175,28 @@
     "precioMinimoUSD": 70.0
   },
   {
+    "codigoItem": "162A",
+    "codigoPadre": "162",
+    "numItem": 162,
+    "tipoEstructural": "SET",
+    "categoria": "Cristaleria",
+    "nombreES": "Coleccion cristaleria tallada roja y oro",
+    "descripcionES": "",
+    "fotos": [
+      "162A-1-coleccion-cristaleria-tallada-roja-y-oro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "Oscar Murillo",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "178C",
     "codigoPadre": "178",
     "numItem": 178,
@@ -8076,6 +7241,50 @@
     "notas": ""
   },
   {
+    "codigoItem": "162AC",
+    "codigoPadre": "162A",
+    "numItem": 162,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria tallada roja y dorada",
+    "descripcionES": "",
+    "fotos": [
+      "162AC-1-cristaleria-tallada-roja-y-dorada.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Adriano Pignatelli",
+    "precioUSD": 100.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "162AD",
+    "codigoPadre": "162A",
+    "numItem": 162,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Coleccion cristaleria tallada roja y oro",
+    "descripcionES": "",
+    "fotos": [
+      "162AD-1-coleccion-cristaleria-tallada-roja-y-oro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Oscar Murillo",
+    "precioUSD": 75.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "178CB",
     "codigoPadre": "178C",
     "numItem": 178,
@@ -8094,6 +7303,76 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "163AA",
+    "codigoPadre": "163A",
+    "numItem": 163,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla ceramica clasica con motivos",
+    "descripcionES": "",
+    "fotos": [
+      "163AA-1-vajilla-ceramica-clasica-con-motivos.jpg",
+      "163AA-2-vajilla-ceramica-clasica-con-motivos-florales-verdes-y-dorados.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Katia Golcher",
+    "precioUSD": 350.0,
+    "cantidad": 2,
+    "notas": "",
+    "precioMinimoUSD": 350.0
+  },
+  {
+    "codigoItem": "163AB",
+    "codigoPadre": "163A",
+    "numItem": 163,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla ceramica azul y blanca floral",
+    "descripcionES": "",
+    "fotos": [
+      "163AB-1-vajilla-ceramica-azul-y-blanca-floral.jpg",
+      "163AB-2-vajilla-ceramica-azul-y-blanca-floral.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Laura Bonilla",
+    "precioUSD": 550.0,
+    "cantidad": 2,
+    "notas": "",
+    "precioMinimoUSD": 550.0
+  },
+  {
+    "codigoItem": "163AC",
+    "codigoPadre": "163A",
+    "numItem": 163,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Jarras de cristal rubi grabadas con motivos de caza",
+    "descripcionES": "",
+    "fotos": [
+      "163AC-1-jarras-de-cristal-rubi-grabadas-con-motivos-de-caza.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Luciana Paris",
+    "precioUSD": 35.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -8208,6 +7487,54 @@
     "notas": ""
   },
   {
+    "codigoItem": "165AC",
+    "codigoPadre": "165A",
+    "numItem": 165,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla ceramica variada con motivos",
+    "descripcionES": "",
+    "fotos": [
+      "165AC-1-vajilla-ceramica-variada-con-motivos.jpg",
+      "165AC-2-vajilla-ceramica-variada-con-motivos.jpg",
+      "165AC-3-vajilla-ceramica-variada-con-motivos.jpg",
+      "165AC-4-platos-de-ceramica-estilo-imari-con-pavos-reales-y-flores.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 10.0,
+    "cantidad": 4,
+    "notas": "",
+    "precioMinimoUSD": 10.0
+  },
+  {
+    "codigoItem": "166A",
+    "codigoPadre": "166",
+    "numItem": 166,
+    "tipoEstructural": "SET",
+    "categoria": "Cristaleria",
+    "nombreES": "Coleccion variada de vajilla de vidrio y ceramica",
+    "descripcionES": "",
+    "fotos": [
+      "166A-1-coleccion-variada-de-vajilla-de-vidrio-y-ceramica.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Nuria Alpizar",
+    "precioUSD": 150.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "179A",
     "codigoPadre": "179",
     "numItem": 179,
@@ -8257,73 +7584,6 @@
     "precioMinimoUSD": 900.0
   },
   {
-    "codigoItem": "181A",
-    "codigoPadre": "181",
-    "numItem": 181,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Pintura de pareja paseando",
-    "descripcionES": "",
-    "fotos": [
-      "181A-1-pintura-de-pareja-paseando.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "20",
-    "paginaSothebys": "14",
-    "estimacionSothebys": "$4,200 - $5,600",
-    "descripcionSothebys": "A.M. Ciscar, 20th century. A couple strolling.",
-    "estado": "Reservado",
-    "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 4200.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "182A",
-    "codigoPadre": "182",
-    "numItem": 182,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Figuras en terrazas chinas del siglo xviii",
-    "descripcionES": "",
-    "fotos": [
-      "182A-1-figuras-en-terrazas-chinas-del-siglo-xviii.jpg",
-      "182A-2-figuras-en-terrazas-chinas-del-siglo-xviii.jpg"
-    ],
-    "tieneSothebys": true,
-    "refSothebys": "27",
-    "paginaSothebys": "18",
-    "estimacionSothebys": "$560 - $840",
-    "descripcionSothebys": "The remaining work on the Stairs, comprising a watercolour of a doorway by Rossi, 2005; a watercolour of an Italian village by H.W. Cole; and an oil painting of the heads of four children.",
-    "estado": "Reservado",
-    "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 560.0,
-    "cantidad": 2,
-    "notas": ""
-  },
-  {
-    "codigoItem": "183A",
-    "codigoPadre": "183",
-    "numItem": 183,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Retrato femenino al pastel con marco clasico",
-    "descripcionES": "",
-    "fotos": [
-      "183A-1-retrato-femenino-al-pastel-con-marco-clasico.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Reservado",
-    "reservadoPara": "Adriano Pignatelli",
-    "precioUSD": 800.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "184A",
     "codigoPadre": "184",
     "numItem": 184,
@@ -8343,31 +7603,6 @@
     "reservadoPara": "",
     "precioUSD": 300.0,
     "cantidad": 1,
-    "notas": ""
-  },
-  {
-    "codigoItem": "185A",
-    "codigoPadre": "185",
-    "numItem": 185,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Arte en papel",
-    "nombreES": "Retrato ancestral de dama noble china dinastia qing",
-    "descripcionES": "",
-    "fotos": [
-      "185A-1-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
-      "185A-2-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
-      "185A-3-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg",
-      "185A-4-retrato-ancestral-de-dama-noble-china-dinastia-qing.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 45.0,
-    "cantidad": 4,
     "notas": ""
   },
   {
@@ -8413,29 +7648,6 @@
     "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
-  },
-  {
-    "codigoItem": "189A",
-    "codigoPadre": "189",
-    "numItem": 189,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Arte en vidrio soplado decorativo (13)",
-    "descripcionES": "",
-    "fotos": [
-      "189A-1-arte-en-vidrio-soplado-decorativo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Xiomara Marín",
-    "precioUSD": 100.0,
-    "cantidad": 1,
-    "notas": "",
-    "precioMinimoUSD": 100.0
   },
   {
     "codigoItem": "190A",
@@ -8502,6 +7714,29 @@
     "precioUSD": 100.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "171A",
+    "codigoPadre": "171",
+    "numItem": 171,
+    "tipoEstructural": "SET",
+    "categoria": "Cristaleria",
+    "nombreES": "Coleccion variada de vajilla y cristaleria de cocina",
+    "descripcionES": "",
+    "fotos": [
+      "171A-1-coleccion-variada-de-vajilla-y-cristaleria-de-cocina.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Marielos Alpizar",
+    "precioUSD": 250.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 250.0
   },
   {
     "codigoItem": "193A",
@@ -8593,28 +7828,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "197A",
-    "codigoPadre": "197",
-    "numItem": 197,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Muebles",
-    "nombreES": "Estantes flotantes de madera oscura con diseno escalonado",
-    "descripcionES": "",
-    "fotos": [
-      "197A-1-estantes-flotantes-de-madera-oscura-con-diseno-escalonado.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 40.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "198A",
     "codigoPadre": "198",
     "numItem": 198,
@@ -8635,6 +7848,52 @@
     "precioUSD": null,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "174A",
+    "codigoPadre": "174",
+    "numItem": 174,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Plateria",
+    "nombreES": "Par de salseras francesas de plata",
+    "descripcionES": "",
+    "fotos": [
+      "174A-1-par-de-salseras-francesas-de-plata.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "154",
+    "paginaSothebys": "69",
+    "estimacionSothebys": "$2,100 - $2,800",
+    "descripcionSothebys": "A pair of French silver sauceboats by Veyrat, 19th century, with elephant finials.",
+    "estado": "Reservado",
+    "reservadoPara": "Fabrizia Pignatelli",
+    "precioUSD": 2100.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 1000.0
+  },
+  {
+    "codigoItem": "175A",
+    "codigoPadre": "175",
+    "numItem": 175,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Plateria",
+    "nombreES": "Cubiertos de plata y marfil para servir",
+    "descripcionES": "",
+    "fotos": [
+      "175A-1-cubiertos-de-plata-y-marfil-para-servir.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "112",
+    "paginaSothebys": "60",
+    "estimacionSothebys": "$420 - $560",
+    "descripcionSothebys": "A Victorian ivory and silver crumb scoop, and fish servers.",
+    "estado": "Reservado",
+    "reservadoPara": "Xiomara Marín / Annie",
+    "precioUSD": 350.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 350.0
   },
   {
     "codigoItem": "199A",
@@ -8839,28 +8098,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "208A",
-    "codigoPadre": "208",
-    "numItem": 208,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria artistica soplada con jarrones y jarra",
-    "descripcionES": "",
-    "fotos": [
-      "208A-1-cristaleria-artistica-soplada-con-jarrones-y-jarra.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 150.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "209A",
     "codigoPadre": "209",
     "numItem": 209,
@@ -8971,28 +8208,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "214A",
-    "codigoPadre": "214",
-    "numItem": 214,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Jarra de vidrio blenko artesanal tono ciruela con asa transp",
-    "descripcionES": "",
-    "fotos": [
-      "214A-1-jarra-de-vidrio-blenko-artesanal-tono-ciruela-con-asa-transparente.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 150.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "215A",
     "codigoPadre": "215",
     "numItem": 215,
@@ -9059,6 +8274,73 @@
     "notas": ""
   },
   {
+    "codigoItem": "181A",
+    "codigoPadre": "181",
+    "numItem": 181,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Pintura de pareja paseando",
+    "descripcionES": "",
+    "fotos": [
+      "181A-1-pintura-de-pareja-paseando.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "20",
+    "paginaSothebys": "14",
+    "estimacionSothebys": "$4,200 - $5,600",
+    "descripcionSothebys": "A.M. Ciscar, 20th century. A couple strolling.",
+    "estado": "Reservado",
+    "reservadoPara": "Adriano Pignatelli",
+    "precioUSD": 4200.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "182A",
+    "codigoPadre": "182",
+    "numItem": 182,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Figuras en terrazas chinas del siglo xviii",
+    "descripcionES": "",
+    "fotos": [
+      "182A-1-figuras-en-terrazas-chinas-del-siglo-xviii.jpg",
+      "182A-2-figuras-en-terrazas-chinas-del-siglo-xviii.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "27",
+    "paginaSothebys": "18",
+    "estimacionSothebys": "$560 - $840",
+    "descripcionSothebys": "The remaining work on the Stairs, comprising a watercolour of a doorway by Rossi, 2005; a watercolour of an Italian village by H.W. Cole; and an oil painting of the heads of four children.",
+    "estado": "Reservado",
+    "reservadoPara": "Adriano Pignatelli",
+    "precioUSD": 560.0,
+    "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "183A",
+    "codigoPadre": "183",
+    "numItem": 183,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Arte en papel",
+    "nombreES": "Retrato femenino al pastel con marco clasico",
+    "descripcionES": "",
+    "fotos": [
+      "183A-1-retrato-femenino-al-pastel-con-marco-clasico.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Adriano Pignatelli",
+    "precioUSD": 800.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "219A",
     "codigoPadre": "219",
     "numItem": 219,
@@ -9077,6 +8359,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "127A",
+    "codigoPadre": "127",
+    "numItem": 127,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Figuras decorativas de porcelana estilo tang caballo y camello",
+    "descripcionES": "",
+    "fotos": [
+      "127A-1-figuras-decorativas-de-porcelana-estilo-tang-caballo-y-camello.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Reservado",
+    "reservadoPara": "Mireya",
+    "precioUSD": 80.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9123,6 +8427,29 @@
     "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
+  },
+  {
+    "codigoItem": "189A",
+    "codigoPadre": "189",
+    "numItem": 189,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Arte en vidrio soplado decorativo (13)",
+    "descripcionES": "",
+    "fotos": [
+      "189A-1-arte-en-vidrio-soplado-decorativo.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Xiomara Marín",
+    "precioUSD": 100.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 100.0
   },
   {
     "codigoItem": "222A",
@@ -9277,6 +8604,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 15.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "197A",
+    "codigoPadre": "197",
+    "numItem": 197,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Estantes flotantes de madera oscura con diseno escalonado",
+    "descripcionES": "",
+    "fotos": [
+      "197A-1-estantes-flotantes-de-madera-oscura-con-diseno-escalonado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Marita",
+    "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9501,6 +8850,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "208A",
+    "codigoPadre": "208",
+    "numItem": 208,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria artistica soplada con jarrones y jarra",
+    "descripcionES": "",
+    "fotos": [
+      "208A-1-cristaleria-artistica-soplada-con-jarrones-y-jarra.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra Mendez",
+    "precioUSD": 15.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "239A",
     "codigoPadre": "239",
     "numItem": 239,
@@ -9611,6 +8982,28 @@
     "notas": ""
   },
   {
+    "codigoItem": "214A",
+    "codigoPadre": "214",
+    "numItem": 214,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Jarra de vidrio blenko artesanal tono ciruela con asa transp",
+    "descripcionES": "",
+    "fotos": [
+      "214A-1-jarra-de-vidrio-blenko-artesanal-tono-ciruela-con-asa-transparente.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Alejandra mendez",
+    "precioUSD": 15.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
     "codigoItem": "244A",
     "codigoPadre": "244",
     "numItem": 244,
@@ -9629,6 +9022,633 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 25.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "246A",
+    "codigoPadre": "246",
+    "numItem": 246,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Duo de cuencos de cristal tallado",
+    "descripcionES": "",
+    "fotos": [
+      "246A-1-duo-de-cuencos-de-cristal-tallado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 20.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "15A",
+    "codigoPadre": "15",
+    "numItem": 15,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesa central rococo con tapa de marmol",
+    "descripcionES": "",
+    "fotos": [
+      "15A-1-mesa-central-rococo-con-tapa-de-marmol.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "45",
+    "paginaSothebys": "33",
+    "estimacionSothebys": "$5,600 - $8,400",
+    "descripcionSothebys": "An early Louis XV style giltwood centre table, 19th century, with a marble top.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 4500.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 4500.0
+  },
+  {
+    "codigoItem": "30A",
+    "codigoPadre": "30",
+    "numItem": 30,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Reloj cartel luis xv bronce dorado saint german",
+    "descripcionES": "",
+    "fotos": [
+      "30A-1-reloj-cartel-luis-xv-bronce-dorado-saint-german.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "97",
+    "paginaSothebys": "50",
+    "estimacionSothebys": "$11,200 - $16,800",
+    "descripcionSothebys": "A Louis XV gilt-bronze cartel clock attributed to Jean-Joseph de Saint-Germain, circa 1748, with enamel dial; movement not inspected; case with crowned C poinÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§on.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 200.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "31A",
+    "codigoPadre": "31",
+    "numItem": 31,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Par de espejos italianos dorados rococo del siglo xviii",
+    "descripcionES": "",
+    "fotos": [
+      "31A-1-par-de-espejos-italianos-dorados-rococo-del-siglo-xviii.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "41",
+    "paginaSothebys": "32",
+    "estimacionSothebys": "$16,800 - $25,200",
+    "descripcionSothebys": "A pair of Italian giltwood mirrors, mid 18th century, probably Neapolitan, associated plates, formerly frames.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 16000.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 16000.0
+  },
+  {
+    "codigoItem": "33AB",
+    "codigoPadre": "33A",
+    "numItem": 33,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Par de urnas neoclasicas de marmol y bronce",
+    "descripcionES": "",
+    "fotos": [
+      "33AB-1-par-de-urnas-neoclasicas-de-marmol-y-bronce.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "(Varios)",
+    "paginaSothebys": "1",
+    "estimacionSothebys": "1400 - $2400",
+    "descripcionSothebys": "Pareja de urnas de mÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡rmol negro y latÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 600.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "44AH",
+    "codigoPadre": "44A",
+    "numItem": 44,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor: 5.",
+    "descripcionES": "",
+    "fotos": [
+      "44AH-1-cristaleria-multi-color-claritas-base-espiral-8.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 55.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 55.0
+  },
+  {
+    "codigoItem": "52A",
+    "codigoPadre": "52",
+    "numItem": 52,
+    "tipoEstructural": "SET",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria variada transparente para bar",
+    "descripcionES": "",
+    "fotos": [
+      "52A-1-cristaleria-variada-transparente-para-bar.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "63A",
+    "codigoPadre": "63",
+    "numItem": 63,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Sofa tuxedo tapizado beige con botones clasico",
+    "descripcionES": "",
+    "fotos": [
+      "63A-1-sofa-tuxedo-tapizado-beige-con-botones-clasico.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "cantidad": 1,
+    "notas": "",
+    "precioUSD": 750.0,
+    "precioMinimoUSD": 750.0
+  },
+  {
+    "codigoItem": "86A",
+    "codigoPadre": "86",
+    "numItem": 86,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Apliques de pared decorativos con diseno de hoja metalica",
+    "descripcionES": "",
+    "fotos": [
+      "86A-1-apliques-de-pared-decorativos-con-diseno-de-hoja-metalica.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "94A",
+    "codigoPadre": "94",
+    "numItem": 94,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Par de platos lacados rojos",
+    "descripcionES": "",
+    "fotos": [
+      "94A-1-par-de-platos-lacados-rojos.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "228",
+    "paginaSothebys": "94",
+    "estimacionSothebys": "$420 - $700",
+    "descripcionSothebys": "A pair of red lacquer dishes, circa 1900.",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 250.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 250.0
+  },
+  {
+    "codigoItem": "98A",
+    "codigoPadre": "98",
+    "numItem": 98,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Lampara de mesa moderna con base dorada y pantalla gris oscu",
+    "descripcionES": "",
+    "fotos": [
+      "98A-1-lampara-de-mesa-moderna-con-base-dorada-y-pantalla-gris-oscuro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "104A",
+    "codigoPadre": "104",
+    "numItem": 104,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Escritorio clasico de madera de cerezo con pedestal",
+    "descripcionES": "",
+    "fotos": [
+      "104A-1-escritorio-clasico-de-madera-de-cerezo-con-pedestal.jpg"
+    ],
+    "tieneSothebys": true,
+    "refSothebys": "77",
+    "paginaSothebys": "43",
+    "estimacionSothebys": "$400 - $600",
+    "descripcionSothebys": "A mahogany twin-pedestal desk, late 19th century",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 375.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "107B",
+    "codigoPadre": "107",
+    "numItem": 107,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Caja  decorativa chinos lacados",
+    "descripcionES": "",
+    "fotos": [
+      "107B-1-cajas-decorativos-chinos-lacados -.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 35.0,
+    "cantidad": 0,
+    "notas": ""
+  },
+  {
+    "codigoItem": "107C",
+    "codigoPadre": "107",
+    "numItem": 107,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Cuenco decorativos chinos lacados",
+    "descripcionES": "",
+    "fotos": [
+      "107C-1-cuenco-decorativos-chinos-lacados -.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 20.0,
+    "cantidad": 0,
+    "notas": ""
+  },
+  {
+    "codigoItem": "112A",
+    "codigoPadre": "112",
+    "numItem": 112,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Mesita de noche moderna con cajones y estante abierto",
+    "descripcionES": "",
+    "fotos": [
+      "112A-1-mesita-de-noche-moderna-con-cajones-y-estante-abierto.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 80.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "116A",
+    "codigoPadre": "116",
+    "numItem": 116,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Juego de platos decorativos chinos policromados",
+    "descripcionES": "",
+    "fotos": [
+      "116A-1-juego-de-platos-decorativos-chinos-policromados.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 50.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "134A",
+    "codigoPadre": "134",
+    "numItem": 134,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Muebles",
+    "nombreES": "Comedor exterior de ratan con mesa de cristal",
+    "descripcionES": "",
+    "fotos": [
+      "134A-1-comedor-exterior-de-ratan-con-mesa-de-cristal.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 800.0,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 800.0
+  },
+  {
+    "codigoItem": "136HA",
+    "codigoPadre": "136H",
+    "numItem": 136,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Vajilla plato de fondo lila (8).",
+    "descripcionES": "",
+    "fotos": [
+      "136HA-1-vajilla-mixta-botanica-verde-y-cristaleria.jpg",
+      "136HA-1-vajilla-mixta-botanica-verde-y-cristaleria.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 70.0,
+    "cantidad": 2,
+    "notas": "",
+    "precioMinimoUSD": 70.0
+  },
+  {
+    "codigoItem": "136IA",
+    "codigoPadre": "136I",
+    "numItem": 136,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Platos ceramicos clasicos con borde festoneado y ribete dorado",
+    "descripcionES": "",
+    "fotos": [
+      "136IA-1-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
+      "136IA-2-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
+      "136IA-3-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg",
+      "136IA-4-platos-ceramicos-clasicos-con-borde-festoneado-y-ribete-dorado.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 70.0,
+    "cantidad": 4,
+    "notas": ""
+  },
+  {
+    "codigoItem": "140A",
+    "codigoPadre": "140",
+    "numItem": 140,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Decorativos",
+    "nombreES": "Reloj de pared decorativo de laton envejecido estilo rustico",
+    "descripcionES": "",
+    "fotos": [
+      "140A-1-reloj-de-pared-decorativo-de-laton-envejecido-estilo-rustico-industrial.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 40.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AB",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Coleccion variada de cristaleria para bar",
+    "descripcionES": "",
+    "fotos": [
+      "143AB-1-coleccion-variada-de-cristaleria-para-bar.jpg",
+      "143AB-2-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 60.0,
+    "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AD",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria eclectica para vinos y bebidas (morado oscuro) (6)",
+    "descripcionES": "",
+    "fotos": [
+      "143AD-1-vasos-morados-de-agua-altos-6.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 54.96,
+    "cantidad": 1,
+    "notas": "",
+    "precioMinimoUSD": 200.0
+  },
+  {
+    "codigoItem": "143AF",
+    "codigoPadre": "143A",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Cristaleria eclectica para vinos y bebidas (12)",
+    "descripcionES": "",
+    "fotos": [
+      "143AF-1-cristaleria-eclectica-para-vinos-y-bebidas.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AH",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado claro vino (15)",
+    "descripcionES": "",
+    "fotos": [
+      "143AH-1-copas-morado-claro-vino.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 137.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AI",
+    "codigoPadre": "",
+    "numItem": 143,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos morado claro de agua (13)",
+    "descripcionES": "",
+    "fotos": [
+      "143AI-1-vasos-morado-claro-de-agua-13.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 119.08,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "143AK",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Copas morado oscuro",
+    "descripcionES": "",
+    "fotos": [
+      "143AK-1-copas-morado-oscuro.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 60.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "150AF",
+    "codigoPadre": "150A",
+    "numItem": 150,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Platos de porcelana diseno concha estriados",
+    "descripcionES": "",
+    "fotos": [
+      "150AF-1-platos-de-porcelana-diseno-concha-estriados.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 75.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "153B",
+    "codigoPadre": "",
+    "numItem": 153,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Cristaleria",
+    "nombreES": "Vasos de cristal ondulado tono verde (25G Y 25P)",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 150.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -9675,15 +9695,15 @@
     "notas": ""
   },
   {
-    "codigoItem": "246A",
-    "codigoPadre": "246",
-    "numItem": 246,
-    "tipoEstructural": "ARTICULO",
+    "codigoItem": "156A",
+    "codigoPadre": "156",
+    "numItem": 156,
+    "tipoEstructural": "SET",
     "categoria": "Cristaleria",
-    "nombreES": "Duo de cuencos de cristal tallado",
+    "nombreES": "Coleccion eclectica de cristaleria y ceramica decorativa.",
     "descripcionES": "",
     "fotos": [
-      "246A-1-duo-de-cuencos-de-cristal-tallado.jpg"
+      "156A-1-coleccion-eclectica-de-cristaleria-y-ceramica-decorativa.jpg"
     ],
     "tieneSothebys": false,
     "refSothebys": "",
@@ -9692,7 +9712,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 20.0,
+    "precioUSD": 120.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10673,7 +10693,7 @@
     "numItem": 287,
     "tipoEstructural": "ARTICULO",
     "categoria": "Ceramica",
-    "nombreES": "Tazas anidadas de porcelana china decorada",
+    "nombreES": "Tazasitas anidadas de porcelana china decorada",
     "descripcionES": "",
     "fotos": [
       "287A-1-tazas-anidadas-de-porcelana-china-decorada.jpg"
@@ -10685,7 +10705,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 20.0,
+    "precioUSD": 8.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -10728,7 +10748,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Nuria Alpizar",
+    "reservadoPara": "Mireya",
     "precioUSD": 10.0,
     "cantidad": 1,
     "notas": "",
@@ -10913,28 +10933,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "300A",
-    "codigoPadre": "300",
-    "numItem": 300,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Impresora multifuncional epson ecotank l3250",
-    "descripcionES": "",
-    "fotos": [
-      "300A-1-impresora-multifuncional-epson-ecotank-l3250.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Jerancy Alpizar",
-    "precioUSD": 50.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "301A",
     "codigoPadre": "301",
     "numItem": 301,
@@ -10953,6 +10951,28 @@
     "estado": "Disponible",
     "reservadoPara": "",
     "precioUSD": 30.0,
+    "cantidad": 1,
+    "notas": ""
+  },
+  {
+    "codigoItem": "300A",
+    "codigoPadre": "300",
+    "numItem": 300,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Electrodomesticos",
+    "nombreES": "Impresora multifuncional epson ecotank l3250",
+    "descripcionES": "",
+    "fotos": [
+      "300A-1-impresora-multifuncional-epson-ecotank-l3250.jpg"
+    ],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "—",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Jerancy Alpizar",
+    "precioUSD": 50.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11436,9 +11456,9 @@
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 120.0,
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 15.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -11458,9 +11478,9 @@
     "paginaSothebys": "",
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 120.0,
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 20.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -12043,8 +12063,8 @@
     "categoria": "Muebles",
     "catCodigo": "F",
     "tipoEstructural": "ARTICULO",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
     "cantidadFotos": 1,
     "fotos": [
       "352A-1-mesa-consola-altar-china-de-madera-oscura.jpg"
@@ -12085,13 +12105,13 @@
     "categoria": "Muebles",
     "catCodigo": "F",
     "tipoEstructural": "ARTICULO",
-    "estado": "Reservado",
-    "reservadoPara": "Xiomara Marín / Annie",
+    "estado": "Vendido",
+    "reservadoPara": "Oscar Murillo",
     "cantidadFotos": 1,
     "fotos": [
       "354A-1-par-de-pedestales-chinos-de-madera-tallada-con-calado-decorativo.jpg"
     ],
-    "precioUSD": 150.0,
+    "precioUSD": 15.0,
     "precioColones": null,
     "notas": "Par de pedestales chinos de madera de palo de rosa con calado decorativo en la falda.",
     "estimacionSothebys": "—",
@@ -12391,10 +12411,30 @@
     "paginaSothebys": "",
     "estimacionSothebys": "",
     "descripcionSothebys": "",
-    "estado": "Reservado",
+    "estado": "Vendido",
     "reservadoPara": "Mireya",
     "precioUSD": 8.0,
     "cantidad": 0,
+    "notas": ""
+  },
+  {
+    "codigoItem": "370",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "",
+    "nombreES": "Bolsitas de tela",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Vendido",
+    "reservadoPara": "Mireya",
+    "precioUSD": 30.0,
+    "cantidad": 1,
     "notas": ""
   }
 ]
