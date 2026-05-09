@@ -405,18 +405,19 @@ function tarjeta(item) {
   if (vendido)   badgesHtml += `<span class="badge badge-vend">Vendido</span>`;
   if (reservado) badgesHtml += `<span class="badge badge-res">Reservado</span>`;
 
-  // foto / carrusel
+  // foto / carrusel — fotos guardadas en data-fotos para evitar problemas de comillas
+  const fotosData = encodeURIComponent(JSON.stringify(fotos));
   let imgHtml = '';
   if (fotos.length === 0) {
     imgHtml = `<div class="no-foto"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg><span>Sin fotografía</span></div>`;
   } else if (fotos.length === 1) {
-    imgHtml = `<img src="/images/${encodeURIComponent(fotos[0])}" alt="${item.nombreES}" loading="lazy" onclick="openModal(${JSON.stringify(fotos)},0)">`;
+    imgHtml = `<img src="/images/${encodeURIComponent(fotos[0])}" alt="${item.nombreES}" loading="lazy" style="cursor:zoom-in" data-fotos="${fotosData}" data-idx="0" onclick="abrirFoto(this)">`;
   } else {
     const dots = fotos.map((_,i) => `<span class="carr-dot${i===0?' active':''}"></span>`).join('');
     imgHtml = `
-      <div class="carousel" id="carr-${item.codigoItem}" data-idx="0" data-fotos='${JSON.stringify(fotos)}'>
+      <div class="carousel" id="carr-${item.codigoItem}" data-idx="0" data-fotos="${fotosData}">
         <img src="/images/${encodeURIComponent(fotos[0])}" alt="${item.nombreES}" loading="lazy"
-             onclick="openModal(${JSON.stringify(fotos)},document.getElementById('carr-${item.codigoItem}').dataset.idx|0)">
+             style="cursor:zoom-in" onclick="abrirFotoCarr('carr-${item.codigoItem}')">
         <button class="carr-btn carr-prev" onclick="carr('${item.codigoItem}',-1,event)">‹</button>
         <button class="carr-btn carr-next" onclick="carr('${item.codigoItem}',1,event)">›</button>
         <div class="carr-dots">${dots}</div>
@@ -477,6 +478,19 @@ function carr(cod, dir, ev) {
   el.dataset.idx = idx;
   el.querySelector('img').src = '/images/' + encodeURIComponent(fotos[idx]);
   el.querySelectorAll('.carr-dot').forEach((d,i) => d.classList.toggle('active', i===idx));
+}
+
+// ── Helpers para abrir modal desde data-fotos ─────────────────
+function abrirFoto(img) {
+  const fotos = JSON.parse(decodeURIComponent(img.dataset.fotos));
+  const idx   = parseInt(img.dataset.idx) || 0;
+  openModal(fotos, idx);
+}
+function abrirFotoCarr(carrId) {
+  const el    = document.getElementById(carrId);
+  const fotos = JSON.parse(decodeURIComponent(el.dataset.fotos));
+  const idx   = parseInt(el.dataset.idx) || 0;
+  openModal(fotos, idx);
 }
 
 // ── Modal de foto ─────────────────────────────────────────────
