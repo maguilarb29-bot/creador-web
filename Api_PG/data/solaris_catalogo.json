@@ -10822,28 +10822,6 @@
     "precioMinimoUSD": 85.0
   },
   {
-    "codigoItem": "293A",
-    "codigoPadre": "293",
-    "numItem": 293,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Cuencos de ceramica blanca estilo contemporaneo",
-    "descripcionES": "",
-    "fotos": [
-      "293A-1-cuencos-de-ceramica-blanca-estilo-contemporaneo.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 85.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "295A",
     "codigoPadre": "295",
     "numItem": 295,
@@ -10865,28 +10843,6 @@
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 600.0
-  },
-  {
-    "codigoItem": "296A",
-    "codigoPadre": "296",
-    "numItem": 296,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Electrodomesticos",
-    "nombreES": "Estacion de trabajo imac con accesorios",
-    "descripcionES": "",
-    "fotos": [
-      "296A-1-estacion-de-trabajo-imac-con-accesorios.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
-    "precioUSD": 600.0,
-    "cantidad": 1,
-    "notas": ""
   },
   {
     "codigoItem": "297A",
