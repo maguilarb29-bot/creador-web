@@ -434,7 +434,7 @@
     "numItem": 16,
     "tipoEstructural": "SET",
     "categoria": "Ceramica",
-    "nombreES": "Coleccion de 8 piezas chinas jarrones tarros y cuencos rosad",
+    "nombreES": "Tarros de porcelana china familia rosa con tapa",
     "descripcionES": "",
     "fotos": [
       "16A-1-coleccion-de-8-piezas-chinas-jarrones-tarros-y-cuencos-rosados.jpg",
@@ -447,30 +447,8 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200.0,
-    "cantidad": 2,
-    "notas": ""
-  },
-  {
-    "codigoItem": "16AA",
-    "codigoPadre": "16A",
-    "numItem": 16,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Ceramica",
-    "nombreES": "Tarros de porcelana china familia rosa con tapa",
-    "descripcionES": "",
-    "fotos": [
-      "16AA-1-tarros-de-porcelana-china-familia-rosa-con-tapa.jpg"
-    ],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "—",
-    "descripcionSothebys": "",
-    "estado": "Disponible",
-    "reservadoPara": "",
     "precioUSD": 20.0,
-    "cantidad": 1,
+    "cantidad": 2,
     "notas": ""
   },
   {
@@ -10067,7 +10045,7 @@
     "numItem": 260,
     "tipoEstructural": "ARTICULO",
     "categoria": "Decorativos",
-    "nombreES": "Busto escultorico de cabeza masculina texturizada",
+    "nombreES": "Busto escultorico texturizado del Príncipe  Nicolò Pignatelli",
     "descripcionES": "",
     "fotos": [
       "260A-1-busto-escultorico-de-cabeza-masculina-texturizada.jpg"
