@@ -434,7 +434,7 @@
     "numItem": 16,
     "tipoEstructural": "SET",
     "categoria": "Ceramica",
-    "nombreES": "Tarros de porcelana china familia rosa con tapa",
+    "nombreES": "Coleccion de 8 piezas chinas jarrones tarros y cuencos rosad",
     "descripcionES": "",
     "fotos": [
       "16A-1-coleccion-de-8-piezas-chinas-jarrones-tarros-y-cuencos-rosados.jpg",
@@ -447,8 +447,28 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 20.0,
+    "precioUSD": 200.0,
     "cantidad": 2,
+    "notas": ""
+  },
+  {
+    "codigoItem": "16AA",
+    "codigoPadre": "",
+    "numItem": 0,
+    "tipoEstructural": "ARTICULO",
+    "categoria": "Ceramica",
+    "nombreES": "Tarros de porcelana china familia rosa con tapa",
+    "descripcionES": "",
+    "fotos": [],
+    "tieneSothebys": false,
+    "refSothebys": "",
+    "paginaSothebys": "",
+    "estimacionSothebys": "",
+    "descripcionSothebys": "",
+    "estado": "Disponible",
+    "reservadoPara": "",
+    "precioUSD": 20.0,
+    "cantidad": 1,
     "notas": ""
   },
   {
@@ -892,7 +912,7 @@
     "descripcionSothebys": "A Louis XV gilt-bronze cartel clock attributed to Jean-Joseph de Saint-Germain, circa 1748, with enamel dial; movement not inspected; case with crowned C poinÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§on.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 200.0,
+    "precioUSD": 4000.0,
     "cantidad": 1,
     "notas": ""
   },
@@ -914,7 +934,7 @@
     "descripcionSothebys": "A pair of Italian giltwood mirrors, mid 18th century, probably Neapolitan, associated plates, formerly frames.",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 16000.0,
+    "precioUSD": 10000.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 16000.0
