@@ -333,7 +333,8 @@ async function cargar() {
   try {
     const r = await fetch('/api/catalogo');
     const data = await r.json();
-    todosLosItems = data.items || data;
+    // Excluir SETs (referencias padre — no se venden directamente)
+    todosLosItems = (data.items || data).filter(i => i.tipoEstructural !== 'SET');
     document.getElementById('loader').style.display = 'none';
     construirCategorias();
     actualizarStats();
