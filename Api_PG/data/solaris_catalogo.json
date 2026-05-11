@@ -38,7 +38,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Marita",
+    "reservadoPara": "",
     "precioUSD": 250.0,
     "cantidad": 1,
     "notas": ""
@@ -129,7 +129,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Mireya",
+    "reservadoPara": "",
     "precioUSD": 30.0,
     "cantidad": 1,
     "notas": ""
@@ -1552,7 +1552,7 @@
     "numItem": 44,
     "tipoEstructural": "ARTICULO",
     "categoria": "Cristaleria",
-    "nombreES": "Cristaleria con borde dorado flautas y copas multicolor: 5.",
+    "nombreES": "Cristaleria multi color claritas, base espiral (6).",
     "descripcionES": "",
     "fotos": [
       "44AH-1-cristaleria-multi-color-claritas-base-espiral-8.jpg"
@@ -1564,7 +1564,7 @@
     "descripcionSothebys": "",
     "estado": "Disponible",
     "reservadoPara": "",
-    "precioUSD": 55.0,
+    "precioUSD": 60.0,
     "cantidad": 1,
     "notas": "",
     "precioMinimoUSD": 55.0
@@ -3731,7 +3731,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Xiomara Marín / Annie",
+    "reservadoPara": "",
     "precioUSD": 370.0,
     "cantidad": 1,
     "notas": ""
@@ -3995,7 +3995,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Xiomara Marín / Annie",
+    "reservadoPara": "",
     "precioUSD": 600.0,
     "cantidad": 1,
     "notas": ""
@@ -4643,7 +4643,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Xiomara Marín / Annie",
+    "reservadoPara": "",
     "precioUSD": 40.0,
     "cantidad": 1,
     "notas": ""
@@ -8337,7 +8337,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Vendido",
-    "reservadoPara": "",
+    "reservadoPara": "Mireya",
     "precioUSD": 50.0,
     "cantidad": 4,
     "notas": ""
@@ -9605,26 +9605,6 @@
     "notas": ""
   },
   {
-    "codigoItem": "244AH",
-    "codigoPadre": "",
-    "numItem": 244,
-    "tipoEstructural": "ARTICULO",
-    "categoria": "Cristaleria",
-    "nombreES": "Cristaleria multi color claritas, base espiral (6).",
-    "descripcionES": "",
-    "fotos": [],
-    "tieneSothebys": false,
-    "refSothebys": "",
-    "paginaSothebys": "",
-    "estimacionSothebys": "",
-    "descripcionSothebys": "",
-    "estado": "Vendido",
-    "reservadoPara": "Arlyn Clachar",
-    "precioUSD": 60.0,
-    "cantidad": 1,
-    "notas": ""
-  },
-  {
     "codigoItem": "245A",
     "codigoPadre": "245",
     "numItem": 245,
@@ -9641,7 +9621,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Arlyn Clachar",
+    "reservadoPara": "",
     "precioUSD": 160.0,
     "cantidad": 1,
     "notas": ""
@@ -10545,7 +10525,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Arlyn Clachar",
+    "reservadoPara": "",
     "precioUSD": 28.0,
     "cantidad": 1,
     "notas": "",
@@ -10568,7 +10548,7 @@
     "estimacionSothebys": "—",
     "descripcionSothebys": "",
     "estado": "Disponible",
-    "reservadoPara": "Arlyn Clachar",
+    "reservadoPara": "",
     "precioUSD": 10.0,
     "cantidad": 1,
     "notas": ""
