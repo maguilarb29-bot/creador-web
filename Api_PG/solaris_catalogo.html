@@ -186,9 +186,26 @@ body{font-family:'Segoe UI',Georgia,sans-serif;background:var(--bg);color:var(--
   display:none;position:fixed;inset:0;
   background:rgba(0,0,0,.95);z-index:9000;
   align-items:center;justify-content:center;flex-direction:column;
+  overflow:hidden;
 }
 #modal.open{display:flex}
-#modal img{max-width:92vw;max-height:80vh;object-fit:contain;border-radius:6px}
+#modal-img-wrap{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  overflow:hidden;cursor:zoom-in;width:92vw;height:80vh;
+}
+#modal-img-wrap.zoomed{cursor:grab}
+#modal-img-wrap.zoomed:active{cursor:grabbing}
+#modal img{
+  max-width:100%;max-height:100%;object-fit:contain;border-radius:6px;
+  transform-origin:center center;transition:transform .2s;
+  pointer-events:none;user-select:none;
+}
+#zoom-hint{
+  position:fixed;bottom:70px;left:50%;transform:translateX(-50%);
+  background:rgba(255,255,255,.15);color:#fff;padding:5px 14px;
+  border-radius:20px;font-size:.75rem;pointer-events:none;
+  opacity:1;transition:opacity 1s;
+}
 #modal-close{
   position:fixed;top:16px;right:20px;
   color:#fff;font-size:2rem;cursor:pointer;z-index:9001;
@@ -282,14 +299,17 @@ footer{
 </button>
 
 <!-- ── Modal foto ────────────────────────────────────────────── -->
-<div id="modal" onclick="closeModal()">
+<div id="modal">
   <button id="modal-close" onclick="closeModal()">✕</button>
-  <img id="modal-img" src="" alt="">
+  <div id="modal-img-wrap" onclick="toggleZoom(event)">
+    <img id="modal-img" src="" alt="">
+  </div>
   <div class="modal-nav" onclick="event.stopPropagation()">
     <button class="modal-nav-btn" onclick="modalNav(-1)">← Anterior</button>
     <button class="modal-nav-btn" onclick="modalNav(1)">Siguiente →</button>
   </div>
   <div id="modal-counter"></div>
+  <div id="zoom-hint">🔍 Clic para zoom · Rueda para ajustar · ESC para cerrar</div>
 </div>
 
 <footer>
@@ -516,7 +536,65 @@ function modalNav(dir) {
 function closeModal() {
   document.getElementById('modal').classList.remove('open');
   document.body.style.overflow = '';
+  resetZoom();
 }
+
+// ── Zoom ──────────────────────────────────────────────────────
+var zoomScale = 1, zoomX = 0, zoomY = 0, isDragging = false, dragStart = {x:0,y:0};
+
+function applyZoom() {
+  var img  = document.getElementById('modal-img');
+  var wrap = document.getElementById('modal-img-wrap');
+  img.style.transform = 'translate('+zoomX+'px,'+zoomY+'px) scale('+zoomScale+')';
+  wrap.classList.toggle('zoomed', zoomScale > 1);
+}
+
+function resetZoom() {
+  zoomScale = 1; zoomX = 0; zoomY = 0;
+  applyZoom();
+}
+
+function toggleZoom(e) {
+  if (isDragging) return;
+  if (zoomScale > 1) { resetZoom(); return; }
+  var wrap  = document.getElementById('modal-img-wrap');
+  var rect  = wrap.getBoundingClientRect();
+  var cx    = e.clientX - rect.left - rect.width/2;
+  var cy    = e.clientY - rect.top  - rect.height/2;
+  zoomScale = 2.5;
+  zoomX = -cx * (zoomScale - 1) / zoomScale;
+  zoomY = -cy * (zoomScale - 1) / zoomScale;
+  applyZoom();
+}
+
+// Rueda del ratón
+document.getElementById('modal').addEventListener('wheel', function(e) {
+  if (!document.getElementById('modal').classList.contains('open')) return;
+  e.preventDefault();
+  zoomScale = Math.min(5, Math.max(1, zoomScale - e.deltaY * 0.002));
+  if (zoomScale === 1) { zoomX = 0; zoomY = 0; }
+  applyZoom();
+}, {passive: false});
+
+// Arrastrar cuando hay zoom
+document.getElementById('modal-img-wrap').addEventListener('mousedown', function(e) {
+  if (zoomScale <= 1) return;
+  isDragging = true; dragStart = {x: e.clientX - zoomX, y: e.clientY - zoomY};
+  e.preventDefault();
+});
+document.addEventListener('mousemove', function(e) {
+  if (!isDragging) return;
+  zoomX = e.clientX - dragStart.x;
+  zoomY = e.clientY - dragStart.y;
+  applyZoom();
+});
+document.addEventListener('mouseup', function() { isDragging = false; });
+
+// Ocultar hint
+setTimeout(function(){
+  var h = document.getElementById('zoom-hint');
+  if(h) h.style.opacity = '0';
+}, 3000);
 
 document.addEventListener('keydown', e => {
   if (!document.getElementById('modal').classList.contains('open')) return;
