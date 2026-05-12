@@ -4,7 +4,7 @@ Arrancar: python server.py
 URL:      http://localhost:8080
 """
 from flask import Flask, jsonify, request, send_from_directory, abort
-import json, os, re, uuid
+import json, os, re, uuid, threading, time
 from datetime import datetime
 from pathlib import Path
 from openpyxl import Workbook
@@ -277,6 +277,135 @@ def build_tx(body, tipo, heredero, items, notas):
                 item["precioAcordado"] = total_acordado
     return tx
 
+# ── Auto-sync desde Google Sheets ───────────────────────────
+_catalogo_cache: dict = {"items": None, "ts": 0.0}
+_catalogo_lock  = threading.Lock()
+CACHE_TTL       = 300  # segundos (5 minutos)
+
+
+def _cell(row: list, idx: int) -> str:
+    if idx < 0 or idx >= len(row):
+        return ""
+    return str(row[idx]).strip()
+
+
+def _parse_precio(raw) -> "float | None":
+    if raw is None:
+        return None
+    s = re.sub(r"[$€\s]", "", str(raw).strip())
+    if not s or s in ("—", "-"):
+        return None
+    try:
+        val = float(s.replace(",", ""))
+        return val if val > 0 else None
+    except Exception:
+        return None
+
+
+def _col_idx(header: list, fragment: str) -> int:
+    frag = fragment.lower()
+    for i, h in enumerate(header):
+        if frag in str(h).lower():
+            return i
+    return -1
+
+
+def _sync_catalogo_desde_sheet():
+    """Lee INVENTARIO_MAESTRO y actualiza _catalogo_cache (y el JSON en disco)."""
+    svc, sheet_id, error = get_sheets_service()
+    if error:
+        return
+
+    rows = sheet_values(svc, sheet_id, "INVENTARIO_MAESTRO!A1:N600")
+    if not rows:
+        return
+
+    header = [str(h).strip() for h in rows[0]]
+    ci = {
+        "cod":       _col_idx(header, "artículo") if _col_idx(header, "artículo") >= 0 else _col_idx(header, "articulo"),
+        "nombre":    _col_idx(header, "nombre"),
+        "cat":       _col_idx(header, "categoría") if _col_idx(header, "categoría") >= 0 else _col_idx(header, "categoria"),
+        "precio":    _col_idx(header, "precio usd"),
+        "estado":    _col_idx(header, "estado"),
+        "comprador": _col_idx(header, "reservado"),
+        "est_soth":  _col_idx(header, "estimación") if _col_idx(header, "estimación") >= 0 else _col_idx(header, "estimacion"),
+        "ref_soth":  _col_idx(header, "ref sotheby"),
+        "pag_soth":  _col_idx(header, "página") if _col_idx(header, "página") >= 0 else _col_idx(header, "pagina"),
+        "notas":     _col_idx(header, "notas"),
+    }
+
+    sheet_map: dict = {}
+    for row in rows[1:]:
+        cod = _cell(row, ci["cod"])
+        if not cod:
+            continue
+        est_soth = _cell(row, ci["est_soth"])
+        ref_soth = _cell(row, ci["ref_soth"])
+        pag_soth = _cell(row, ci["pag_soth"])
+        sheet_map[cod] = {
+            "codigoItem":         cod,
+            "nombreES":           _cell(row, ci["nombre"]),
+            "categoria":          _cell(row, ci["cat"]),
+            "precioUSD":          _parse_precio(_cell(row, ci["precio"])),
+            "estado":             _cell(row, ci["estado"]) or "Disponible",
+            "reservadoPara":      _cell(row, ci["comprador"]),
+            "tieneSothebys":      bool(est_soth and est_soth not in ("—", "-")) or
+                                  bool(ref_soth and ref_soth not in ("—", "-")),
+            "estimacionSothebys": est_soth if est_soth not in ("—", "-") else "",
+            "refSothebys":        ref_soth if ref_soth not in ("—", "-") else "",
+            "paginaSothebys":     pag_soth if pag_soth not in ("—", "-") else "",
+            "notas":              _cell(row, ci["notas"]),
+        }
+
+    old_map: dict = {}
+    if CATALOGO_FILE.exists():
+        try:
+            old_map = {i["codigoItem"]: i for i in load_json(CATALOGO_FILE)
+                       if isinstance(i, dict) and i.get("codigoItem")}
+        except Exception:
+            pass
+
+    new_items = []
+    for cod, sd in sheet_map.items():
+        if cod in old_map:
+            item = dict(old_map[cod])
+            for k in ("nombreES", "categoria", "precioUSD", "estado", "reservadoPara",
+                      "tieneSothebys", "estimacionSothebys", "refSothebys", "paginaSothebys"):
+                item[k] = sd[k]
+            if sd["notas"]:
+                item["notas"] = sd["notas"]
+        else:
+            item = {
+                "codigoItem": cod, "codigoPadre": "", "numItem": 0,
+                "tipoEstructural": "ARTICULO", "fotos": [],
+                "descripcionES": "", "descripcionSothebys": "", "cantidad": 1,
+                **sd,
+            }
+        new_items.append(item)
+
+    try:
+        save_json(CATALOGO_FILE, new_items)
+    except Exception:
+        pass
+
+    with _catalogo_lock:
+        _catalogo_cache["items"] = new_items
+        _catalogo_cache["ts"]    = time.time()
+
+
+def _bg_sync_loop():
+    time.sleep(10)  # espera arranque del servidor
+    while True:
+        try:
+            _sync_catalogo_desde_sheet()
+        except Exception:
+            pass
+        time.sleep(CACHE_TTL)
+
+
+threading.Thread(target=_bg_sync_loop, daemon=True).start()
+
+
 def get_sheets_service():
     env = load_env_file()
     sheet_id = env.get("GOOGLE_SHEETS_ID", "").strip()
@@ -489,7 +618,32 @@ def create_transaction(body):
 # ── Rutas API ────────────────────────────────────────────────
 @app.route("/api/catalogo")
 def api_catalogo():
-    return jsonify(catalogo_con_estados())
+    ahora = time.time()
+    with _catalogo_lock:
+        stale = _catalogo_cache["items"] is None or (ahora - _catalogo_cache["ts"]) > CACHE_TTL
+        items = _catalogo_cache["items"]
+
+    if stale:
+        try:
+            _sync_catalogo_desde_sheet()
+            with _catalogo_lock:
+                items = _catalogo_cache["items"]
+        except Exception:
+            pass
+
+    return jsonify(items or catalogo_con_estados())
+
+@app.route("/api/sync", methods=["POST"])
+def api_sync():
+    try:
+        _sync_catalogo_desde_sheet()
+        with _catalogo_lock:
+            ts = _catalogo_cache["ts"]
+            n  = len(_catalogo_cache["items"] or [])
+        return jsonify({"ok": True, "items": n, "ts": ts})
+    except Exception as exc:
+        return jsonify({"ok": False, "error": str(exc)}), 500
+
 
 @app.route("/api/herederos")
 def api_herederos():
