@@ -295,8 +295,19 @@ def _parse_precio(raw) -> "float | None":
     s = re.sub(r"[$€\s]", "", str(raw).strip())
     if not s or s in ("—", "-"):
         return None
+    if "," in s and "." in s:
+        if s.rfind(",") > s.rfind("."):
+            s = s.replace(".", "").replace(",", ".")
+        else:
+            s = s.replace(",", "")
+    elif "," in s:
+        partes = s.split(",")
+        if len(partes) == 2 and len(partes[1]) <= 2:
+            s = s.replace(",", ".")
+        else:
+            s = s.replace(",", "")
     try:
-        val = float(s.replace(",", ""))
+        val = float(s)
         return val if val > 0 else None
     except Exception:
         return None
